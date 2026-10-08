@@ -1,0 +1,1481 @@
+{
+ "raters": [
+  "H",
+  "M",
+  "S"
+ ],
+ "n_items": 115,
+ "n_repeats": 10,
+ "alpha_nominal": 0.5366231599022587,
+ "alpha_binary": 0.6479245283018868,
+ "rating_dist": {
+  "H": {
+   "无效": 22,
+   "合理": 51,
+   "无法判断": 25,
+   "有效": 25,
+   "风格依赖": 2
+  },
+  "M": {
+   "无效": 36,
+   "合理": 36,
+   "有效": 45,
+   "风格依赖": 2,
+   "无法判断": 6
+  },
+  "S": {
+   "无效": 38,
+   "合理": 38,
+   "有效": 38,
+   "风格依赖": 11
+  }
+ },
+ "intra_rater": {
+  "H": {
+   "identical": 1.0,
+   "kappa": 1.0
+  },
+  "M": {
+   "identical": 1.0,
+   "kappa": 1.0
+  },
+  "S": {
+   "identical": 1.0,
+   "kappa": 1.0
+  }
+ },
+ "items": [
+  {
+   "item": "C001",
+   "polarity": "prohibition",
+   "methods": {
+    "pmi": 2
+   },
+   "reference": false,
+   "score": 0.0,
+   "endorsed": false,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "C002",
+   "polarity": "preference",
+   "methods": {
+    "ras": 4,
+    "rarity": 15
+   },
+   "reference": false,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "persists without coordination"
+  },
+  {
+   "item": "C003",
+   "polarity": "prohibition",
+   "methods": {
+    "ras": 3
+   },
+   "reference": false,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "C004",
+   "polarity": "prohibition",
+   "methods": {
+    "productive": 20
+   },
+   "reference": false,
+   "score": 0.6666666666666666,
+   "endorsed": true,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "C005",
+   "polarity": "preference",
+   "methods": {
+    "rarity": 14
+   },
+   "reference": false,
+   "score": 0.6666666666666666,
+   "endorsed": true,
+   "class": "relational"
+  },
+  {
+   "item": "C006",
+   "polarity": "preference",
+   "methods": {
+    "pmi": 7,
+    "productive": 1
+   },
+   "reference": false,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "no replay evidence"
+  },
+  {
+   "item": "C007",
+   "polarity": "preference",
+   "methods": {
+    "pmi": 18
+   },
+   "reference": false,
+   "score": 0.0,
+   "endorsed": false,
+   "class": "relational"
+  },
+  {
+   "item": "C008",
+   "polarity": "prohibition",
+   "methods": {
+    "ras": 20
+   },
+   "reference": false,
+   "score": 0.6666666666666666,
+   "endorsed": true,
+   "class": "persists without coordination"
+  },
+  {
+   "item": "C009",
+   "polarity": "preference",
+   "methods": {
+    "rarity": 16
+   },
+   "reference": false,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "persists without coordination"
+  },
+  {
+   "item": "C010",
+   "polarity": "preference",
+   "methods": {
+    "rarity": 13
+   },
+   "reference": false,
+   "score": 0.6666666666666666,
+   "endorsed": true,
+   "class": "persists without coordination"
+  },
+  {
+   "item": "C011",
+   "polarity": "prohibition",
+   "methods": {
+    "rarity": 19
+   },
+   "reference": true,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "relational"
+  },
+  {
+   "item": "C012",
+   "polarity": "preference",
+   "methods": {
+    "productive": 7
+   },
+   "reference": false,
+   "score": 0.6666666666666666,
+   "endorsed": true,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "C013",
+   "polarity": "preference",
+   "methods": {
+    "productive": 10
+   },
+   "reference": false,
+   "score": 0.0,
+   "endorsed": false,
+   "class": "no replay evidence"
+  },
+  {
+   "item": "C014",
+   "polarity": "preference",
+   "methods": {
+    "ras": 15,
+    "pmi": 5
+   },
+   "reference": true,
+   "score": 0.6666666666666666,
+   "endorsed": true,
+   "class": "relational"
+  },
+  {
+   "item": "C015",
+   "polarity": "preference",
+   "methods": {
+    "pmi": 19,
+    "productive": 19
+   },
+   "reference": false,
+   "score": 0.0,
+   "endorsed": false,
+   "class": "relational"
+  },
+  {
+   "item": "C016",
+   "polarity": "preference",
+   "methods": {
+    "ras": 5,
+    "productive": 15
+   },
+   "reference": false,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "persists without coordination"
+  },
+  {
+   "item": "C017",
+   "polarity": "prohibition",
+   "methods": {
+    "productive": 9
+   },
+   "reference": false,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "C018",
+   "polarity": "preference",
+   "methods": {
+    "rarity": 10,
+    "productive": 4
+   },
+   "reference": false,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "relational"
+  },
+  {
+   "item": "C019",
+   "polarity": "preference",
+   "methods": {
+    "productive": 14
+   },
+   "reference": true,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "C020",
+   "polarity": "prohibition",
+   "methods": {
+    "pmi": 10,
+    "rarity": 11,
+    "productive": 2
+   },
+   "reference": true,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "relational"
+  },
+  {
+   "item": "C021",
+   "polarity": "prohibition",
+   "methods": {
+    "ras": 18
+   },
+   "reference": false,
+   "score": 0.0,
+   "endorsed": false,
+   "class": "persists without coordination"
+  },
+  {
+   "item": "C022",
+   "polarity": "preference",
+   "methods": {
+    "rarity": 6
+   },
+   "reference": false,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "persists without coordination"
+  },
+  {
+   "item": "C023",
+   "polarity": "preference",
+   "methods": {
+    "ras": 2
+   },
+   "reference": false,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "persists without coordination"
+  },
+  {
+   "item": "C024",
+   "polarity": "prohibition",
+   "methods": {
+    "rarity": 6
+   },
+   "reference": true,
+   "score": 0.6666666666666666,
+   "endorsed": true,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "C025",
+   "polarity": "preference",
+   "methods": {
+    "ras": 3,
+    "pmi": 10,
+    "rarity": 3
+   },
+   "reference": false,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "persists without coordination"
+  },
+  {
+   "item": "C026",
+   "polarity": "preference",
+   "methods": {
+    "ras": 1,
+    "pmi": 8
+   },
+   "reference": false,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "relational"
+  },
+  {
+   "item": "C027",
+   "polarity": "prohibition",
+   "methods": {
+    "productive": 8
+   },
+   "reference": false,
+   "score": 0.3333333333333333,
+   "endorsed": false,
+   "class": "relational"
+  },
+  {
+   "item": "C028",
+   "polarity": "prohibition",
+   "methods": {
+    "pmi": 16,
+    "productive": 3
+   },
+   "reference": false,
+   "score": 0.6666666666666666,
+   "endorsed": true,
+   "class": "no replay evidence"
+  },
+  {
+   "item": "C029",
+   "polarity": "preference",
+   "methods": {
+    "productive": 9
+   },
+   "reference": false,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "no replay evidence"
+  },
+  {
+   "item": "C030",
+   "polarity": "preference",
+   "methods": {
+    "productive": 20
+   },
+   "reference": false,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "relational"
+  },
+  {
+   "item": "C031",
+   "polarity": "prohibition",
+   "methods": {
+    "ras": 5
+   },
+   "reference": true,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "relational"
+  },
+  {
+   "item": "C032",
+   "polarity": "prohibition",
+   "methods": {
+    "pmi": 3
+   },
+   "reference": false,
+   "score": 0.0,
+   "endorsed": false,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "C033",
+   "polarity": "preference",
+   "methods": {
+    "productive": 3
+   },
+   "reference": false,
+   "score": 0.6666666666666666,
+   "endorsed": true,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "C034",
+   "polarity": "prohibition",
+   "methods": {
+    "ras": 7
+   },
+   "reference": false,
+   "score": 0.3333333333333333,
+   "endorsed": false,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "C035",
+   "polarity": "preference",
+   "methods": {
+    "rarity": 2
+   },
+   "reference": false,
+   "score": 0.0,
+   "endorsed": false,
+   "class": "persists without coordination"
+  },
+  {
+   "item": "C036",
+   "polarity": "preference",
+   "methods": {
+    "productive": 8
+   },
+   "reference": false,
+   "score": 0.0,
+   "endorsed": false,
+   "class": "no replay evidence"
+  },
+  {
+   "item": "C037",
+   "polarity": "prohibition",
+   "methods": {
+    "ras": 9
+   },
+   "reference": false,
+   "score": 0.3333333333333333,
+   "endorsed": false,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "C038",
+   "polarity": "preference",
+   "methods": {
+    "rarity": 12,
+    "productive": 6
+   },
+   "reference": false,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "relational"
+  },
+  {
+   "item": "C039",
+   "polarity": "prohibition",
+   "methods": {
+    "rarity": 8,
+    "productive": 7
+   },
+   "reference": true,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "persists without coordination"
+  },
+  {
+   "item": "C040",
+   "polarity": "preference",
+   "methods": {
+    "rarity": 7
+   },
+   "reference": true,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "persists without coordination"
+  },
+  {
+   "item": "C041",
+   "polarity": "preference",
+   "methods": {
+    "pmi": 14
+   },
+   "reference": false,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "C042",
+   "polarity": "prohibition",
+   "methods": {
+    "pmi": 14
+   },
+   "reference": false,
+   "score": 0.0,
+   "endorsed": false,
+   "class": "persists without coordination"
+  },
+  {
+   "item": "C043",
+   "polarity": "preference",
+   "methods": {
+    "productive": 2
+   },
+   "reference": false,
+   "score": 0.6666666666666666,
+   "endorsed": true,
+   "class": "no replay evidence"
+  },
+  {
+   "item": "C044",
+   "polarity": "prohibition",
+   "methods": {
+    "rarity": 2
+   },
+   "reference": true,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "persists without coordination"
+  },
+  {
+   "item": "C045",
+   "polarity": "preference",
+   "methods": {
+    "productive": 11
+   },
+   "reference": false,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "C046",
+   "polarity": "prohibition",
+   "methods": {
+    "ras": 17,
+    "rarity": 9,
+    "productive": 4
+   },
+   "reference": true,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "relational"
+  },
+  {
+   "item": "C047",
+   "polarity": "preference",
+   "methods": {
+    "ras": 14,
+    "pmi": 2
+   },
+   "reference": true,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "C048",
+   "polarity": "preference",
+   "methods": {
+    "pmi": 4,
+    "rarity": 19
+   },
+   "reference": true,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "C049",
+   "polarity": "prohibition",
+   "methods": {
+    "pmi": 17
+   },
+   "reference": false,
+   "score": 0.0,
+   "endorsed": false,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "C050",
+   "polarity": "preference",
+   "methods": {
+    "ras": 19
+   },
+   "reference": true,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "C051",
+   "polarity": "prohibition",
+   "methods": {
+    "rarity": 14
+   },
+   "reference": true,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "relational"
+  },
+  {
+   "item": "C052",
+   "polarity": "prohibition",
+   "methods": {
+    "pmi": 13
+   },
+   "reference": false,
+   "score": 0.0,
+   "endorsed": false,
+   "class": "no replay evidence"
+  },
+  {
+   "item": "C053",
+   "polarity": "prohibition",
+   "methods": {
+    "rarity": 18
+   },
+   "reference": true,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "relational"
+  },
+  {
+   "item": "C054",
+   "polarity": "preference",
+   "methods": {
+    "pmi": 9
+   },
+   "reference": false,
+   "score": 0.3333333333333333,
+   "endorsed": false,
+   "class": "no replay evidence"
+  },
+  {
+   "item": "C055",
+   "polarity": "prohibition",
+   "methods": {
+    "ras": 8
+   },
+   "reference": false,
+   "score": 0.3333333333333333,
+   "endorsed": false,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "C056",
+   "polarity": "preference",
+   "methods": {
+    "ras": 12
+   },
+   "reference": false,
+   "score": 0.0,
+   "endorsed": false,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "C057",
+   "polarity": "preference",
+   "methods": {
+    "ras": 16,
+    "pmi": 3
+   },
+   "reference": true,
+   "score": 0.6666666666666666,
+   "endorsed": true,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "C058",
+   "polarity": "prohibition",
+   "methods": {
+    "productive": 18
+   },
+   "reference": false,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "C059",
+   "polarity": "preference",
+   "methods": {
+    "rarity": 8
+   },
+   "reference": false,
+   "score": 0.6666666666666666,
+   "endorsed": true,
+   "class": "relational"
+  },
+  {
+   "item": "C060",
+   "polarity": "preference",
+   "methods": {
+    "ras": 6,
+    "pmi": 1,
+    "rarity": 1
+   },
+   "reference": true,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "C061",
+   "polarity": "prohibition",
+   "methods": {
+    "ras": 6
+   },
+   "reference": false,
+   "score": 0.5,
+   "endorsed": false,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "C062",
+   "polarity": "preference",
+   "methods": {
+    "ras": 8
+   },
+   "reference": false,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "relational"
+  },
+  {
+   "item": "C063",
+   "polarity": "preference",
+   "methods": {
+    "ras": 10,
+    "rarity": 17
+   },
+   "reference": false,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "C064",
+   "polarity": "prohibition",
+   "methods": {
+    "pmi": 7
+   },
+   "reference": false,
+   "score": 0.0,
+   "endorsed": false,
+   "class": "no replay evidence"
+  },
+  {
+   "item": "C065",
+   "polarity": "prohibition",
+   "methods": {
+    "pmi": 8
+   },
+   "reference": false,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "C066",
+   "polarity": "prohibition",
+   "methods": {
+    "ras": 4
+   },
+   "reference": false,
+   "score": 0.0,
+   "endorsed": false,
+   "class": "persists without coordination"
+  },
+  {
+   "item": "C067",
+   "polarity": "preference",
+   "methods": {
+    "ras": 20
+   },
+   "reference": false,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "relational"
+  },
+  {
+   "item": "C068",
+   "polarity": "prohibition",
+   "methods": {
+    "ras": 19
+   },
+   "reference": false,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "C069",
+   "polarity": "prohibition",
+   "methods": {
+    "pmi": 20,
+    "productive": 19
+   },
+   "reference": false,
+   "score": 0.0,
+   "endorsed": false,
+   "class": "no replay evidence"
+  },
+  {
+   "item": "C070",
+   "polarity": "preference",
+   "methods": {
+    "rarity": 11
+   },
+   "reference": false,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "relational"
+  },
+  {
+   "item": "C071",
+   "polarity": "preference",
+   "methods": {
+    "ras": 18,
+    "rarity": 4
+   },
+   "reference": false,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "C072",
+   "polarity": "prohibition",
+   "methods": {
+    "rarity": 1,
+    "productive": 5
+   },
+   "reference": true,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "persists without coordination"
+  },
+  {
+   "item": "C073",
+   "polarity": "preference",
+   "methods": {
+    "productive": 5
+   },
+   "reference": false,
+   "score": 0.0,
+   "endorsed": false,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "C074",
+   "polarity": "prohibition",
+   "methods": {
+    "ras": 12
+   },
+   "reference": false,
+   "score": 0.3333333333333333,
+   "endorsed": false,
+   "class": "persists without coordination"
+  },
+  {
+   "item": "C075",
+   "polarity": "prohibition",
+   "methods": {
+    "pmi": 4
+   },
+   "reference": false,
+   "score": 0.0,
+   "endorsed": false,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "C076",
+   "polarity": "prohibition",
+   "methods": {
+    "ras": 10
+   },
+   "reference": false,
+   "score": 0.3333333333333333,
+   "endorsed": false,
+   "class": "persists without coordination"
+  },
+  {
+   "item": "C077",
+   "polarity": "preference",
+   "methods": {
+    "productive": 12
+   },
+   "reference": true,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "relational"
+  },
+  {
+   "item": "C078",
+   "polarity": "prohibition",
+   "methods": {
+    "pmi": 9,
+    "rarity": 10,
+    "productive": 1
+   },
+   "reference": true,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "relational"
+  },
+  {
+   "item": "C079",
+   "polarity": "prohibition",
+   "methods": {
+    "pmi": 6
+   },
+   "reference": false,
+   "score": 0.0,
+   "endorsed": false,
+   "class": "no replay evidence"
+  },
+  {
+   "item": "C080",
+   "polarity": "prohibition",
+   "methods": {
+    "pmi": 5
+   },
+   "reference": false,
+   "score": 0.0,
+   "endorsed": false,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "C081",
+   "polarity": "preference",
+   "methods": {
+    "ras": 13,
+    "pmi": 13
+   },
+   "reference": false,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "C082",
+   "polarity": "prohibition",
+   "methods": {
+    "pmi": 12
+   },
+   "reference": false,
+   "score": 0.0,
+   "endorsed": false,
+   "class": "no replay evidence"
+  },
+  {
+   "item": "C083",
+   "polarity": "preference",
+   "methods": {
+    "ras": 7
+   },
+   "reference": false,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "persists without coordination"
+  },
+  {
+   "item": "C084",
+   "polarity": "preference",
+   "methods": {
+    "productive": 18
+   },
+   "reference": false,
+   "score": 0.0,
+   "endorsed": false,
+   "class": "no replay evidence"
+  },
+  {
+   "item": "C085",
+   "polarity": "prohibition",
+   "methods": {
+    "productive": 11
+   },
+   "reference": false,
+   "score": 0.0,
+   "endorsed": false,
+   "class": "relational"
+  },
+  {
+   "item": "C086",
+   "polarity": "prohibition",
+   "methods": {
+    "ras": 2
+   },
+   "reference": false,
+   "score": 0.6666666666666666,
+   "endorsed": true,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "C087",
+   "polarity": "prohibition",
+   "methods": {
+    "pmi": 19
+   },
+   "reference": false,
+   "score": 0.0,
+   "endorsed": false,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "C088",
+   "polarity": "prohibition",
+   "methods": {
+    "ras": 13,
+    "pmi": 11
+   },
+   "reference": false,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "C089",
+   "polarity": "preference",
+   "methods": {
+    "ras": 17
+   },
+   "reference": false,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "C090",
+   "polarity": "prohibition",
+   "methods": {
+    "ras": 15
+   },
+   "reference": false,
+   "score": 0.6666666666666666,
+   "endorsed": true,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "C091",
+   "polarity": "prohibition",
+   "methods": {
+    "ras": 11
+   },
+   "reference": false,
+   "score": 0.0,
+   "endorsed": false,
+   "class": "persists without coordination"
+  },
+  {
+   "item": "C092",
+   "polarity": "prohibition",
+   "methods": {
+    "rarity": 16
+   },
+   "reference": true,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "relational"
+  },
+  {
+   "item": "C093",
+   "polarity": "prohibition",
+   "methods": {
+    "ras": 1
+   },
+   "reference": false,
+   "score": 0.0,
+   "endorsed": false,
+   "class": "persists without coordination"
+  },
+  {
+   "item": "C094",
+   "polarity": "preference",
+   "methods": {
+    "ras": 11,
+    "pmi": 15,
+    "rarity": 5
+   },
+   "reference": true,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "C095",
+   "polarity": "prohibition",
+   "methods": {
+    "pmi": 18
+   },
+   "reference": false,
+   "score": 0.0,
+   "endorsed": false,
+   "class": "no replay evidence"
+  },
+  {
+   "item": "C096",
+   "polarity": "prohibition",
+   "methods": {
+    "rarity": 12
+   },
+   "reference": true,
+   "score": 0.0,
+   "endorsed": false,
+   "class": "relational"
+  },
+  {
+   "item": "C097",
+   "polarity": "prohibition",
+   "methods": {
+    "productive": 10
+   },
+   "reference": false,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "C098",
+   "polarity": "preference",
+   "methods": {
+    "pmi": 11,
+    "productive": 16
+   },
+   "reference": true,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "relational"
+  },
+  {
+   "item": "C099",
+   "polarity": "prohibition",
+   "methods": {
+    "productive": 13
+   },
+   "reference": false,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "relational"
+  },
+  {
+   "item": "C100",
+   "polarity": "prohibition",
+   "methods": {
+    "productive": 15
+   },
+   "reference": false,
+   "score": 0.0,
+   "endorsed": false,
+   "class": "persists without coordination"
+  },
+  {
+   "item": "C101",
+   "polarity": "preference",
+   "methods": {
+    "rarity": 18
+   },
+   "reference": false,
+   "score": 0.0,
+   "endorsed": false,
+   "class": "no replay evidence"
+  },
+  {
+   "item": "C102",
+   "polarity": "prohibition",
+   "methods": {
+    "rarity": 3
+   },
+   "reference": true,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "persists without coordination"
+  },
+  {
+   "item": "C103",
+   "polarity": "prohibition",
+   "methods": {
+    "rarity": 7,
+    "productive": 6
+   },
+   "reference": true,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "persists without coordination"
+  },
+  {
+   "item": "C104",
+   "polarity": "prohibition",
+   "methods": {
+    "productive": 17
+   },
+   "reference": false,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "C105",
+   "polarity": "prohibition",
+   "methods": {
+    "pmi": 15,
+    "rarity": 15
+   },
+   "reference": true,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "persists without coordination"
+  },
+  {
+   "item": "C106",
+   "polarity": "prohibition",
+   "methods": {
+    "rarity": 4
+   },
+   "reference": true,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "C107",
+   "polarity": "prohibition",
+   "methods": {
+    "rarity": 17
+   },
+   "reference": true,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "relational"
+  },
+  {
+   "item": "C108",
+   "polarity": "prohibition",
+   "methods": {
+    "rarity": 13
+   },
+   "reference": true,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "relational"
+  },
+  {
+   "item": "C109",
+   "polarity": "preference",
+   "methods": {
+    "ras": 9,
+    "pmi": 20,
+    "rarity": 20
+   },
+   "reference": false,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "C110",
+   "polarity": "prohibition",
+   "methods": {
+    "ras": 14
+   },
+   "reference": false,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "relational"
+  },
+  {
+   "item": "C111",
+   "polarity": "prohibition",
+   "methods": {
+    "rarity": 20
+   },
+   "reference": true,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "persists without coordination"
+  },
+  {
+   "item": "C112",
+   "polarity": "preference",
+   "methods": {
+    "pmi": 17
+   },
+   "reference": false,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "C113",
+   "polarity": "preference",
+   "methods": {
+    "pmi": 16
+   },
+   "reference": false,
+   "score": 0.6666666666666666,
+   "endorsed": true,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "C114",
+   "polarity": "prohibition",
+   "methods": {
+    "pmi": 1
+   },
+   "reference": false,
+   "score": 0.3333333333333333,
+   "endorsed": false,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "C115",
+   "polarity": "prohibition",
+   "methods": {
+    "ras": 16,
+    "rarity": 5
+   },
+   "reference": false,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "within-voice/positional"
+  }
+ ],
+ "validity": {
+  "ras/prohibition": 0.5583333333333333,
+  "ras/preference": 0.9166666666666666,
+  "ras/all": 0.7375,
+  "pmi/prohibition": 0.29999999999999993,
+  "pmi/preference": 0.7962962962962963,
+  "pmi/all": 0.5350877192982456,
+  "rarity/prohibition": 0.9333333333333332,
+  "rarity/preference": 0.8421052631578947,
+  "rarity/all": 0.8888888888888891,
+  "productive/prohibition": 0.7450980392156863,
+  "productive/preference": 0.6666666666666665,
+  "productive/all": 0.7047619047619047
+ },
+ "validity_diff": {
+  "ras-pmi/prohibition": {
+   "diff": 0.2583333333333334,
+   "ci": [
+    -0.024561403508772006,
+    0.5288220551378446
+   ]
+  },
+  "ras-pmi/preference": {
+   "diff": 0.12037037037037035,
+   "ci": [
+    -0.06349206349206349,
+    0.33333333333333337
+   ]
+  },
+  "ras-pmi/all": {
+   "diff": 0.20241228070175443,
+   "ci": [
+    0.007936507936507908,
+    0.3900793650793652
+   ]
+  },
+  "ras-rarity/prohibition": {
+   "diff": -0.3749999999999999,
+   "ci": [
+    -0.6190476190476191,
+    -0.1356209150326798
+   ]
+  },
+  "ras-rarity/preference": {
+   "diff": 0.07456140350877194,
+   "ci": [
+    -0.1333333333333333,
+    0.27712418300653596
+   ]
+  },
+  "ras-rarity/all": {
+   "diff": -0.15138888888888902,
+   "ci": [
+    -0.31257631257631247,
+    -0.012263099219620877
+   ]
+  },
+  "ras-productive/prohibition": {
+   "diff": -0.18676470588235294,
+   "ci": [
+    -0.4736842105263158,
+    0.06296296296296289
+   ]
+  },
+  "ras-productive/preference": {
+   "diff": 0.2500000000000001,
+   "ci": [
+    -0.004901960784313708,
+    0.5065217391304349
+   ]
+  },
+  "ras-productive/all": {
+   "diff": 0.032738095238095344,
+   "ci": [
+    -0.1603849238171613,
+    0.21176470588235297
+   ]
+  }
+ },
+ "oracle_crosstab": {
+  "ref_endorsed": 30,
+  "ref_not_endorsed": 1,
+  "noref_endorsed": 47,
+  "noref_not_endorsed": 37
+ },
+ "oracle_kappa": 0.27805388438399153,
+ "per_method": {
+  "ras": {
+   "n": 40,
+   "endorsed": 29,
+   "reference": 8,
+   "endorsed_not_reference": 21
+  },
+  "pmi": {
+   "n": 38,
+   "endorsed": 21,
+   "reference": 10,
+   "endorsed_not_reference": 11
+  },
+  "rarity": {
+   "n": 39,
+   "endorsed": 36,
+   "reference": 23,
+   "endorsed_not_reference": 14
+  },
+  "productive": {
+   "n": 35,
+   "endorsed": 26,
+   "reference": 9,
+   "endorsed_not_reference": 17
+  }
+ },
+ "by_provenance": {
+  "no replay evidence": {
+   "n": 15,
+   "mean_score": 0.24444444444444444
+  },
+  "persists without coordination": {
+   "n": 26,
+   "mean_score": 0.6538461538461539
+  },
+  "relational": {
+   "n": 29,
+   "mean_score": 0.8045977011494252
+  },
+  "within-voice/positional": {
+   "n": 45,
+   "mean_score": 0.6925925925925926
+  }
+ }
+}

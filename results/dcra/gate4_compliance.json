@@ -1,0 +1,3933 @@
+{
+ "threshold": 0.05,
+ "synthetic": {
+  "S1": {
+   "0": {
+    "per_voice": {
+     "S": {
+      "step": 0.04274147727272727,
+      "degree": 0.05556640624999999,
+      "aux_step_within_phrase": 0.033740234375,
+      "aux_degree_duration": 0.05997314453124998
+     },
+     "A": {
+      "step": 0.052357954545454555,
+      "degree": 0.039118303571428585,
+      "aux_step_within_phrase": 0.031608072916666674,
+      "aux_degree_duration": 0.04027099609374999
+     },
+     "T": {
+      "step": 0.04923295454545455,
+      "degree": 0.03251953124999999,
+      "aux_step_within_phrase": 0.03623046875,
+      "aux_degree_duration": 0.03204345703124999
+     },
+     "B": {
+      "step": 0.05423295454545452,
+      "degree": 0.02578125,
+      "aux_step_within_phrase": 0.02451171874999999,
+      "aux_degree_duration": 0.025598144531250012
+     }
+    },
+    "max_step": 0.05423295454545452,
+    "max_degree": 0.05556640624999999,
+    "pass": false
+   },
+   "1": {
+    "per_voice": {
+     "S": {
+      "step": 0.04167613636363634,
+      "degree": 0.05357142857142859,
+      "aux_step_within_phrase": 0.038199869791666674,
+      "aux_degree_duration": 0.0561767578125
+     },
+     "A": {
+      "step": 0.05068181818181819,
+      "degree": 0.03217075892857141,
+      "aux_step_within_phrase": 0.03291015625000001,
+      "aux_degree_duration": 0.03250732421875
+     },
+     "T": {
+      "step": 0.04643465909090909,
+      "degree": 0.037904575892857145,
+      "aux_step_within_phrase": 0.03294270833333332,
+      "aux_degree_duration": 0.04108886718749998
+     },
+     "B": {
+      "step": 0.05485795454545455,
+      "degree": 0.019140624999999994,
+      "aux_step_within_phrase": 0.02228190104166666,
+      "aux_degree_duration": 0.01894531249999999
+     }
+    },
+    "max_step": 0.05485795454545455,
+    "max_degree": 0.05357142857142859,
+    "pass": false
+   },
+   "2": {
+    "per_voice": {
+     "S": {
+      "step": 0.04703125000000001,
+      "degree": 0.0549525669642857,
+      "aux_step_within_phrase": 0.03426106770833335,
+      "aux_degree_duration": 0.058190917968750006
+     },
+     "A": {
+      "step": 0.05312499999999999,
+      "degree": 0.032798549107142846,
+      "aux_step_within_phrase": 0.026074218750000003,
+      "aux_degree_duration": 0.03450927734374999
+     },
+     "T": {
+      "step": 0.052272727272727276,
+      "degree": 0.03575613839285713,
+      "aux_step_within_phrase": 0.03089192708333333,
+      "aux_degree_duration": 0.037255859375
+     },
+     "B": {
+      "step": 0.05541193181818185,
+      "degree": 0.018164062499999994,
+      "aux_step_within_phrase": 0.024609375000000006,
+      "aux_degree_duration": 0.018701171875
+     }
+    },
+    "max_step": 0.05541193181818185,
+    "max_degree": 0.0549525669642857,
+    "pass": false
+   },
+   "3": {
+    "per_voice": {
+     "S": {
+      "step": 0.0505397727272727,
+      "degree": 0.057435825892857124,
+      "aux_step_within_phrase": 0.036051432291666664,
+      "aux_degree_duration": 0.06063232421875002
+     },
+     "A": {
+      "step": 0.050525568181818165,
+      "degree": 0.03745814732142856,
+      "aux_step_within_phrase": 0.031608072916666674,
+      "aux_degree_duration": 0.039770507812500015
+     },
+     "T": {
+      "step": 0.04892045454545455,
+      "degree": 0.03770926339285716,
+      "aux_step_within_phrase": 0.03149414062500001,
+      "aux_degree_duration": 0.04248046875
+     },
+     "B": {
+      "step": 0.053835227272727264,
+      "degree": 0.018401227678571407,
+      "aux_step_within_phrase": 0.018896484375000005,
+      "aux_degree_duration": 0.01773681640625
+     }
+    },
+    "max_step": 0.053835227272727264,
+    "max_degree": 0.057435825892857124,
+    "pass": false
+   },
+   "4": {
+    "per_voice": {
+     "S": {
+      "step": 0.04886363636363635,
+      "degree": 0.05997488839285714,
+      "aux_step_within_phrase": 0.04353841145833334,
+      "aux_degree_duration": 0.064111328125
+     },
+     "A": {
+      "step": 0.04856534090909091,
+      "degree": 0.03987165178571429,
+      "aux_step_within_phrase": 0.03302408854166666,
+      "aux_degree_duration": 0.04267578124999999
+     },
+     "T": {
+      "step": 0.04835227272727273,
+      "degree": 0.035825892857142855,
+      "aux_step_within_phrase": 0.03237304687500002,
+      "aux_degree_duration": 0.037170410156249986
+     },
+     "B": {
+      "step": 0.05413352272727272,
+      "degree": 0.023618861607142848,
+      "aux_step_within_phrase": 0.0238932291666667,
+      "aux_degree_duration": 0.025366210937499974
+     }
+    },
+    "max_step": 0.05413352272727272,
+    "max_degree": 0.05997488839285714,
+    "pass": false
+   },
+   "5": {
+    "per_voice": {
+     "S": {
+      "step": 0.04749999999999998,
+      "degree": 0.052804129464285754,
+      "aux_step_within_phrase": 0.03875325520833331,
+      "aux_degree_duration": 0.05628662109374998
+     },
+     "A": {
+      "step": 0.05090909090909092,
+      "degree": 0.04220145089285716,
+      "aux_step_within_phrase": 0.038313802083333307,
+      "aux_degree_duration": 0.044287109374999974
+     },
+     "T": {
+      "step": 0.053551136363636384,
+      "degree": 0.04282924107142854,
+      "aux_step_within_phrase": 0.034065755208333326,
+      "aux_degree_duration": 0.04578857421875001
+     },
+     "B": {
+      "step": 0.052272727272727276,
+      "degree": 0.02181919642857142,
+      "aux_step_within_phrase": 0.026074218749999985,
+      "aux_degree_duration": 0.02249755859375
+     }
+    },
+    "max_step": 0.053551136363636384,
+    "max_degree": 0.052804129464285754,
+    "pass": false
+   },
+   "6": {
+    "per_voice": {
+     "S": {
+      "step": 0.046903409090909065,
+      "degree": 0.053683035714285704,
+      "aux_step_within_phrase": 0.03317057291666668,
+      "aux_degree_duration": 0.057287597656249994
+     },
+     "A": {
+      "step": 0.05126420454545455,
+      "degree": 0.03648158482142859,
+      "aux_step_within_phrase": 0.03663736979166665,
+      "aux_degree_duration": 0.039294433593750004
+     },
+     "T": {
+      "step": 0.05218750000000003,
+      "degree": 0.03118024553571427,
+      "aux_step_within_phrase": 0.03461914062499999,
+      "aux_degree_duration": 0.0329833984375
+     },
+     "B": {
+      "step": 0.05632102272727273,
+      "degree": 0.014620535714285718,
+      "aux_step_within_phrase": 0.02592773437499997,
+      "aux_degree_duration": 0.015417480468750015
+     }
+    },
+    "max_step": 0.05632102272727273,
+    "max_degree": 0.053683035714285704,
+    "pass": false
+   },
+   "7": {
+    "per_voice": {
+     "S": {
+      "step": 0.044005681818181826,
+      "degree": 0.05443638392857144,
+      "aux_step_within_phrase": 0.03343098958333335,
+      "aux_degree_duration": 0.057995605468749996
+     },
+     "A": {
+      "step": 0.048536931818181826,
+      "degree": 0.035770089285714284,
+      "aux_step_within_phrase": 0.031982421875,
+      "aux_degree_duration": 0.038293457031250006
+     },
+     "T": {
+      "step": 0.04643465909090909,
+      "degree": 0.03447265625,
+      "aux_step_within_phrase": 0.02921549479166667,
+      "aux_degree_duration": 0.035241699218749985
+     },
+     "B": {
+      "step": 0.05394886363636364,
+      "degree": 0.019796316964285722,
+      "aux_step_within_phrase": 0.025537109375000023,
+      "aux_degree_duration": 0.02077636718749999
+     }
+    },
+    "max_step": 0.05394886363636364,
+    "max_degree": 0.05443638392857144,
+    "pass": false
+   },
+   "8": {
+    "per_voice": {
+     "S": {
+      "step": 0.05110795454545455,
+      "degree": 0.05668247767857143,
+      "aux_step_within_phrase": 0.036962890624999994,
+      "aux_degree_duration": 0.057568359374999996
+     },
+     "A": {
+      "step": 0.04694602272727272,
+      "degree": 0.04301060267857142,
+      "aux_step_within_phrase": 0.036295572916666664,
+      "aux_degree_duration": 0.04423828125000001
+     },
+     "T": {
+      "step": 0.0479971590909091,
+      "degree": 0.035253906249999994,
+      "aux_step_within_phrase": 0.03610026041666667,
+      "aux_degree_duration": 0.03729248046875001
+     },
+     "B": {
+      "step": 0.05093749999999998,
+      "degree": 0.017773437500000003,
+      "aux_step_within_phrase": 0.02176106770833332,
+      "aux_degree_duration": 0.019580078124999976
+     }
+    },
+    "max_step": 0.05110795454545455,
+    "max_degree": 0.05668247767857143,
+    "pass": false
+   },
+   "9": {
+    "per_voice": {
+     "S": {
+      "step": 0.05318181818181818,
+      "degree": 0.0585658482142857,
+      "aux_step_within_phrase": 0.03976236979166667,
+      "aux_degree_duration": 0.060888671875000015
+     },
+     "A": {
+      "step": 0.04997159090909089,
+      "degree": 0.03363560267857143,
+      "aux_step_within_phrase": 0.030192057291666654,
+      "aux_degree_duration": 0.033801269531250025
+     },
+     "T": {
+      "step": 0.0501846590909091,
+      "degree": 0.03475167410714286,
+      "aux_step_within_phrase": 0.039501953125,
+      "aux_degree_duration": 0.03732910156250001
+     },
+     "B": {
+      "step": 0.05502840909090911,
+      "degree": 0.01552734374999997,
+      "aux_step_within_phrase": 0.019563802083333328,
+      "aux_degree_duration": 0.016394042968750015
+     }
+    },
+    "max_step": 0.05502840909090911,
+    "max_degree": 0.0585658482142857,
+    "pass": false
+   },
+   "10": {
+    "per_voice": {
+     "S": {
+      "step": 0.044090909090909076,
+      "degree": 0.05403180803571431,
+      "aux_step_within_phrase": 0.03411458333333334,
+      "aux_degree_duration": 0.05761718750000003
+     },
+     "A": {
+      "step": 0.04654829545454542,
+      "degree": 0.034905133928571426,
+      "aux_step_within_phrase": 0.030517578124999997,
+      "aux_degree_duration": 0.03869628906250003
+     },
+     "T": {
+      "step": 0.04839488636363635,
+      "degree": 0.03464006696428571,
+      "aux_step_within_phrase": 0.03292643229166668,
+      "aux_degree_duration": 0.035632324218750004
+     },
+     "B": {
+      "step": 0.054559659090909096,
+      "degree": 0.020563616071428564,
+      "aux_step_within_phrase": 0.02589518229166666,
+      "aux_degree_duration": 0.02325439453124998
+     }
+    },
+    "max_step": 0.054559659090909096,
+    "max_degree": 0.05403180803571431,
+    "pass": false
+   },
+   "11": {
+    "per_voice": {
+     "S": {
+      "step": 0.04910511363636362,
+      "degree": 0.06171875000000002,
+      "aux_step_within_phrase": 0.04054361979166668,
+      "aux_degree_duration": 0.06356201171875
+     },
+     "A": {
+      "step": 0.049943181818181824,
+      "degree": 0.04094587053571429,
+      "aux_step_within_phrase": 0.034179687500000014,
+      "aux_degree_duration": 0.04156494140625
+     },
+     "T": {
+      "step": 0.05031249999999999,
+      "degree": 0.03931361607142857,
+      "aux_step_within_phrase": 0.03245442708333333,
+      "aux_degree_duration": 0.04135742187499997
+     },
+     "B": {
+      "step": 0.055198863636363636,
+      "degree": 0.01886160714285714,
+      "aux_step_within_phrase": 0.025081380208333347,
+      "aux_degree_duration": 0.022082519531250004
+     }
+    },
+    "max_step": 0.055198863636363636,
+    "max_degree": 0.06171875000000002,
+    "pass": false
+   },
+   "12": {
+    "per_voice": {
+     "S": {
+      "step": 0.05001420454545456,
+      "degree": 0.05828683035714284,
+      "aux_step_within_phrase": 0.034798177083333326,
+      "aux_degree_duration": 0.061071777343749994
+     },
+     "A": {
+      "step": 0.05338068181818181,
+      "degree": 0.04105747767857143,
+      "aux_step_within_phrase": 0.03046874999999999,
+      "aux_degree_duration": 0.0431396484375
+     },
+     "T": {
+      "step": 0.047755681818181836,
+      "degree": 0.038588169642857155,
+      "aux_step_within_phrase": 0.03650716145833334,
+      "aux_degree_duration": 0.0412841796875
+     },
+     "B": {
+      "step": 0.04892045454545454,
+      "degree": 0.019503348214285725,
+      "aux_step_within_phrase": 0.026660156249999997,
+      "aux_degree_duration": 0.0203857421875
+     }
+    },
+    "max_step": 0.05338068181818181,
+    "max_degree": 0.05828683035714284,
+    "pass": false
+   },
+   "13": {
+    "per_voice": {
+     "S": {
+      "step": 0.04404829545454546,
+      "degree": 0.05266462053571429,
+      "aux_step_within_phrase": 0.033610026041666644,
+      "aux_degree_duration": 0.056860351562499994
+     },
+     "A": {
+      "step": 0.05089488636363637,
+      "degree": 0.03999720982142856,
+      "aux_step_within_phrase": 0.03863932291666667,
+      "aux_degree_duration": 0.04324951171875001
+     },
+     "T": {
+      "step": 0.04708806818181817,
+      "degree": 0.03871372767857143,
+      "aux_step_within_phrase": 0.033398437499999975,
+      "aux_degree_duration": 0.040026855468750025
+     },
+     "B": {
+      "step": 0.05545454545454548,
+      "degree": 0.012472098214285722,
+      "aux_step_within_phrase": 0.021777343750000004,
+      "aux_degree_duration": 0.013793945312499993
+     }
+    },
+    "max_step": 0.05545454545454548,
+    "max_degree": 0.05266462053571429,
+    "pass": false
+   },
+   "14": {
+    "per_voice": {
+     "S": {
+      "step": 0.04994318181818183,
+      "degree": 0.055594308035714274,
+      "aux_step_within_phrase": 0.037386067708333345,
+      "aux_degree_duration": 0.058886718750000025
+     },
+     "A": {
+      "step": 0.05211647727272728,
+      "degree": 0.03376116071428572,
+      "aux_step_within_phrase": 0.03128255208333334,
+      "aux_degree_duration": 0.037170410156250014
+     },
+     "T": {
+      "step": 0.05029829545454545,
+      "degree": 0.03738839285714285,
+      "aux_step_within_phrase": 0.03356119791666669,
+      "aux_degree_duration": 0.040222167968750014
+     },
+     "B": {
+      "step": 0.055042613636363626,
+      "degree": 0.01888950892857144,
+      "aux_step_within_phrase": 0.02540690104166667,
+      "aux_degree_duration": 0.020251464843750032
+     }
+    },
+    "max_step": 0.055042613636363626,
+    "max_degree": 0.055594308035714274,
+    "pass": false
+   },
+   "15": {
+    "per_voice": {
+     "S": {
+      "step": 0.046647727272727264,
+      "degree": 0.061746651785714285,
+      "aux_step_within_phrase": 0.034309895833333305,
+      "aux_degree_duration": 0.06473388671875
+     },
+     "A": {
+      "step": 0.05301136363636362,
+      "degree": 0.03807198660714288,
+      "aux_step_within_phrase": 0.031184895833333354,
+      "aux_degree_duration": 0.041198730468750014
+     },
+     "T": {
+      "step": 0.050042613636363614,
+      "degree": 0.040206473214285714,
+      "aux_step_within_phrase": 0.03867187500000001,
+      "aux_degree_duration": 0.044592285156250015
+     },
+     "B": {
+      "step": 0.05099431818181817,
+      "degree": 0.01886160714285716,
+      "aux_step_within_phrase": 0.02789713541666669,
+      "aux_degree_duration": 0.020251464843749997
+     }
+    },
+    "max_step": 0.05301136363636362,
+    "max_degree": 0.061746651785714285,
+    "pass": false
+   },
+   "16": {
+    "per_voice": {
+     "S": {
+      "step": 0.045000000000000005,
+      "degree": 0.059207589285714284,
+      "aux_step_within_phrase": 0.044352213541666664,
+      "aux_degree_duration": 0.06318359374999999
+     },
+     "A": {
+      "step": 0.050369318181818175,
+      "degree": 0.04355468749999999,
+      "aux_step_within_phrase": 0.03580729166666667,
+      "aux_degree_duration": 0.044006347656250014
+     },
+     "T": {
+      "step": 0.04782670454545453,
+      "degree": 0.03865792410714287,
+      "aux_step_within_phrase": 0.03497721354166666,
+      "aux_degree_duration": 0.03995361328125003
+     },
+     "B": {
+      "step": 0.05566761363636362,
+      "degree": 0.019266183035714292,
+      "aux_step_within_phrase": 0.02158203125,
+      "aux_degree_duration": 0.01998291015624997
+     }
+    },
+    "max_step": 0.05566761363636362,
+    "max_degree": 0.059207589285714284,
+    "pass": false
+   },
+   "17": {
+    "per_voice": {
+     "S": {
+      "step": 0.04650568181818184,
+      "degree": 0.05901227678571428,
+      "aux_step_within_phrase": 0.03473307291666668,
+      "aux_degree_duration": 0.061572265624999976
+     },
+     "A": {
+      "step": 0.05002840909090909,
+      "degree": 0.03556082589285715,
+      "aux_step_within_phrase": 0.03557942708333334,
+      "aux_degree_duration": 0.03723144531250001
+     },
+     "T": {
+      "step": 0.04970170454545457,
+      "degree": 0.03740234374999998,
+      "aux_step_within_phrase": 0.04270833333333335,
+      "aux_degree_duration": 0.03851318359375002
+     },
+     "B": {
+      "step": 0.053735795454545446,
+      "degree": 0.021721540178571454,
+      "aux_step_within_phrase": 0.022119140625000002,
+      "aux_degree_duration": 0.021435546874999996
+     }
+    },
+    "max_step": 0.053735795454545446,
+    "max_degree": 0.05901227678571428,
+    "pass": false
+   },
+   "18": {
+    "per_voice": {
+     "S": {
+      "step": 0.04539772727272728,
+      "degree": 0.05609654017857143,
+      "aux_step_within_phrase": 0.04044596354166667,
+      "aux_degree_duration": 0.05931396484375002
+     },
+     "A": {
+      "step": 0.051164772727272725,
+      "degree": 0.03811383928571428,
+      "aux_step_within_phrase": 0.033544921875000015,
+      "aux_degree_duration": 0.04007568359375002
+     },
+     "T": {
+      "step": 0.050241477272727285,
+      "degree": 0.03803013392857144,
+      "aux_step_within_phrase": 0.03260091145833333,
+      "aux_degree_duration": 0.04062500000000001
+     },
+     "B": {
+      "step": 0.055056818181818186,
+      "degree": 0.015904017857142884,
+      "aux_step_within_phrase": 0.02713216145833333,
+      "aux_degree_duration": 0.015625
+     }
+    },
+    "max_step": 0.055056818181818186,
+    "max_degree": 0.05609654017857143,
+    "pass": false
+   },
+   "19": {
+    "per_voice": {
+     "S": {
+      "step": 0.044786931818181816,
+      "degree": 0.052832031249999994,
+      "aux_step_within_phrase": 0.035872395833333334,
+      "aux_degree_duration": 0.05668945312500001
+     },
+     "A": {
+      "step": 0.05107954545454546,
+      "degree": 0.03445870535714287,
+      "aux_step_within_phrase": 0.02879231770833332,
+      "aux_degree_duration": 0.03590087890625001
+     },
+     "T": {
+      "step": 0.05056818181818183,
+      "degree": 0.035421316964285715,
+      "aux_step_within_phrase": 0.034326171875000006,
+      "aux_degree_duration": 0.035217285156249986
+     },
+     "B": {
+      "step": 0.05276988636363636,
+      "degree": 0.0168247767857143,
+      "aux_step_within_phrase": 0.021110026041666664,
+      "aux_degree_duration": 0.018103027343749988
+     }
+    },
+    "max_step": 0.05276988636363636,
+    "max_degree": 0.052832031249999994,
+    "pass": false
+   }
+  },
+  "S2": {
+   "0": {
+    "per_voice": {
+     "S": {
+      "step": 0.049602272727272724,
+      "degree": 0.040415736607142844,
+      "aux_step_within_phrase": 0.030029296875000003,
+      "aux_degree_duration": 0.03680419921875
+     },
+     "A": {
+      "step": 0.04938920454545455,
+      "degree": 0.03809988839285713,
+      "aux_step_within_phrase": 0.03102213541666667,
+      "aux_degree_duration": 0.040979003906250026
+     },
+     "T": {
+      "step": 0.048437500000000036,
+      "degree": 0.03095703124999999,
+      "aux_step_within_phrase": 0.03546549479166666,
+      "aux_degree_duration": 0.03197021484375001
+     },
+     "B": {
+      "step": 0.057017045454545466,
+      "degree": 0.011704799107142852,
+      "aux_step_within_phrase": 0.025602213541666675,
+      "aux_degree_duration": 0.013208007812499992
+     }
+    },
+    "max_step": 0.057017045454545466,
+    "max_degree": 0.040415736607142844,
+    "pass": false
+   },
+   "1": {
+    "per_voice": {
+     "S": {
+      "step": 0.05093750000000001,
+      "degree": 0.039188058035714284,
+      "aux_step_within_phrase": 0.03688151041666665,
+      "aux_degree_duration": 0.03814697265625002
+     },
+     "A": {
+      "step": 0.05291193181818182,
+      "degree": 0.03215680803571427,
+      "aux_step_within_phrase": 0.028955078125,
+      "aux_degree_duration": 0.037341308593750004
+     },
+     "T": {
+      "step": 0.053764204545454546,
+      "degree": 0.038490513392857154,
+      "aux_step_within_phrase": 0.03387044270833333,
+      "aux_degree_duration": 0.03775634765624998
+     },
+     "B": {
+      "step": 0.05066761363636364,
+      "degree": 0.012667410714285732,
+      "aux_step_within_phrase": 0.025227864583333315,
+      "aux_degree_duration": 0.013671875000000024
+     }
+    },
+    "max_step": 0.053764204545454546,
+    "max_degree": 0.039188058035714284,
+    "pass": false
+   },
+   "2": {
+    "per_voice": {
+     "S": {
+      "step": 0.049161931818181834,
+      "degree": 0.035323660714285735,
+      "aux_step_within_phrase": 0.036035156250000006,
+      "aux_degree_duration": 0.032080078125
+     },
+     "A": {
+      "step": 0.047571022727272726,
+      "degree": 0.042829241071428575,
+      "aux_step_within_phrase": 0.03328450520833335,
+      "aux_degree_duration": 0.04844970703124999
+     },
+     "T": {
+      "step": 0.049843750000000006,
+      "degree": 0.028208705357142844,
+      "aux_step_within_phrase": 0.03496093749999998,
+      "aux_degree_duration": 0.029199218750000016
+     },
+     "B": {
+      "step": 0.05542613636363636,
+      "degree": 0.010226004464285721,
+      "aux_step_within_phrase": 0.02408854166666667,
+      "aux_degree_duration": 0.013208007812500006
+     }
+    },
+    "max_step": 0.05542613636363636,
+    "max_degree": 0.042829241071428575,
+    "pass": false
+   },
+   "3": {
+    "per_voice": {
+     "S": {
+      "step": 0.05110795454545454,
+      "degree": 0.03904854910714284,
+      "aux_step_within_phrase": 0.03606770833333334,
+      "aux_degree_duration": 0.03543701171875001
+     },
+     "A": {
+      "step": 0.05151988636363636,
+      "degree": 0.04303850446428572,
+      "aux_step_within_phrase": 0.03676757812499999,
+      "aux_degree_duration": 0.04809570312500001
+     },
+     "T": {
+      "step": 0.05261363636363639,
+      "degree": 0.03116629464285716,
+      "aux_step_within_phrase": 0.03427734375,
+      "aux_degree_duration": 0.03151855468750001
+     },
+     "B": {
+      "step": 0.04890625,
+      "degree": 0.01473214285714284,
+      "aux_step_within_phrase": 0.033447265624999986,
+      "aux_degree_duration": 0.017333984374999997
+     }
+    },
+    "max_step": 0.05261363636363639,
+    "max_degree": 0.04303850446428572,
+    "pass": false
+   },
+   "4": {
+    "per_voice": {
+     "S": {
+      "step": 0.04673295454545454,
+      "degree": 0.035686383928571444,
+      "aux_step_within_phrase": 0.03400065104166664,
+      "aux_degree_duration": 0.03441162109375
+     },
+     "A": {
+      "step": 0.046690340909090924,
+      "degree": 0.04119698660714286,
+      "aux_step_within_phrase": 0.03248697916666666,
+      "aux_degree_duration": 0.04754638671874999
+     },
+     "T": {
+      "step": 0.049048295454545435,
+      "degree": 0.03512834821428569,
+      "aux_step_within_phrase": 0.034228515625000025,
+      "aux_degree_duration": 0.034936523437499985
+     },
+     "B": {
+      "step": 0.054687500000000014,
+      "degree": 0.01047712053571426,
+      "aux_step_within_phrase": 0.022705078125000003,
+      "aux_degree_duration": 0.012121582031249994
+     }
+    },
+    "max_step": 0.054687500000000014,
+    "max_degree": 0.04119698660714286,
+    "pass": false
+   },
+   "5": {
+    "per_voice": {
+     "S": {
+      "step": 0.052684659090909094,
+      "degree": 0.033244977678571416,
+      "aux_step_within_phrase": 0.032096354166666674,
+      "aux_degree_duration": 0.030700683593749997
+     },
+     "A": {
+      "step": 0.044957386363636366,
+      "degree": 0.04429408482142857,
+      "aux_step_within_phrase": 0.03798828125000001,
+      "aux_degree_duration": 0.04989013671875
+     },
+     "T": {
+      "step": 0.048877840909090926,
+      "degree": 0.0310267857142857,
+      "aux_step_within_phrase": 0.03666992187500003,
+      "aux_degree_duration": 0.032556152343750026
+     },
+     "B": {
+      "step": 0.05585227272727275,
+      "degree": 0.011383928571428576,
+      "aux_step_within_phrase": 0.02299804687499998,
+      "aux_degree_duration": 0.013537597656249976
+     }
+    },
+    "max_step": 0.05585227272727275,
+    "max_degree": 0.04429408482142857,
+    "pass": false
+   },
+   "6": {
+    "per_voice": {
+     "S": {
+      "step": 0.04887784090909088,
+      "degree": 0.039955357142857126,
+      "aux_step_within_phrase": 0.033675130208333334,
+      "aux_degree_duration": 0.036584472656249985
+     },
+     "A": {
+      "step": 0.050681818181818175,
+      "degree": 0.038964843749999985,
+      "aux_step_within_phrase": 0.03367513020833333,
+      "aux_degree_duration": 0.04359130859375001
+     },
+     "T": {
+      "step": 0.04866477272727272,
+      "degree": 0.033468191964285715,
+      "aux_step_within_phrase": 0.03385416666666667,
+      "aux_degree_duration": 0.034912109375
+     },
+     "B": {
+      "step": 0.054943181818181815,
+      "degree": 0.015666852678571416,
+      "aux_step_within_phrase": 0.02506510416666667,
+      "aux_degree_duration": 0.015270996093750017
+     }
+    },
+    "max_step": 0.054943181818181815,
+    "max_degree": 0.039955357142857126,
+    "pass": false
+   },
+   "7": {
+    "per_voice": {
+     "S": {
+      "step": 0.0465625,
+      "degree": 0.03514229910714285,
+      "aux_step_within_phrase": 0.035107421875,
+      "aux_degree_duration": 0.03349609375000001
+     },
+     "A": {
+      "step": 0.053167613636363645,
+      "degree": 0.040625000000000015,
+      "aux_step_within_phrase": 0.03999023437499999,
+      "aux_degree_duration": 0.04526367187499999
+     },
+     "T": {
+      "step": 0.05207386363636363,
+      "degree": 0.034695870535714296,
+      "aux_step_within_phrase": 0.04230143229166665,
+      "aux_degree_duration": 0.03441162109375002
+     },
+     "B": {
+      "step": 0.051463068181818214,
+      "degree": 0.016587611607142852,
+      "aux_step_within_phrase": 0.025472005208333353,
+      "aux_degree_duration": 0.018762207031250006
+     }
+    },
+    "max_step": 0.053167613636363645,
+    "max_degree": 0.040625000000000015,
+    "pass": false
+   },
+   "8": {
+    "per_voice": {
+     "S": {
+      "step": 0.05265624999999998,
+      "degree": 0.037025669642857174,
+      "aux_step_within_phrase": 0.03248697916666665,
+      "aux_degree_duration": 0.03651123046875002
+     },
+     "A": {
+      "step": 0.05781249999999998,
+      "degree": 0.04161551339285715,
+      "aux_step_within_phrase": 0.036783854166666685,
+      "aux_degree_duration": 0.046215820312499996
+     },
+     "T": {
+      "step": 0.049829545454545446,
+      "degree": 0.03288225446428571,
+      "aux_step_within_phrase": 0.032112630208333354,
+      "aux_degree_duration": 0.03277587890624999
+     },
+     "B": {
+      "step": 0.052059659090909094,
+      "degree": 0.01404854910714283,
+      "aux_step_within_phrase": 0.02625325520833335,
+      "aux_degree_duration": 0.017858886718749998
+     }
+    },
+    "max_step": 0.05781249999999998,
+    "max_degree": 0.04161551339285715,
+    "pass": false
+   },
+   "9": {
+    "per_voice": {
+     "S": {
+      "step": 0.04994318181818183,
+      "degree": 0.03770926339285712,
+      "aux_step_within_phrase": 0.03476562500000001,
+      "aux_degree_duration": 0.03417968750000001
+     },
+     "A": {
+      "step": 0.0479971590909091,
+      "degree": 0.039383370535714286,
+      "aux_step_within_phrase": 0.03396809895833334,
+      "aux_degree_duration": 0.0443115234375
+     },
+     "T": {
+      "step": 0.05394886363636364,
+      "degree": 0.030650111607142858,
+      "aux_step_within_phrase": 0.03479817708333334,
+      "aux_degree_duration": 0.029394531249999994
+     },
+     "B": {
+      "step": 0.05214488636363637,
+      "degree": 0.016155133928571413,
+      "aux_step_within_phrase": 0.0264485677083333,
+      "aux_degree_duration": 0.017736816406250005
+     }
+    },
+    "max_step": 0.05394886363636364,
+    "max_degree": 0.039383370535714286,
+    "pass": false
+   },
+   "10": {
+    "per_voice": {
+     "S": {
+      "step": 0.05286931818181821,
+      "degree": 0.03977399553571427,
+      "aux_step_within_phrase": 0.03992513020833332,
+      "aux_degree_duration": 0.036071777343750014
+     },
+     "A": {
+      "step": 0.05055397727272727,
+      "degree": 0.04097377232142858,
+      "aux_step_within_phrase": 0.039794921875,
+      "aux_degree_duration": 0.04671630859374999
+     },
+     "T": {
+      "step": 0.05011363636363639,
+      "degree": 0.036467633928571434,
+      "aux_step_within_phrase": 0.03318684895833334,
+      "aux_degree_duration": 0.0361572265625
+     },
+     "B": {
+      "step": 0.05400568181818181,
+      "degree": 0.010546874999999994,
+      "aux_step_within_phrase": 0.023551432291666702,
+      "aux_degree_duration": 0.011914062500000003
+     }
+    },
+    "max_step": 0.05400568181818181,
+    "max_degree": 0.04097377232142858,
+    "pass": false
+   },
+   "11": {
+    "per_voice": {
+     "S": {
+      "step": 0.04950284090909092,
+      "degree": 0.036997767857142844,
+      "aux_step_within_phrase": 0.03540039062500001,
+      "aux_degree_duration": 0.035278320312500014
+     },
+     "A": {
+      "step": 0.059772727272727276,
+      "degree": 0.03743024553571427,
+      "aux_step_within_phrase": 0.03494466145833332,
+      "aux_degree_duration": 0.040490722656249985
+     },
+     "T": {
+      "step": 0.04812500000000001,
+      "degree": 0.03374720982142857,
+      "aux_step_within_phrase": 0.036507161458333354,
+      "aux_degree_duration": 0.03482666015625
+     },
+     "B": {
+      "step": 0.05694602272727271,
+      "degree": 0.014746093750000008,
+      "aux_step_within_phrase": 0.02436523437499999,
+      "aux_degree_duration": 0.017541503906249974
+     }
+    },
+    "max_step": 0.059772727272727276,
+    "max_degree": 0.03743024553571427,
+    "pass": false
+   },
+   "12": {
+    "per_voice": {
+     "S": {
+      "step": 0.054943181818181794,
+      "degree": 0.02660435267857143,
+      "aux_step_within_phrase": 0.03855794270833335,
+      "aux_degree_duration": 0.025268554687499997
+     },
+     "A": {
+      "step": 0.05011363636363636,
+      "degree": 0.041880580357142864,
+      "aux_step_within_phrase": 0.039192708333333326,
+      "aux_degree_duration": 0.04874267578124998
+     },
+     "T": {
+      "step": 0.05639204545454547,
+      "degree": 0.029324776785714275,
+      "aux_step_within_phrase": 0.0330078125,
+      "aux_degree_duration": 0.028698730468750003
+     },
+     "B": {
+      "step": 0.05419034090909092,
+      "degree": 0.009221540178571432,
+      "aux_step_within_phrase": 0.024300130208333343,
+      "aux_degree_duration": 0.009301757812499988
+     }
+    },
+    "max_step": 0.05639204545454547,
+    "max_degree": 0.041880580357142864,
+    "pass": false
+   },
+   "13": {
+    "per_voice": {
+     "S": {
+      "step": 0.051335227272727255,
+      "degree": 0.036844308035714285,
+      "aux_step_within_phrase": 0.039095052083333304,
+      "aux_degree_duration": 0.0317138671875
+     },
+     "A": {
+      "step": 0.04970170454545453,
+      "degree": 0.03564453124999999,
+      "aux_step_within_phrase": 0.033984375,
+      "aux_degree_duration": 0.04132080078124999
+     },
+     "T": {
+      "step": 0.05467329545454547,
+      "degree": 0.039676339285714284,
+      "aux_step_within_phrase": 0.04220377604166667,
+      "aux_degree_duration": 0.04080810546874999
+     },
+     "B": {
+      "step": 0.05596590909090908,
+      "degree": 0.013853236607142865,
+      "aux_step_within_phrase": 0.027669270833333343,
+      "aux_degree_duration": 0.018591308593749998
+     }
+    },
+    "max_step": 0.05596590909090908,
+    "max_degree": 0.039676339285714284,
+    "pass": false
+   },
+   "14": {
+    "per_voice": {
+     "S": {
+      "step": 0.052315340909090936,
+      "degree": 0.0329380580357143,
+      "aux_step_within_phrase": 0.03473307291666668,
+      "aux_degree_duration": 0.03034667968750001
+     },
+     "A": {
+      "step": 0.05133522727272731,
+      "degree": 0.04340122767857142,
+      "aux_step_within_phrase": 0.03260091145833331,
+      "aux_degree_duration": 0.047412109375
+     },
+     "T": {
+      "step": 0.05093749999999999,
+      "degree": 0.03335658482142859,
+      "aux_step_within_phrase": 0.03665364583333333,
+      "aux_degree_duration": 0.03630371093750001
+     },
+     "B": {
+      "step": 0.058338068181818165,
+      "degree": 0.012527901785714293,
+      "aux_step_within_phrase": 0.024300130208333354,
+      "aux_degree_duration": 0.01582031249999999
+     }
+    },
+    "max_step": 0.058338068181818165,
+    "max_degree": 0.04340122767857142,
+    "pass": false
+   },
+   "15": {
+    "per_voice": {
+     "S": {
+      "step": 0.047656250000000025,
+      "degree": 0.040778459821428574,
+      "aux_step_within_phrase": 0.031184895833333344,
+      "aux_degree_duration": 0.03818359374999999
+     },
+     "A": {
+      "step": 0.0521875,
+      "degree": 0.03844866071428572,
+      "aux_step_within_phrase": 0.03440755208333334,
+      "aux_degree_duration": 0.04340820312500001
+     },
+     "T": {
+      "step": 0.049644886363636356,
+      "degree": 0.03970424107142858,
+      "aux_step_within_phrase": 0.035058593750000006,
+      "aux_degree_duration": 0.040808105468749994
+     },
+     "B": {
+      "step": 0.0577414772727273,
+      "degree": 0.011272321428571413,
+      "aux_step_within_phrase": 0.028108723958333335,
+      "aux_degree_duration": 0.013586425781249984
+     }
+    },
+    "max_step": 0.0577414772727273,
+    "max_degree": 0.040778459821428574,
+    "pass": false
+   },
+   "16": {
+    "per_voice": {
+     "S": {
+      "step": 0.04811079545454544,
+      "degree": 0.03942522321428568,
+      "aux_step_within_phrase": 0.034554036458333354,
+      "aux_degree_duration": 0.037573242187500036
+     },
+     "A": {
+      "step": 0.04960227272727272,
+      "degree": 0.04441964285714283,
+      "aux_step_within_phrase": 0.034651692708333334,
+      "aux_degree_duration": 0.051489257812499994
+     },
+     "T": {
+      "step": 0.04903409090909093,
+      "degree": 0.03161272321428571,
+      "aux_step_within_phrase": 0.037255859375000006,
+      "aux_degree_duration": 0.03333740234375
+     },
+     "B": {
+      "step": 0.055653409090909094,
+      "degree": 0.011286272321428585,
+      "aux_step_within_phrase": 0.026936848958333304,
+      "aux_degree_duration": 0.013391113281250016
+     }
+    },
+    "max_step": 0.055653409090909094,
+    "max_degree": 0.04441964285714283,
+    "pass": false
+   },
+   "17": {
+    "per_voice": {
+     "S": {
+      "step": 0.049715909090909095,
+      "degree": 0.03709542410714284,
+      "aux_step_within_phrase": 0.03764648437500002,
+      "aux_degree_duration": 0.03333740234375002
+     },
+     "A": {
+      "step": 0.047741477272727255,
+      "degree": 0.03928571428571429,
+      "aux_step_within_phrase": 0.03709309895833334,
+      "aux_degree_duration": 0.04360351562500001
+     },
+     "T": {
+      "step": 0.04730113636363637,
+      "degree": 0.04192243303571427,
+      "aux_step_within_phrase": 0.03883463541666665,
+      "aux_degree_duration": 0.043786621093750006
+     },
+     "B": {
+      "step": 0.05123579545454546,
+      "degree": 0.012862723214285693,
+      "aux_step_within_phrase": 0.026009114583333316,
+      "aux_degree_duration": 0.013305664062500007
+     }
+    },
+    "max_step": 0.05123579545454546,
+    "max_degree": 0.04192243303571427,
+    "pass": false
+   },
+   "18": {
+    "per_voice": {
+     "S": {
+      "step": 0.052940340909090916,
+      "degree": 0.03344029017857143,
+      "aux_step_within_phrase": 0.033935546875,
+      "aux_degree_duration": 0.03311767578125001
+     },
+     "A": {
+      "step": 0.05312500000000002,
+      "degree": 0.04444754464285714,
+      "aux_step_within_phrase": 0.037158203125000004,
+      "aux_degree_duration": 0.04969482421875
+     },
+     "T": {
+      "step": 0.05028409090909092,
+      "degree": 0.037499999999999985,
+      "aux_step_within_phrase": 0.03792317708333334,
+      "aux_degree_duration": 0.03842773437500001
+     },
+     "B": {
+      "step": 0.055454545454545444,
+      "degree": 0.011635044642857133,
+      "aux_step_within_phrase": 0.026253255208333336,
+      "aux_degree_duration": 0.012927246093750004
+     }
+    },
+    "max_step": 0.055454545454545444,
+    "max_degree": 0.04444754464285714,
+    "pass": false
+   },
+   "19": {
+    "per_voice": {
+     "S": {
+      "step": 0.05294034090909092,
+      "degree": 0.03643973214285713,
+      "aux_step_within_phrase": 0.038623046875,
+      "aux_degree_duration": 0.03515624999999999
+     },
+     "A": {
+      "step": 0.04852272727272726,
+      "degree": 0.04062500000000001,
+      "aux_step_within_phrase": 0.03382161458333334,
+      "aux_degree_duration": 0.04324951171875002
+     },
+     "T": {
+      "step": 0.048750000000000016,
+      "degree": 0.03902064732142855,
+      "aux_step_within_phrase": 0.035514322916666674,
+      "aux_degree_duration": 0.039013671875
+     },
+     "B": {
+      "step": 0.05639204545454548,
+      "degree": 0.01177455357142856,
+      "aux_step_within_phrase": 0.027164713541666673,
+      "aux_degree_duration": 0.013757324218749992
+     }
+    },
+    "max_step": 0.05639204545454548,
+    "max_degree": 0.04062500000000001,
+    "pass": false
+   }
+  },
+  "S3": {
+   "0": {
+    "per_voice": {
+     "S": {
+      "step": 0.050724431818181814,
+      "degree": 0.03466796875,
+      "aux_step_within_phrase": 0.034277343749999994,
+      "aux_degree_duration": 0.030432128906250005
+     },
+     "A": {
+      "step": 0.05044034090909094,
+      "degree": 0.04310825892857144,
+      "aux_step_within_phrase": 0.036360677083333334,
+      "aux_degree_duration": 0.04920654296874999
+     },
+     "T": {
+      "step": 0.051377840909090894,
+      "degree": 0.03338448660714284,
+      "aux_step_within_phrase": 0.031901041666666685,
+      "aux_degree_duration": 0.033789062500000015
+     },
+     "B": {
+      "step": 0.05447443181818182,
+      "degree": 0.01127232142857142,
+      "aux_step_within_phrase": 0.024951171875,
+      "aux_degree_duration": 0.012084960937500003
+     }
+    },
+    "max_step": 0.05447443181818182,
+    "max_degree": 0.04310825892857144,
+    "pass": false
+   },
+   "1": {
+    "per_voice": {
+     "S": {
+      "step": 0.04904829545454549,
+      "degree": 0.03606305803571429,
+      "aux_step_within_phrase": 0.030354817708333336,
+      "aux_degree_duration": 0.034484863281249986
+     },
+     "A": {
+      "step": 0.04717329545454543,
+      "degree": 0.0449497767857143,
+      "aux_step_within_phrase": 0.036328125,
+      "aux_degree_duration": 0.05104980468749999
+     },
+     "T": {
+      "step": 0.04946022727272728,
+      "degree": 0.03630022321428573,
+      "aux_step_within_phrase": 0.034765624999999994,
+      "aux_degree_duration": 0.037255859375000006
+     },
+     "B": {
+      "step": 0.051931818181818176,
+      "degree": 0.011314174107142857,
+      "aux_step_within_phrase": 0.02542317708333335,
+      "aux_degree_duration": 0.011694335937500005
+     }
+    },
+    "max_step": 0.051931818181818176,
+    "max_degree": 0.0449497767857143,
+    "pass": false
+   },
+   "2": {
+    "per_voice": {
+     "S": {
+      "step": 0.049119318181818195,
+      "degree": 0.03616071428571426,
+      "aux_step_within_phrase": 0.03613281249999998,
+      "aux_degree_duration": 0.033703613281249996
+     },
+     "A": {
+      "step": 0.052670454545454534,
+      "degree": 0.04210379464285714,
+      "aux_step_within_phrase": 0.03673502604166666,
+      "aux_degree_duration": 0.048425292968750026
+     },
+     "T": {
+      "step": 0.05044034090909087,
+      "degree": 0.037611607142857155,
+      "aux_step_within_phrase": 0.032242838541666666,
+      "aux_degree_duration": 0.037133789062499985
+     },
+     "B": {
+      "step": 0.054247159090909096,
+      "degree": 0.01985212053571429,
+      "aux_step_within_phrase": 0.01931966145833334,
+      "aux_degree_duration": 0.022082519531250004
+     }
+    },
+    "max_step": 0.054247159090909096,
+    "max_degree": 0.04210379464285714,
+    "pass": false
+   },
+   "3": {
+    "per_voice": {
+     "S": {
+      "step": 0.051875,
+      "degree": 0.03388671875000003,
+      "aux_step_within_phrase": 0.030126953124999988,
+      "aux_degree_duration": 0.032983398437499985
+     },
+     "A": {
+      "step": 0.05514204545454542,
+      "degree": 0.04722377232142858,
+      "aux_step_within_phrase": 0.038655598958333356,
+      "aux_degree_duration": 0.05307617187500001
+     },
+     "T": {
+      "step": 0.04599431818181816,
+      "degree": 0.03272879464285714,
+      "aux_step_within_phrase": 0.04200846354166668,
+      "aux_degree_duration": 0.0355224609375
+     },
+     "B": {
+      "step": 0.05598011363636364,
+      "degree": 0.012416294642857137,
+      "aux_step_within_phrase": 0.025797526041666678,
+      "aux_degree_duration": 0.014587402343750003
+     }
+    },
+    "max_step": 0.05598011363636364,
+    "max_degree": 0.04722377232142858,
+    "pass": false
+   },
+   "4": {
+    "per_voice": {
+     "S": {
+      "step": 0.04987215909090909,
+      "degree": 0.030957031250000006,
+      "aux_step_within_phrase": 0.03611653645833329,
+      "aux_degree_duration": 0.027685546875000033
+     },
+     "A": {
+      "step": 0.04859375000000002,
+      "degree": 0.03634207589285716,
+      "aux_step_within_phrase": 0.03557942708333332,
+      "aux_degree_duration": 0.04150390625
+     },
+     "T": {
+      "step": 0.05241477272727272,
+      "degree": 0.03141741071428573,
+      "aux_step_within_phrase": 0.03157552083333335,
+      "aux_degree_duration": 0.03322753906250001
+     },
+     "B": {
+      "step": 0.0551278409090909,
+      "degree": 0.009570312499999994,
+      "aux_step_within_phrase": 0.027132161458333314,
+      "aux_degree_duration": 0.008862304687499961
+     }
+    },
+    "max_step": 0.0551278409090909,
+    "max_degree": 0.03634207589285716,
+    "pass": false
+   },
+   "5": {
+    "per_voice": {
+     "S": {
+      "step": 0.05039772727272725,
+      "degree": 0.031152343749999995,
+      "aux_step_within_phrase": 0.03274739583333333,
+      "aux_degree_duration": 0.028698730468749996
+     },
+     "A": {
+      "step": 0.04970170454545454,
+      "degree": 0.042717633928571426,
+      "aux_step_within_phrase": 0.03785807291666665,
+      "aux_degree_duration": 0.04791259765625
+     },
+     "T": {
+      "step": 0.04775568181818182,
+      "degree": 0.04040178571428571,
+      "aux_step_within_phrase": 0.037386067708333345,
+      "aux_degree_duration": 0.039550781250000014
+     },
+     "B": {
+      "step": 0.05420454545454543,
+      "degree": 0.011453683035714281,
+      "aux_step_within_phrase": 0.022021484375000008,
+      "aux_degree_duration": 0.012365722656249988
+     }
+    },
+    "max_step": 0.05420454545454543,
+    "max_degree": 0.042717633928571426,
+    "pass": false
+   },
+   "6": {
+    "per_voice": {
+     "S": {
+      "step": 0.05441761363636365,
+      "degree": 0.03595145089285714,
+      "aux_step_within_phrase": 0.03517252604166668,
+      "aux_degree_duration": 0.032653808593750014
+     },
+     "A": {
+      "step": 0.05078125000000002,
+      "degree": 0.038685825892857136,
+      "aux_step_within_phrase": 0.03007812499999998,
+      "aux_degree_duration": 0.04532470703125
+     },
+     "T": {
+      "step": 0.05075284090909092,
+      "degree": 0.03097098214285711,
+      "aux_step_within_phrase": 0.03123372395833333,
+      "aux_degree_duration": 0.03150634765624999
+     },
+     "B": {
+      "step": 0.06142045454545454,
+      "degree": 0.011425781250000006,
+      "aux_step_within_phrase": 0.02073567708333332,
+      "aux_degree_duration": 0.012841796874999985
+     }
+    },
+    "max_step": 0.06142045454545454,
+    "max_degree": 0.038685825892857136,
+    "pass": false
+   },
+   "7": {
+    "per_voice": {
+     "S": {
+      "step": 0.05098011363636363,
+      "degree": 0.03422154017857143,
+      "aux_step_within_phrase": 0.03175455729166665,
+      "aux_degree_duration": 0.03056640625
+     },
+     "A": {
+      "step": 0.047940340909090925,
+      "degree": 0.043722098214285694,
+      "aux_step_within_phrase": 0.036946614583333315,
+      "aux_degree_duration": 0.04892578125
+     },
+     "T": {
+      "step": 0.051718749999999994,
+      "degree": 0.033607700892857154,
+      "aux_step_within_phrase": 0.03481445312499998,
+      "aux_degree_duration": 0.03157958984374999
+     },
+     "B": {
+      "step": 0.05180397727272728,
+      "degree": 0.016252790178571452,
+      "aux_step_within_phrase": 0.024641927083333334,
+      "aux_degree_duration": 0.018518066406250012
+     }
+    },
+    "max_step": 0.05180397727272728,
+    "max_degree": 0.043722098214285694,
+    "pass": false
+   },
+   "8": {
+    "per_voice": {
+     "S": {
+      "step": 0.049346590909090916,
+      "degree": 0.032547433035714265,
+      "aux_step_within_phrase": 0.031005859375000003,
+      "aux_degree_duration": 0.031494140625
+     },
+     "A": {
+      "step": 0.053948863636363614,
+      "degree": 0.04033203125000001,
+      "aux_step_within_phrase": 0.04003906250000001,
+      "aux_degree_duration": 0.048046874999999996
+     },
+     "T": {
+      "step": 0.054971590909090914,
+      "degree": 0.03712332589285712,
+      "aux_step_within_phrase": 0.038444010416666674,
+      "aux_degree_duration": 0.03803710937500001
+     },
+     "B": {
+      "step": 0.05830965909090911,
+      "degree": 0.014969308035714262,
+      "aux_step_within_phrase": 0.02915039062500002,
+      "aux_degree_duration": 0.01658935546875001
+     }
+    },
+    "max_step": 0.05830965909090911,
+    "max_degree": 0.04033203125000001,
+    "pass": false
+   },
+   "9": {
+    "per_voice": {
+     "S": {
+      "step": 0.04974431818181819,
+      "degree": 0.03388671875000002,
+      "aux_step_within_phrase": 0.03561197916666667,
+      "aux_degree_duration": 0.030322265624999987
+     },
+     "A": {
+      "step": 0.048835227272727294,
+      "degree": 0.040206473214285714,
+      "aux_step_within_phrase": 0.03248697916666668,
+      "aux_degree_duration": 0.044836425781249994
+     },
+     "T": {
+      "step": 0.048735795454545455,
+      "degree": 0.03572823660714286,
+      "aux_step_within_phrase": 0.04347330729166665,
+      "aux_degree_duration": 0.035144042968750025
+     },
+     "B": {
+      "step": 0.059417613636363636,
+      "degree": 0.010602678571428572,
+      "aux_step_within_phrase": 0.024104817708333327,
+      "aux_degree_duration": 0.011450195312499994
+     }
+    },
+    "max_step": 0.059417613636363636,
+    "max_degree": 0.040206473214285714,
+    "pass": false
+   },
+   "10": {
+    "per_voice": {
+     "S": {
+      "step": 0.04907670454545453,
+      "degree": 0.03475167410714283,
+      "aux_step_within_phrase": 0.033203125,
+      "aux_degree_duration": 0.03187255859374999
+     },
+     "A": {
+      "step": 0.05014204545454546,
+      "degree": 0.037458147321428555,
+      "aux_step_within_phrase": 0.033658854166666675,
+      "aux_degree_duration": 0.041247558593750004
+     },
+     "T": {
+      "step": 0.051789772727272726,
+      "degree": 0.03178013392857142,
+      "aux_step_within_phrase": 0.03391927083333335,
+      "aux_degree_duration": 0.029125976562499975
+     },
+     "B": {
+      "step": 0.05367897727272725,
+      "degree": 0.018024553571428577,
+      "aux_step_within_phrase": 0.026611328125,
+      "aux_degree_duration": 0.01990966796875001
+     }
+    },
+    "max_step": 0.05367897727272725,
+    "max_degree": 0.037458147321428555,
+    "pass": false
+   },
+   "11": {
+    "per_voice": {
+     "S": {
+      "step": 0.049772727272727274,
+      "degree": 0.025669642857142873,
+      "aux_step_within_phrase": 0.033854166666666685,
+      "aux_degree_duration": 0.022802734375000012
+     },
+     "A": {
+      "step": 0.05281250000000001,
+      "degree": 0.050390625000000015,
+      "aux_step_within_phrase": 0.03868815104166669,
+      "aux_degree_duration": 0.0544189453125
+     },
+     "T": {
+      "step": 0.04876420454545455,
+      "degree": 0.03931361607142858,
+      "aux_step_within_phrase": 0.037809244791666675,
+      "aux_degree_duration": 0.04213867187500001
+     },
+     "B": {
+      "step": 0.05146306818181818,
+      "degree": 0.01609933035714284,
+      "aux_step_within_phrase": 0.024300130208333326,
+      "aux_degree_duration": 0.01827392578125
+     }
+    },
+    "max_step": 0.05281250000000001,
+    "max_degree": 0.050390625000000015,
+    "pass": false
+   },
+   "12": {
+    "per_voice": {
+     "S": {
+      "step": 0.055894886363636376,
+      "degree": 0.03872767857142857,
+      "aux_step_within_phrase": 0.03121744791666667,
+      "aux_degree_duration": 0.03511962890624999
+     },
+     "A": {
+      "step": 0.04944602272727273,
+      "degree": 0.04545200892857143,
+      "aux_step_within_phrase": 0.034667968750000014,
+      "aux_degree_duration": 0.05003662109374999
+     },
+     "T": {
+      "step": 0.050823863636363625,
+      "degree": 0.03235212053571427,
+      "aux_step_within_phrase": 0.029329427083333328,
+      "aux_degree_duration": 0.032556152343749985
+     },
+     "B": {
+      "step": 0.058380681818181825,
+      "degree": 0.015387834821428595,
+      "aux_step_within_phrase": 0.02664388020833333,
+      "aux_degree_duration": 0.01555175781249999
+     }
+    },
+    "max_step": 0.058380681818181825,
+    "max_degree": 0.04545200892857143,
+    "pass": false
+   },
+   "13": {
+    "per_voice": {
+     "S": {
+      "step": 0.04832386363636364,
+      "degree": 0.03523995535714285,
+      "aux_step_within_phrase": 0.03173828125000002,
+      "aux_degree_duration": 0.033508300781249986
+     },
+     "A": {
+      "step": 0.051690340909090915,
+      "degree": 0.04340122767857143,
+      "aux_step_within_phrase": 0.032861328125,
+      "aux_degree_duration": 0.04846191406250003
+     },
+     "T": {
+      "step": 0.050099431818181814,
+      "degree": 0.029840959821428568,
+      "aux_step_within_phrase": 0.02955729166666665,
+      "aux_degree_duration": 0.030407714843749982
+     },
+     "B": {
+      "step": 0.05642045454545455,
+      "degree": 0.01788504464285714,
+      "aux_step_within_phrase": 0.028352864583333345,
+      "aux_degree_duration": 0.02242431640625
+     }
+    },
+    "max_step": 0.05642045454545455,
+    "max_degree": 0.04340122767857143,
+    "pass": false
+   },
+   "14": {
+    "per_voice": {
+     "S": {
+      "step": 0.05298295454545453,
+      "degree": 0.04010881696428572,
+      "aux_step_within_phrase": 0.03644205729166666,
+      "aux_degree_duration": 0.03597412109374999
+     },
+     "A": {
+      "step": 0.051335227272727234,
+      "degree": 0.04189453125,
+      "aux_step_within_phrase": 0.037337239583333334,
+      "aux_degree_duration": 0.0483642578125
+     },
+     "T": {
+      "step": 0.050142045454545474,
+      "degree": 0.034026227678571434,
+      "aux_step_within_phrase": 0.03430989583333334,
+      "aux_degree_duration": 0.03612060546874999
+     },
+     "B": {
+      "step": 0.05384943181818183,
+      "degree": 0.01072823660714287,
+      "aux_step_within_phrase": 0.02591145833333332,
+      "aux_degree_duration": 0.015624999999999976
+     }
+    },
+    "max_step": 0.05384943181818183,
+    "max_degree": 0.04189453125,
+    "pass": false
+   },
+   "15": {
+    "per_voice": {
+     "S": {
+      "step": 0.049971590909090924,
+      "degree": 0.03317522321428572,
+      "aux_step_within_phrase": 0.040250651041666675,
+      "aux_degree_duration": 0.0295166015625
+     },
+     "A": {
+      "step": 0.04880681818181819,
+      "degree": 0.04236886160714287,
+      "aux_step_within_phrase": 0.038134765625000025,
+      "aux_degree_duration": 0.048217773437499986
+     },
+     "T": {
+      "step": 0.04953125000000001,
+      "degree": 0.02892020089285712,
+      "aux_step_within_phrase": 0.03499348958333334,
+      "aux_degree_duration": 0.028784179687500015
+     },
+     "B": {
+      "step": 0.056122159090909104,
+      "degree": 0.007659040178571445,
+      "aux_step_within_phrase": 0.025895182291666652,
+      "aux_degree_duration": 0.006994628906249991
+     }
+    },
+    "max_step": 0.056122159090909104,
+    "max_degree": 0.04236886160714287,
+    "pass": false
+   },
+   "16": {
+    "per_voice": {
+     "S": {
+      "step": 0.05110795454545453,
+      "degree": 0.032854352678571425,
+      "aux_step_within_phrase": 0.03374023437499998,
+      "aux_degree_duration": 0.02943115234375003
+     },
+     "A": {
+      "step": 0.04409090909090908,
+      "degree": 0.04443359374999999,
+      "aux_step_within_phrase": 0.03756510416666667,
+      "aux_degree_duration": 0.05042724609375002
+     },
+     "T": {
+      "step": 0.050369318181818154,
+      "degree": 0.038085937499999986,
+      "aux_step_within_phrase": 0.0412109375,
+      "aux_degree_duration": 0.03863525390625001
+     },
+     "B": {
+      "step": 0.05401988636363638,
+      "degree": 0.01209542410714285,
+      "aux_step_within_phrase": 0.025244140624999998,
+      "aux_degree_duration": 0.01411132812500002
+     }
+    },
+    "max_step": 0.05401988636363638,
+    "max_degree": 0.04443359374999999,
+    "pass": false
+   },
+   "17": {
+    "per_voice": {
+     "S": {
+      "step": 0.049190340909090885,
+      "degree": 0.03734654017857144,
+      "aux_step_within_phrase": 0.03206380208333333,
+      "aux_degree_duration": 0.035205078125
+     },
+     "A": {
+      "step": 0.051107954545454554,
+      "degree": 0.04068080357142858,
+      "aux_step_within_phrase": 0.03570963541666665,
+      "aux_degree_duration": 0.04448242187500002
+     },
+     "T": {
+      "step": 0.051803977272727286,
+      "degree": 0.035756138392857156,
+      "aux_step_within_phrase": 0.03069661458333333,
+      "aux_degree_duration": 0.038012695312500004
+     },
+     "B": {
+      "step": 0.05308238636363638,
+      "degree": 0.012611607142857157,
+      "aux_step_within_phrase": 0.030094401041666673,
+      "aux_degree_duration": 0.01525878906250002
+     }
+    },
+    "max_step": 0.05308238636363638,
+    "max_degree": 0.04068080357142858,
+    "pass": false
+   },
+   "18": {
+    "per_voice": {
+     "S": {
+      "step": 0.05164772727272728,
+      "degree": 0.03609095982142855,
+      "aux_step_within_phrase": 0.03911132812500001,
+      "aux_degree_duration": 0.033166503906250006
+     },
+     "A": {
+      "step": 0.04957386363636364,
+      "degree": 0.0339564732142857,
+      "aux_step_within_phrase": 0.03401692708333335,
+      "aux_degree_duration": 0.04024658203125001
+     },
+     "T": {
+      "step": 0.04835227272727273,
+      "degree": 0.029771205357142873,
+      "aux_step_within_phrase": 0.035579427083333344,
+      "aux_degree_duration": 0.029504394531249985
+     },
+     "B": {
+      "step": 0.05475852272727271,
+      "degree": 0.011272321428571437,
+      "aux_step_within_phrase": 0.02602539062499999,
+      "aux_degree_duration": 0.010119628906250011
+     }
+    },
+    "max_step": 0.05475852272727271,
+    "max_degree": 0.03609095982142855,
+    "pass": false
+   },
+   "19": {
+    "per_voice": {
+     "S": {
+      "step": 0.04737215909090909,
+      "degree": 0.03570033482142857,
+      "aux_step_within_phrase": 0.034749348958333315,
+      "aux_degree_duration": 0.03579101562499998
+     },
+     "A": {
+      "step": 0.05095170454545456,
+      "degree": 0.039229910714285714,
+      "aux_step_within_phrase": 0.03172200520833333,
+      "aux_degree_duration": 0.04525146484375002
+     },
+     "T": {
+      "step": 0.0517471590909091,
+      "degree": 0.03405412946428571,
+      "aux_step_within_phrase": 0.03308919270833334,
+      "aux_degree_duration": 0.03303222656250001
+     },
+     "B": {
+      "step": 0.05632102272727274,
+      "degree": 0.012723214285714286,
+      "aux_step_within_phrase": 0.01975911458333331,
+      "aux_degree_duration": 0.01552734375000004
+     }
+    },
+    "max_step": 0.05632102272727274,
+    "max_degree": 0.039229910714285714,
+    "pass": false
+   }
+  },
+  "S4": {
+   "0": {
+    "per_voice": {
+     "S": {
+      "step": 0.05659090909090909,
+      "degree": 0.03519810267857144,
+      "aux_step_within_phrase": 0.03668619791666667,
+      "aux_degree_duration": 0.03367919921875002
+     },
+     "A": {
+      "step": 0.04815340909090911,
+      "degree": 0.04896763392857141,
+      "aux_step_within_phrase": 0.02950846354166664,
+      "aux_degree_duration": 0.05892333984375001
+     },
+     "T": {
+      "step": 0.05727272727272728,
+      "degree": 0.042410714285714274,
+      "aux_step_within_phrase": 0.036637369791666693,
+      "aux_degree_duration": 0.04412841796875001
+     },
+     "B": {
+      "step": 0.05965909090909091,
+      "degree": 0.010337611607142836,
+      "aux_step_within_phrase": 0.024283854166666678,
+      "aux_degree_duration": 0.011535644531249983
+     }
+    },
+    "max_step": 0.05965909090909091,
+    "max_degree": 0.04896763392857141,
+    "pass": false
+   },
+   "1": {
+    "per_voice": {
+     "S": {
+      "step": 0.052244318181818204,
+      "degree": 0.02857142857142857,
+      "aux_step_within_phrase": 0.025944010416666666,
+      "aux_degree_duration": 0.029736328124999985
+     },
+     "A": {
+      "step": 0.049616477272727263,
+      "degree": 0.053641183035714274,
+      "aux_step_within_phrase": 0.03518880208333333,
+      "aux_degree_duration": 0.06352539062500001
+     },
+     "T": {
+      "step": 0.04992897727272727,
+      "degree": 0.04408482142857142,
+      "aux_step_within_phrase": 0.032747395833333325,
+      "aux_degree_duration": 0.04412841796875
+     },
+     "B": {
+      "step": 0.059446022727272715,
+      "degree": 0.005733816964285741,
+      "aux_step_within_phrase": 0.026790364583333306,
+      "aux_degree_duration": 0.005468749999999963
+     }
+    },
+    "max_step": 0.059446022727272715,
+    "max_degree": 0.053641183035714274,
+    "pass": false
+   },
+   "2": {
+    "per_voice": {
+     "S": {
+      "step": 0.05259943181818182,
+      "degree": 0.03009207589285714,
+      "aux_step_within_phrase": 0.03374023437499998,
+      "aux_degree_duration": 0.027673339843749995
+     },
+     "A": {
+      "step": 0.04988636363636366,
+      "degree": 0.04666573660714284,
+      "aux_step_within_phrase": 0.0349934895833333,
+      "aux_degree_duration": 0.054272460937500024
+     },
+     "T": {
+      "step": 0.05227272727272728,
+      "degree": 0.032491629464285715,
+      "aux_step_within_phrase": 0.027180989583333325,
+      "aux_degree_duration": 0.03326416015624997
+     },
+     "B": {
+      "step": 0.05495738636363639,
+      "degree": 0.007156808035714269,
+      "aux_step_within_phrase": 0.02301432291666668,
+      "aux_degree_duration": 0.009301757812499995
+     }
+    },
+    "max_step": 0.05495738636363639,
+    "max_degree": 0.04666573660714284,
+    "pass": false
+   },
+   "3": {
+    "per_voice": {
+     "S": {
+      "step": 0.055411931818181805,
+      "degree": 0.03007812499999999,
+      "aux_step_within_phrase": 0.038476562500000006,
+      "aux_degree_duration": 0.028076171875000014
+     },
+     "A": {
+      "step": 0.04666193181818182,
+      "degree": 0.04712611607142858,
+      "aux_step_within_phrase": 0.039876302083333336,
+      "aux_degree_duration": 0.057824707031250006
+     },
+     "T": {
+      "step": 0.04967329545454545,
+      "degree": 0.040122767857142846,
+      "aux_step_within_phrase": 0.03766276041666667,
+      "aux_degree_duration": 0.040344238281249986
+     },
+     "B": {
+      "step": 0.05619318181818182,
+      "degree": 0.007798549107142845,
+      "aux_step_within_phrase": 0.024560546875000023,
+      "aux_degree_duration": 0.009179687500000037
+     }
+    },
+    "max_step": 0.05619318181818182,
+    "max_degree": 0.04712611607142858,
+    "pass": false
+   },
+   "4": {
+    "per_voice": {
+     "S": {
+      "step": 0.05458806818181819,
+      "degree": 0.03631417410714285,
+      "aux_step_within_phrase": 0.03308919270833334,
+      "aux_degree_duration": 0.03463134765624999
+     },
+     "A": {
+      "step": 0.04707386363636362,
+      "degree": 0.04927455357142857,
+      "aux_step_within_phrase": 0.033561197916666674,
+      "aux_degree_duration": 0.0572265625
+     },
+     "T": {
+      "step": 0.04948863636363636,
+      "degree": 0.03178013392857142,
+      "aux_step_within_phrase": 0.03424479166666668,
+      "aux_degree_duration": 0.031481933593750004
+     },
+     "B": {
+      "step": 0.055255681818181815,
+      "degree": 0.008691406250000023,
+      "aux_step_within_phrase": 0.025358072916666665,
+      "aux_degree_duration": 0.010693359375000003
+     }
+    },
+    "max_step": 0.055255681818181815,
+    "max_degree": 0.04927455357142857,
+    "pass": false
+   },
+   "5": {
+    "per_voice": {
+     "S": {
+      "step": 0.05509943181818185,
+      "degree": 0.03138950892857146,
+      "aux_step_within_phrase": 0.02819010416666665,
+      "aux_degree_duration": 0.03118896484375002
+     },
+     "A": {
+      "step": 0.048281250000000026,
+      "degree": 0.05443638392857142,
+      "aux_step_within_phrase": 0.03232421875,
+      "aux_degree_duration": 0.06278076171875
+     },
+     "T": {
+      "step": 0.0544460227272727,
+      "degree": 0.03278459821428572,
+      "aux_step_within_phrase": 0.03291015625000002,
+      "aux_degree_duration": 0.031738281249999965
+     },
+     "B": {
+      "step": 0.05575284090909089,
+      "degree": 0.0107421875,
+      "aux_step_within_phrase": 0.02377929687499999,
+      "aux_degree_duration": 0.013464355468750005
+     }
+    },
+    "max_step": 0.05575284090909089,
+    "max_degree": 0.05443638392857142,
+    "pass": false
+   },
+   "6": {
+    "per_voice": {
+     "S": {
+      "step": 0.05089488636363634,
+      "degree": 0.033314732142857156,
+      "aux_step_within_phrase": 0.035139973958333334,
+      "aux_degree_duration": 0.03437499999999999
+     },
+     "A": {
+      "step": 0.04245738636363637,
+      "degree": 0.05080915178571428,
+      "aux_step_within_phrase": 0.04051106770833334,
+      "aux_degree_duration": 0.059960937500000006
+     },
+     "T": {
+      "step": 0.049034090909090916,
+      "degree": 0.037569754464285746,
+      "aux_step_within_phrase": 0.036360677083333334,
+      "aux_degree_duration": 0.03797607421875
+     },
+     "B": {
+      "step": 0.05938920454545453,
+      "degree": 0.012248883928571423,
+      "aux_step_within_phrase": 0.028011067708333354,
+      "aux_degree_duration": 0.014843750000000003
+     }
+    },
+    "max_step": 0.05938920454545453,
+    "max_degree": 0.05080915178571428,
+    "pass": false
+   },
+   "7": {
+    "per_voice": {
+     "S": {
+      "step": 0.051633522727272736,
+      "degree": 0.03247767857142857,
+      "aux_step_within_phrase": 0.03421223958333333,
+      "aux_degree_duration": 0.027770996093750014
+     },
+     "A": {
+      "step": 0.0469744318181818,
+      "degree": 0.05097656249999999,
+      "aux_step_within_phrase": 0.03155924479166666,
+      "aux_degree_duration": 0.05963134765625
+     },
+     "T": {
+      "step": 0.05,
+      "degree": 0.03779296874999999,
+      "aux_step_within_phrase": 0.03606770833333335,
+      "aux_degree_duration": 0.03663330078124998
+     },
+     "B": {
+      "step": 0.06036931818181818,
+      "degree": 0.011900111607142844,
+      "aux_step_within_phrase": 0.028417968749999988,
+      "aux_degree_duration": 0.00916748046875
+     }
+    },
+    "max_step": 0.06036931818181818,
+    "max_degree": 0.05097656249999999,
+    "pass": false
+   },
+   "8": {
+    "per_voice": {
+     "S": {
+      "step": 0.06109374999999999,
+      "degree": 0.029394531250000005,
+      "aux_step_within_phrase": 0.035432942708333345,
+      "aux_degree_duration": 0.024865722656250006
+     },
+     "A": {
+      "step": 0.04321022727272727,
+      "degree": 0.04581473214285714,
+      "aux_step_within_phrase": 0.035400390624999986,
+      "aux_degree_duration": 0.05330810546875002
+     },
+     "T": {
+      "step": 0.052613636363636376,
+      "degree": 0.04288504464285716,
+      "aux_step_within_phrase": 0.033789062500000015,
+      "aux_degree_duration": 0.04307861328124998
+     },
+     "B": {
+      "step": 0.05943181818181817,
+      "degree": 0.005929129464285712,
+      "aux_step_within_phrase": 0.02236328125000001,
+      "aux_degree_duration": 0.007910156250000001
+     }
+    },
+    "max_step": 0.06109374999999999,
+    "max_degree": 0.04581473214285714,
+    "pass": false
+   },
+   "9": {
+    "per_voice": {
+     "S": {
+      "step": 0.051306818181818155,
+      "degree": 0.031040736607142853,
+      "aux_step_within_phrase": 0.03513997395833332,
+      "aux_degree_duration": 0.02899169921875002
+     },
+     "A": {
+      "step": 0.04805397727272727,
+      "degree": 0.05094866071428568,
+      "aux_step_within_phrase": 0.03767903645833332,
+      "aux_degree_duration": 0.05968017578124998
+     },
+     "T": {
+      "step": 0.052017045454545455,
+      "degree": 0.029771205357142838,
+      "aux_step_within_phrase": 0.030924479166666664,
+      "aux_degree_duration": 0.029162597656250025
+     },
+     "B": {
+      "step": 0.06112215909090909,
+      "degree": 0.009667968749999981,
+      "aux_step_within_phrase": 0.02900390625000002,
+      "aux_degree_duration": 0.012304687500000026
+     }
+    },
+    "max_step": 0.06112215909090909,
+    "max_degree": 0.05094866071428568,
+    "pass": false
+   },
+   "10": {
+    "per_voice": {
+     "S": {
+      "step": 0.056292613636363655,
+      "degree": 0.026395089285714275,
+      "aux_step_within_phrase": 0.02859700520833335,
+      "aux_degree_duration": 0.02509765625
+     },
+     "A": {
+      "step": 0.049730113636363656,
+      "degree": 0.04672154017857143,
+      "aux_step_within_phrase": 0.030647786458333347,
+      "aux_degree_duration": 0.053344726562499986
+     },
+     "T": {
+      "step": 0.05136363636363638,
+      "degree": 0.03540736607142858,
+      "aux_step_within_phrase": 0.029638671875000005,
+      "aux_degree_duration": 0.03603515625
+     },
+     "B": {
+      "step": 0.06124999999999998,
+      "degree": 0.015513392857142858,
+      "aux_step_within_phrase": 0.023307291666666653,
+      "aux_degree_duration": 0.015063476562500018
+     }
+    },
+    "max_step": 0.06124999999999998,
+    "max_degree": 0.04672154017857143,
+    "pass": false
+   },
+   "11": {
+    "per_voice": {
+     "S": {
+      "step": 0.05328124999999999,
+      "degree": 0.02776227678571429,
+      "aux_step_within_phrase": 0.03214518229166668,
+      "aux_degree_duration": 0.025170898437499988
+     },
+     "A": {
+      "step": 0.0507102272727273,
+      "degree": 0.04517299107142853,
+      "aux_step_within_phrase": 0.03450520833333333,
+      "aux_degree_duration": 0.05360107421875002
+     },
+     "T": {
+      "step": 0.05424715909090912,
+      "degree": 0.03916015625000003,
+      "aux_step_within_phrase": 0.04283854166666665,
+      "aux_degree_duration": 0.03914794921875
+     },
+     "B": {
+      "step": 0.055397727272727265,
+      "degree": 0.01191406250000001,
+      "aux_step_within_phrase": 0.02867838541666669,
+      "aux_degree_duration": 0.010424804687499994
+     }
+    },
+    "max_step": 0.055397727272727265,
+    "max_degree": 0.04517299107142853,
+    "pass": false
+   },
+   "12": {
+    "per_voice": {
+     "S": {
+      "step": 0.054062499999999986,
+      "degree": 0.03630022321428571,
+      "aux_step_within_phrase": 0.033154296875,
+      "aux_degree_duration": 0.03626708984375
+     },
+     "A": {
+      "step": 0.053196022727272696,
+      "degree": 0.04930245535714285,
+      "aux_step_within_phrase": 0.02633463541666666,
+      "aux_degree_duration": 0.05776367187500001
+     },
+     "T": {
+      "step": 0.05071022727272727,
+      "degree": 0.039885602678571414,
+      "aux_step_within_phrase": 0.0344889322916667,
+      "aux_degree_duration": 0.04007568359375
+     },
+     "B": {
+      "step": 0.05610795454545455,
+      "degree": 0.013281249999999988,
+      "aux_step_within_phrase": 0.029313151041666662,
+      "aux_degree_duration": 0.010119628906250039
+     }
+    },
+    "max_step": 0.05610795454545455,
+    "max_degree": 0.04930245535714285,
+    "pass": false
+   },
+   "13": {
+    "per_voice": {
+     "S": {
+      "step": 0.054176136363636364,
+      "degree": 0.03210100446428571,
+      "aux_step_within_phrase": 0.03383789062500002,
+      "aux_degree_duration": 0.029187011718750003
+     },
+     "A": {
+      "step": 0.047116477272727296,
+      "degree": 0.05405970982142858,
+      "aux_step_within_phrase": 0.036555989583333344,
+      "aux_degree_duration": 0.06214599609375001
+     },
+     "T": {
+      "step": 0.05508522727272731,
+      "degree": 0.037681361607142895,
+      "aux_step_within_phrase": 0.034993489583333336,
+      "aux_degree_duration": 0.03809814453125003
+     },
+     "B": {
+      "step": 0.0596306818181818,
+      "degree": 0.00864955357142859,
+      "aux_step_within_phrase": 0.029329427083333342,
+      "aux_degree_duration": 0.009130859375000033
+     }
+    },
+    "max_step": 0.0596306818181818,
+    "max_degree": 0.05405970982142858,
+    "pass": false
+   },
+   "14": {
+    "per_voice": {
+     "S": {
+      "step": 0.055042613636363626,
+      "degree": 0.03081752232142858,
+      "aux_step_within_phrase": 0.037255859375000006,
+      "aux_degree_duration": 0.029248046875
+     },
+     "A": {
+      "step": 0.04894886363636364,
+      "degree": 0.04891183035714284,
+      "aux_step_within_phrase": 0.030371093750000026,
+      "aux_degree_duration": 0.05729980468750001
+     },
+     "T": {
+      "step": 0.052173295454545465,
+      "degree": 0.03246372767857142,
+      "aux_step_within_phrase": 0.03274739583333333,
+      "aux_degree_duration": 0.032531738281250014
+     },
+     "B": {
+      "step": 0.05987215909090911,
+      "degree": 0.007547433035714306,
+      "aux_step_within_phrase": 0.021305338541666684,
+      "aux_degree_duration": 0.009265136718750028
+     }
+    },
+    "max_step": 0.05987215909090911,
+    "max_degree": 0.04891183035714284,
+    "pass": false
+   },
+   "15": {
+    "per_voice": {
+     "S": {
+      "step": 0.05670454545454545,
+      "degree": 0.032045200892857145,
+      "aux_step_within_phrase": 0.03517252604166664,
+      "aux_degree_duration": 0.03028564453125001
+     },
+     "A": {
+      "step": 0.046789772727272735,
+      "degree": 0.041392299107142885,
+      "aux_step_within_phrase": 0.034879557291666655,
+      "aux_degree_duration": 0.05012207031250001
+     },
+     "T": {
+      "step": 0.053309659090909116,
+      "degree": 0.03274274553571429,
+      "aux_step_within_phrase": 0.03383789062500001,
+      "aux_degree_duration": 0.03353271484374998
+     },
+     "B": {
+      "step": 0.05684659090909092,
+      "degree": 0.009570312500000018,
+      "aux_step_within_phrase": 0.027783203125,
+      "aux_degree_duration": 0.00930175781250002
+     }
+    },
+    "max_step": 0.05684659090909092,
+    "max_degree": 0.041392299107142885,
+    "pass": false
+   },
+   "16": {
+    "per_voice": {
+     "S": {
+      "step": 0.05257102272727273,
+      "degree": 0.033858816964285714,
+      "aux_step_within_phrase": 0.03676757812499998,
+      "aux_degree_duration": 0.033642578125
+     },
+     "A": {
+      "step": 0.046761363636363636,
+      "degree": 0.051869419642857136,
+      "aux_step_within_phrase": 0.035514322916666646,
+      "aux_degree_duration": 0.06113281250000001
+     },
+     "T": {
+      "step": 0.049730113636363656,
+      "degree": 0.03745814732142859,
+      "aux_step_within_phrase": 0.03479817708333335,
+      "aux_degree_duration": 0.03811035156249999
+     },
+     "B": {
+      "step": 0.05859375,
+      "degree": 0.011579241071428558,
+      "aux_step_within_phrase": 0.03126627604166665,
+      "aux_degree_duration": 0.007202148437500014
+     }
+    },
+    "max_step": 0.05859375,
+    "max_degree": 0.051869419642857136,
+    "pass": false
+   },
+   "17": {
+    "per_voice": {
+     "S": {
+      "step": 0.05258522727272729,
+      "degree": 0.03137555803571429,
+      "aux_step_within_phrase": 0.03530273437499999,
+      "aux_degree_duration": 0.027490234374999995
+     },
+     "A": {
+      "step": 0.05295454545454545,
+      "degree": 0.04849330357142858,
+      "aux_step_within_phrase": 0.03492838541666668,
+      "aux_degree_duration": 0.0559814453125
+     },
+     "T": {
+      "step": 0.046434659090909124,
+      "degree": 0.03314732142857143,
+      "aux_step_within_phrase": 0.034798177083333326,
+      "aux_degree_duration": 0.032995605468749974
+     },
+     "B": {
+      "step": 0.061349431818181796,
+      "degree": 0.011760602678571451,
+      "aux_step_within_phrase": 0.027050781250000027,
+      "aux_degree_duration": 0.012561035156250018
+     }
+    },
+    "max_step": 0.061349431818181796,
+    "max_degree": 0.04849330357142858,
+    "pass": false
+   },
+   "18": {
+    "per_voice": {
+     "S": {
+      "step": 0.052485795454545445,
+      "degree": 0.03242187499999999,
+      "aux_step_within_phrase": 0.03317057291666667,
+      "aux_degree_duration": 0.030712890625000017
+     },
+     "A": {
+      "step": 0.047059659090909076,
+      "degree": 0.047684151785714286,
+      "aux_step_within_phrase": 0.03251953125000001,
+      "aux_degree_duration": 0.05466308593749999
+     },
+     "T": {
+      "step": 0.05302556818181815,
+      "degree": 0.031361607142857136,
+      "aux_step_within_phrase": 0.033870442708333344,
+      "aux_degree_duration": 0.032556152343750006
+     },
+     "B": {
+      "step": 0.05821022727272729,
+      "degree": 0.01004464285714286,
+      "aux_step_within_phrase": 0.022444661458333313,
+      "aux_degree_duration": 0.013159179687500026
+     }
+    },
+    "max_step": 0.05821022727272729,
+    "max_degree": 0.047684151785714286,
+    "pass": false
+   },
+   "19": {
+    "per_voice": {
+     "S": {
+      "step": 0.05258522727272726,
+      "degree": 0.02864118303571428,
+      "aux_step_within_phrase": 0.032633463541666664,
+      "aux_degree_duration": 0.02464599609374999
+     },
+     "A": {
+      "step": 0.04813920454545455,
+      "degree": 0.049776785714285725,
+      "aux_step_within_phrase": 0.032584635416666674,
+      "aux_degree_duration": 0.05814208984375
+     },
+     "T": {
+      "step": 0.051505681818181805,
+      "degree": 0.03648158482142858,
+      "aux_step_within_phrase": 0.03209635416666666,
+      "aux_degree_duration": 0.038720703124999985
+     },
+     "B": {
+      "step": 0.05582386363636363,
+      "degree": 0.007198660714285723,
+      "aux_step_within_phrase": 0.02604166666666667,
+      "aux_degree_duration": 0.0073242187499999965
+     }
+    },
+    "max_step": 0.05582386363636363,
+    "max_degree": 0.049776785714285725,
+    "pass": false
+   }
+  },
+  "S5": {
+   "0": {
+    "per_voice": {
+     "S": {
+      "step": 0.04703034382767195,
+      "degree": 0.0362927872860636,
+      "aux_step_within_phrase": 0.03517455482661669,
+      "aux_degree_duration": 0.03118286132812497
+     },
+     "A": {
+      "step": 0.05095802919708031,
+      "degree": 0.043287589498806685,
+      "aux_step_within_phrase": 0.03822183098591549,
+      "aux_degree_duration": 0.04907226562500001
+     },
+     "T": {
+      "step": 0.05158184319119665,
+      "degree": 0.03395148581719947,
+      "aux_step_within_phrase": 0.03540899526564964,
+      "aux_degree_duration": 0.03563842773437502
+     },
+     "B": {
+      "step": 0.056508027522935794,
+      "degree": 0.009192004504504477,
+      "aux_step_within_phrase": 0.028338815789473677,
+      "aux_degree_duration": 0.007421875000000015
+     }
+    },
+    "max_step": 0.056508027522935794,
+    "max_degree": 0.043287589498806685,
+    "pass": false
+   },
+   "1": {
+    "per_voice": {
+     "S": {
+      "step": 0.046204066886870385,
+      "degree": 0.03552751827782291,
+      "aux_step_within_phrase": 0.03396358543417368,
+      "aux_degree_duration": 0.033447265625000014
+     },
+     "A": {
+      "step": 0.051719901719901706,
+      "degree": 0.03817771084337351,
+      "aux_step_within_phrase": 0.03614672364672365,
+      "aux_degree_duration": 0.040893554687499965
+     },
+     "T": {
+      "step": 0.05363827132486387,
+      "degree": 0.0321273395721925,
+      "aux_step_within_phrase": 0.03695101351351353,
+      "aux_degree_duration": 0.03182983398437499
+     },
+     "B": {
+      "step": 0.05302219468228933,
+      "degree": 0.01279603806994245,
+      "aux_step_within_phrase": 0.024303764827230543,
+      "aux_degree_duration": 0.010345458984375007
+     }
+    },
+    "max_step": 0.05363827132486387,
+    "max_degree": 0.03817771084337351,
+    "pass": false
+   },
+   "2": {
+    "per_voice": {
+     "S": {
+      "step": 0.05004231908590774,
+      "degree": 0.03885767790262175,
+      "aux_step_within_phrase": 0.0378660585693711,
+      "aux_degree_duration": 0.033483886718750036
+     },
+     "A": {
+      "step": 0.053463491295938144,
+      "degree": 0.04149371442125238,
+      "aux_step_within_phrase": 0.03353956935123045,
+      "aux_degree_duration": 0.049151611328124976
+     },
+     "T": {
+      "step": 0.05106776765375852,
+      "degree": 0.030606823266219236,
+      "aux_step_within_phrase": 0.03748368146214097,
+      "aux_degree_duration": 0.030560302734375006
+     },
+     "B": {
+      "step": 0.06056415929203536,
+      "degree": 0.013317329675354345,
+      "aux_step_within_phrase": 0.02999464381360471,
+      "aux_degree_duration": 0.012329101562499986
+     }
+    },
+    "max_step": 0.06056415929203536,
+    "max_degree": 0.04149371442125238,
+    "pass": false
+   },
+   "3": {
+    "per_voice": {
+     "S": {
+      "step": 0.04806774809160305,
+      "degree": 0.03630629691409511,
+      "aux_step_within_phrase": 0.040017444658325324,
+      "aux_degree_duration": 0.03215332031249998
+     },
+     "A": {
+      "step": 0.059114202049780414,
+      "degree": 0.04498264719961705,
+      "aux_step_within_phrase": 0.038846099491237976,
+      "aux_degree_duration": 0.04671630859375
+     },
+     "T": {
+      "step": 0.05837104072398188,
+      "degree": 0.03641666666666666,
+      "aux_step_within_phrase": 0.02776878238341969,
+      "aux_degree_duration": 0.035888671875
+     },
+     "B": {
+      "step": 0.057171989889705885,
+      "degree": 0.012466155234657026,
+      "aux_step_within_phrase": 0.028085443037974674,
+      "aux_degree_duration": 0.012982177734375003
+     }
+    },
+    "max_step": 0.059114202049780414,
+    "max_degree": 0.04498264719961705,
+    "pass": false
+   },
+   "4": {
+    "per_voice": {
+     "S": {
+      "step": 0.04672532278217409,
+      "degree": 0.034975419909873,
+      "aux_step_within_phrase": 0.03469766619519095,
+      "aux_degree_duration": 0.033203124999999986
+     },
+     "A": {
+      "step": 0.0558112951062778,
+      "degree": 0.04088402811439652,
+      "aux_step_within_phrase": 0.034907487091222024,
+      "aux_degree_duration": 0.045489501953125
+     },
+     "T": {
+      "step": 0.051373751135331505,
+      "degree": 0.0312778768956289,
+      "aux_step_within_phrase": 0.03955840270551511,
+      "aux_degree_duration": 0.027117919921874983
+     },
+     "B": {
+      "step": 0.052168599363347,
+      "degree": 0.008276574363555174,
+      "aux_step_within_phrase": 0.026836894215737348,
+      "aux_degree_duration": 0.010479736328124996
+     }
+    },
+    "max_step": 0.0558112951062778,
+    "max_degree": 0.04088402811439652,
+    "pass": false
+   },
+   "5": {
+    "per_voice": {
+     "S": {
+      "step": 0.047904427192614354,
+      "degree": 0.034912814692529937,
+      "aux_step_within_phrase": 0.03961602472658109,
+      "aux_degree_duration": 0.027709960937500038
+     },
+     "A": {
+      "step": 0.06096813725490195,
+      "degree": 0.04229266826923078,
+      "aux_step_within_phrase": 0.03934659090909091,
+      "aux_degree_duration": 0.05334472656249999
+     },
+     "T": {
+      "step": 0.05729166666666665,
+      "degree": 0.031026984834968796,
+      "aux_step_within_phrase": 0.03523348074921956,
+      "aux_degree_duration": 0.03043212890625001
+     },
+     "B": {
+      "step": 0.052353342428376526,
+      "degree": 0.00951875837427422,
+      "aux_step_within_phrase": 0.0250293121417405,
+      "aux_degree_duration": 0.008410644531249994
+     }
+    },
+    "max_step": 0.06096813725490195,
+    "max_degree": 0.04229266826923078,
+    "pass": false
+   },
+   "6": {
+    "per_voice": {
+     "S": {
+      "step": 0.04522788342290202,
+      "degree": 0.02897519316795444,
+      "aux_step_within_phrase": 0.03202431042543245,
+      "aux_degree_duration": 0.02564697265625
+     },
+     "A": {
+      "step": 0.057336956521739126,
+      "degree": 0.04917061611374407,
+      "aux_step_within_phrase": 0.040485335195530735,
+      "aux_degree_duration": 0.05086059570312502
+     },
+     "T": {
+      "step": 0.05309760036917396,
+      "degree": 0.02710126869053014,
+      "aux_step_within_phrase": 0.03403219395866456,
+      "aux_degree_duration": 0.02556762695312499
+     },
+     "B": {
+      "step": 0.052220956719817795,
+      "degree": 0.00437639821029082,
+      "aux_step_within_phrase": 0.020186031331592715,
+      "aux_degree_duration": 0.005670166015624969
+     }
+    },
+    "max_step": 0.057336956521739126,
+    "max_degree": 0.04917061611374407,
+    "pass": false
+   },
+   "7": {
+    "per_voice": {
+     "S": {
+      "step": 0.047625888006686184,
+      "degree": 0.03376746814632142,
+      "aux_step_within_phrase": 0.03839327969711313,
+      "aux_degree_duration": 0.03290405273437503
+     },
+     "A": {
+      "step": 0.05620795290725614,
+      "degree": 0.042771687883074054,
+      "aux_step_within_phrase": 0.03565727373681288,
+      "aux_degree_duration": 0.04766235351562499
+     },
+     "T": {
+      "step": 0.05397857470210817,
+      "degree": 0.02874662466246626,
+      "aux_step_within_phrase": 0.035373948475289185,
+      "aux_degree_duration": 0.032470703125000014
+     },
+     "B": {
+      "step": 0.054890931932389204,
+      "degree": 0.0071220278151637485,
+      "aux_step_within_phrase": 0.027599528548978534,
+      "aux_degree_duration": 0.007354736328124979
+     }
+    },
+    "max_step": 0.05620795290725614,
+    "max_degree": 0.042771687883074054,
+    "pass": false
+   },
+   "8": {
+    "per_voice": {
+     "S": {
+      "step": 0.04596129575094657,
+      "degree": 0.03781805957798923,
+      "aux_step_within_phrase": 0.031503338102050533,
+      "aux_degree_duration": 0.032073974609374986
+     },
+     "A": {
+      "step": 0.0512786123032904,
+      "degree": 0.04063816097332709,
+      "aux_step_within_phrase": 0.03154237754540451,
+      "aux_degree_duration": 0.05040283203124999
+     },
+     "T": {
+      "step": 0.04826803768382354,
+      "degree": 0.029853903429602917,
+      "aux_step_within_phrase": 0.03032700421940929,
+      "aux_degree_duration": 0.028674316406250018
+     },
+     "B": {
+      "step": 0.05025470219435736,
+      "degree": 0.010215024197096344,
+      "aux_step_within_phrase": 0.02950588837685613,
+      "aux_degree_duration": 0.009600830078124983
+     }
+    },
+    "max_step": 0.0512786123032904,
+    "max_degree": 0.04063816097332709,
+    "pass": false
+   },
+   "9": {
+    "per_voice": {
+     "S": {
+      "step": 0.04609569825436409,
+      "degree": 0.03039401062959934,
+      "aux_step_within_phrase": 0.034998236124176865,
+      "aux_degree_duration": 0.026208496093750033
+     },
+     "A": {
+      "step": 0.05385832521908472,
+      "degree": 0.043770893027698175,
+      "aux_step_within_phrase": 0.04033962795941375,
+      "aux_degree_duration": 0.040173339843749996
+     },
+     "T": {
+      "step": 0.052083333333333315,
+      "degree": 0.036212744661921696,
+      "aux_step_within_phrase": 0.03462136929460581,
+      "aux_degree_duration": 0.03969116210937499
+     },
+     "B": {
+      "step": 0.053756925207756226,
+      "degree": 0.008584542157751611,
+      "aux_step_within_phrase": 0.027190482502651103,
+      "aux_degree_duration": 0.009228515625000024
+     }
+    },
+    "max_step": 0.05385832521908472,
+    "max_degree": 0.043770893027698175,
+    "pass": false
+   },
+   "10": {
+    "per_voice": {
+     "S": {
+      "step": 0.054700370675453025,
+      "degree": 0.04074655591572122,
+      "aux_step_within_phrase": 0.04626396648044694,
+      "aux_degree_duration": 0.04188842773437501
+     },
+     "A": {
+      "step": 0.05275378608613343,
+      "degree": 0.044051904319554115,
+      "aux_step_within_phrase": 0.029391707583196952,
+      "aux_degree_duration": 0.054010009765625026
+     },
+     "T": {
+      "step": 0.05626991351843423,
+      "degree": 0.02662606168976307,
+      "aux_step_within_phrase": 0.04132433489827855,
+      "aux_degree_duration": 0.027789306640625008
+     },
+     "B": {
+      "step": 0.054112738419618514,
+      "degree": 0.007875223015165047,
+      "aux_step_within_phrase": 0.024242325702393333,
+      "aux_degree_duration": 0.010571289062499992
+     }
+    },
+    "max_step": 0.05626991351843423,
+    "max_degree": 0.044051904319554115,
+    "pass": false
+   },
+   "11": {
+    "per_voice": {
+     "S": {
+      "step": 0.045219974979149286,
+      "degree": 0.033147046759639046,
+      "aux_step_within_phrase": 0.03114671860245515,
+      "aux_degree_duration": 0.025244140625000005
+     },
+     "A": {
+      "step": 0.05658039647577094,
+      "degree": 0.04511221795487279,
+      "aux_step_within_phrase": 0.0428424560408395,
+      "aux_degree_duration": 0.05061035156249998
+     },
+     "T": {
+      "step": 0.0477639963586709,
+      "degree": 0.02708705856057219,
+      "aux_step_within_phrase": 0.04306859676577987,
+      "aux_degree_duration": 0.024633789062499994
+     },
+     "B": {
+      "step": 0.05748299319727891,
+      "degree": 0.014504454342984429,
+      "aux_step_within_phrase": 0.02629870129870132,
+      "aux_degree_duration": 0.01809082031249999
+     }
+    },
+    "max_step": 0.05748299319727891,
+    "max_degree": 0.04511221795487279,
+    "pass": false
+   },
+   "12": {
+    "per_voice": {
+     "S": {
+      "step": 0.047727514919011074,
+      "degree": 0.03487793378038556,
+      "aux_step_within_phrase": 0.03539448209099709,
+      "aux_degree_duration": 0.031323242187499996
+     },
+     "A": {
+      "step": 0.052245855680156,
+      "degree": 0.04184600669536107,
+      "aux_step_within_phrase": 0.031902879728966695,
+      "aux_degree_duration": 0.049768066406249985
+     },
+     "T": {
+      "step": 0.05501557452699585,
+      "degree": 0.03609254644313548,
+      "aux_step_within_phrase": 0.039712506624271345,
+      "aux_degree_duration": 0.04044799804687502
+     },
+     "B": {
+      "step": 0.05068493150684932,
+      "degree": 0.01011771300448432,
+      "aux_step_within_phrase": 0.026619764397905768,
+      "aux_degree_duration": 0.007525634765625008
+     }
+    },
+    "max_step": 0.05501557452699585,
+    "max_degree": 0.04184600669536107,
+    "pass": false
+   },
+   "13": {
+    "per_voice": {
+     "S": {
+      "step": 0.0475989890480202,
+      "degree": 0.038615886495443244,
+      "aux_step_within_phrase": 0.03424964183381089,
+      "aux_degree_duration": 0.04099121093750001
+     },
+     "A": {
+      "step": 0.05312347783731126,
+      "degree": 0.04183588150979454,
+      "aux_step_within_phrase": 0.0346869712351946,
+      "aux_degree_duration": 0.045050048828125
+     },
+     "T": {
+      "step": 0.048655063291139236,
+      "degree": 0.026726243339254007,
+      "aux_step_within_phrase": 0.03577898550724637,
+      "aux_degree_duration": 0.02137451171874999
+     },
+     "B": {
+      "step": 0.05185300090252706,
+      "degree": 0.010555186170212763,
+      "aux_step_within_phrase": 0.02316309400826446,
+      "aux_degree_duration": 0.011499023437500007
+     }
+    },
+    "max_step": 0.05312347783731126,
+    "max_degree": 0.04183588150979454,
+    "pass": false
+   },
+   "14": {
+    "per_voice": {
+     "S": {
+      "step": 0.049257139857202856,
+      "degree": 0.0334056175134242,
+      "aux_step_within_phrase": 0.033957044264635895,
+      "aux_degree_duration": 0.03139648437499999
+     },
+     "A": {
+      "step": 0.05644240019240021,
+      "degree": 0.04295953279848985,
+      "aux_step_within_phrase": 0.04276681489716508,
+      "aux_degree_duration": 0.05638427734374998
+     },
+     "T": {
+      "step": 0.05303375912408758,
+      "degree": 0.033770161290322585,
+      "aux_step_within_phrase": 0.034371731171548126,
+      "aux_degree_duration": 0.03475341796875
+     },
+     "B": {
+      "step": 0.05639416553595657,
+      "degree": 0.009565193247445588,
+      "aux_step_within_phrase": 0.028207534955981342,
+      "aux_degree_duration": 0.008721923828124986
+     }
+    },
+    "max_step": 0.05644240019240021,
+    "max_degree": 0.04295953279848985,
+    "pass": false
+   },
+   "15": {
+    "per_voice": {
+     "S": {
+      "step": 0.04737525987525987,
+      "degree": 0.036503067484662574,
+      "aux_step_within_phrase": 0.04061764705882352,
+      "aux_degree_duration": 0.029449462890624986
+     },
+     "A": {
+      "step": 0.05698529411764704,
+      "degree": 0.04433593750000001,
+      "aux_step_within_phrase": 0.04099786931818182,
+      "aux_degree_duration": 0.053900146484374994
+     },
+     "T": {
+      "step": 0.053630036215482096,
+      "degree": 0.03018008003557135,
+      "aux_step_within_phrase": 0.03648263348885433,
+      "aux_degree_duration": 0.026806640625000017
+     },
+     "B": {
+      "step": 0.053532483930211205,
+      "degree": 0.012060414788097405,
+      "aux_step_within_phrase": 0.03017979452054795,
+      "aux_degree_duration": 0.011798095703125015
+     }
+    },
+    "max_step": 0.05698529411764704,
+    "max_degree": 0.04433593750000001,
+    "pass": false
+   },
+   "16": {
+    "per_voice": {
+     "S": {
+      "step": 0.04491134384072999,
+      "degree": 0.03436097511219911,
+      "aux_step_within_phrase": 0.039022172688878476,
+      "aux_degree_duration": 0.028070068359375012
+     },
+     "A": {
+      "step": 0.049073306489815255,
+      "degree": 0.04024291027429102,
+      "aux_step_within_phrase": 0.03454396504642271,
+      "aux_degree_duration": 0.042230224609375
+     },
+     "T": {
+      "step": 0.05648274296094462,
+      "degree": 0.03451159678858161,
+      "aux_step_within_phrase": 0.04806191467221642,
+      "aux_degree_duration": 0.026098632812500015
+     },
+     "B": {
+      "step": 0.05707079343365254,
+      "degree": 0.00731918943125839,
+      "aux_step_within_phrase": 0.031985101934134855,
+      "aux_degree_duration": 0.01466064453125
+     }
+    },
+    "max_step": 0.05707079343365254,
+    "max_degree": 0.04024291027429102,
+    "pass": false
+   },
+   "17": {
+    "per_voice": {
+     "S": {
+      "step": 0.04539281236941078,
+      "degree": 0.03560419235511713,
+      "aux_step_within_phrase": 0.03218173213440606,
+      "aux_degree_duration": 0.03663940429687503
+     },
+     "A": {
+      "step": 0.05326465641518499,
+      "degree": 0.04627828854314004,
+      "aux_step_within_phrase": 0.03182259855635761,
+      "aux_degree_duration": 0.04566650390625001
+     },
+     "T": {
+      "step": 0.04952485380116959,
+      "degree": 0.03249281926646046,
+      "aux_step_within_phrase": 0.042749613998970655,
+      "aux_degree_duration": 0.030078124999999994
+     },
+     "B": {
+      "step": 0.05424740874267692,
+      "degree": 0.007082779991146496,
+      "aux_step_within_phrase": 0.019114234141309968,
+      "aux_degree_duration": 0.00844116210937498
+     }
+    },
+    "max_step": 0.05424740874267692,
+    "max_degree": 0.04627828854314004,
+    "pass": false
+   },
+   "18": {
+    "per_voice": {
+     "S": {
+      "step": 0.04714226115978308,
+      "degree": 0.04368844891259744,
+      "aux_step_within_phrase": 0.04354629192253187,
+      "aux_degree_duration": 0.051910400390624986
+     },
+     "A": {
+      "step": 0.058411930426261645,
+      "degree": 0.0442095146564152,
+      "aux_step_within_phrase": 0.03526050539466213,
+      "aux_degree_duration": 0.04324951171875001
+     },
+     "T": {
+      "step": 0.0508115034168565,
+      "degree": 0.03474552572706935,
+      "aux_step_within_phrase": 0.03637402088772847,
+      "aux_degree_duration": 0.03431396484375002
+     },
+     "B": {
+      "step": 0.05608414804469271,
+      "degree": 0.015296503656307123,
+      "aux_step_within_phrase": 0.027235010706638082,
+      "aux_degree_duration": 0.020874023437500028
+     }
+    },
+    "max_step": 0.058411930426261645,
+    "max_degree": 0.0442095146564152,
+    "pass": false
+   },
+   "19": {
+    "per_voice": {
+     "S": {
+      "step": 0.05020728379513016,
+      "degree": 0.03494013212221304,
+      "aux_step_within_phrase": 0.028336108468125572,
+      "aux_degree_duration": 0.030548095703125007
+     },
+     "A": {
+      "step": 0.05394688867282452,
+      "degree": 0.052381378159275176,
+      "aux_step_within_phrase": 0.04027152504220596,
+      "aux_degree_duration": 0.054296875000000015
+     },
+     "T": {
+      "step": 0.0487352874603893,
+      "degree": 0.03380669186305025,
+      "aux_step_within_phrase": 0.03659603421461896,
+      "aux_degree_duration": 0.034857177734375
+     },
+     "B": {
+      "step": 0.053651330885727364,
+      "degree": 0.011083258224425411,
+      "aux_step_within_phrase": 0.0264448393891522,
+      "aux_degree_duration": 0.011682128906250009
+     }
+    },
+    "max_step": 0.05394688867282452,
+    "max_degree": 0.052381378159275176,
+    "pass": false
+   }
+  },
+  "S6": {
+   "0": {
+    "per_voice": {
+     "S": {
+      "step": 0.06707386363636365,
+      "degree": 0.04566127232142857,
+      "aux_step_within_phrase": 0.038199869791666646,
+      "aux_degree_duration": 0.04610595703124998
+     },
+     "A": {
+      "step": 0.07110795454545457,
+      "degree": 0.03623046874999999,
+      "aux_step_within_phrase": 0.033333333333333326,
+      "aux_degree_duration": 0.03887939453124998
+     },
+     "T": {
+      "step": 0.06707386363636364,
+      "degree": 0.027232142857142847,
+      "aux_step_within_phrase": 0.02683919270833332,
+      "aux_degree_duration": 0.02535400390625001
+     },
+     "B": {
+      "step": 0.05839488636363638,
+      "degree": 0.012095424107142847,
+      "aux_step_within_phrase": 0.02425130208333334,
+      "aux_degree_duration": 0.015417480468749974
+     }
+    },
+    "max_step": 0.07110795454545457,
+    "max_degree": 0.04566127232142857,
+    "pass": false
+   },
+   "1": {
+    "per_voice": {
+     "S": {
+      "step": 0.057897727272727295,
+      "degree": 0.039732142857142855,
+      "aux_step_within_phrase": 0.03266601562500002,
+      "aux_degree_duration": 0.043188476562500015
+     },
+     "A": {
+      "step": 0.06751420454545452,
+      "degree": 0.0360072544642857,
+      "aux_step_within_phrase": 0.030029296874999993,
+      "aux_degree_duration": 0.03941650390624998
+     },
+     "T": {
+      "step": 0.06833806818181815,
+      "degree": 0.0299386160714286,
+      "aux_step_within_phrase": 0.022753906250000004,
+      "aux_degree_duration": 0.02794189453125
+     },
+     "B": {
+      "step": 0.059275568181818186,
+      "degree": 0.01708984375,
+      "aux_step_within_phrase": 0.030533854166666673,
+      "aux_degree_duration": 0.02064208984374999
+     }
+    },
+    "max_step": 0.06833806818181815,
+    "max_degree": 0.039732142857142855,
+    "pass": false
+   },
+   "2": {
+    "per_voice": {
+     "S": {
+      "step": 0.0609375,
+      "degree": 0.048842075892857155,
+      "aux_step_within_phrase": 0.025651041666666662,
+      "aux_degree_duration": 0.052648925781249994
+     },
+     "A": {
+      "step": 0.06664772727272725,
+      "degree": 0.039104352678571416,
+      "aux_step_within_phrase": 0.033642578124999996,
+      "aux_degree_duration": 0.04106445312499999
+     },
+     "T": {
+      "step": 0.0705539772727273,
+      "degree": 0.026450892857142864,
+      "aux_step_within_phrase": 0.03251953124999998,
+      "aux_degree_duration": 0.023657226562500015
+     },
+     "B": {
+      "step": 0.06242897727272732,
+      "degree": 0.01629464285714287,
+      "aux_step_within_phrase": 0.031119791666666664,
+      "aux_degree_duration": 0.01793212890624999
+     }
+    },
+    "max_step": 0.0705539772727273,
+    "max_degree": 0.048842075892857155,
+    "pass": false
+   },
+   "3": {
+    "per_voice": {
+     "S": {
+      "step": 0.06272727272727273,
+      "degree": 0.039425223214285696,
+      "aux_step_within_phrase": 0.026871744791666687,
+      "aux_degree_duration": 0.04307861328125
+     },
+     "A": {
+      "step": 0.06279829545454543,
+      "degree": 0.029687500000000012,
+      "aux_step_within_phrase": 0.027050781250000003,
+      "aux_degree_duration": 0.033593750000000006
+     },
+     "T": {
+      "step": 0.059659090909090884,
+      "degree": 0.03667689732142859,
+      "aux_step_within_phrase": 0.028401692708333356,
+      "aux_degree_duration": 0.034680175781249996
+     },
+     "B": {
+      "step": 0.05269886363636363,
+      "degree": 0.01780133928571432,
+      "aux_step_within_phrase": 0.033935546875000014,
+      "aux_degree_duration": 0.020520019531250017
+     }
+    },
+    "max_step": 0.06279829545454543,
+    "max_degree": 0.039425223214285696,
+    "pass": false
+   },
+   "4": {
+    "per_voice": {
+     "S": {
+      "step": 0.05903409090909089,
+      "degree": 0.041085379464285685,
+      "aux_step_within_phrase": 0.029899088541666688,
+      "aux_degree_duration": 0.04567871093749999
+     },
+     "A": {
+      "step": 0.06340909090909091,
+      "degree": 0.038518415178571436,
+      "aux_step_within_phrase": 0.034505208333333315,
+      "aux_degree_duration": 0.043444824218750004
+     },
+     "T": {
+      "step": 0.06755681818181816,
+      "degree": 0.02991071428571429,
+      "aux_step_within_phrase": 0.03186848958333334,
+      "aux_degree_duration": 0.027209472656250015
+     },
+     "B": {
+      "step": 0.056434659090909084,
+      "degree": 0.010951450892857137,
+      "aux_step_within_phrase": 0.029443359375000006,
+      "aux_degree_duration": 0.015026855468750034
+     }
+    },
+    "max_step": 0.06755681818181816,
+    "max_degree": 0.041085379464285685,
+    "pass": false
+   },
+   "5": {
+    "per_voice": {
+     "S": {
+      "step": 0.05975852272727272,
+      "degree": 0.0404296875,
+      "aux_step_within_phrase": 0.028043619791666665,
+      "aux_degree_duration": 0.04111328125000001
+     },
+     "A": {
+      "step": 0.06098011363636364,
+      "degree": 0.03685825892857143,
+      "aux_step_within_phrase": 0.029817708333333335,
+      "aux_degree_duration": 0.03876953125
+     },
+     "T": {
+      "step": 0.06363636363636364,
+      "degree": 0.03558872767857145,
+      "aux_step_within_phrase": 0.028108723958333335,
+      "aux_degree_duration": 0.03170166015624999
+     },
+     "B": {
+      "step": 0.0559090909090909,
+      "degree": 0.014704241071428571,
+      "aux_step_within_phrase": 0.028662109374999994,
+      "aux_degree_duration": 0.021008300781250003
+     }
+    },
+    "max_step": 0.06363636363636364,
+    "max_degree": 0.0404296875,
+    "pass": false
+   },
+   "6": {
+    "per_voice": {
+     "S": {
+      "step": 0.060198863636363634,
+      "degree": 0.04204799107142858,
+      "aux_step_within_phrase": 0.034798177083333326,
+      "aux_degree_duration": 0.04448242187500001
+     },
+     "A": {
+      "step": 0.06651988636363637,
+      "degree": 0.03770926339285714,
+      "aux_step_within_phrase": 0.030159505208333347,
+      "aux_degree_duration": 0.04321289062499999
+     },
+     "T": {
+      "step": 0.07154829545454545,
+      "degree": 0.026130022321428595,
+      "aux_step_within_phrase": 0.03175455729166665,
+      "aux_degree_duration": 0.02625732421875001
+     },
+     "B": {
+      "step": 0.0650710227272727,
+      "degree": 0.014648437499999972,
+      "aux_step_within_phrase": 0.034814453125000006,
+      "aux_degree_duration": 0.016870117187499985
+     }
+    },
+    "max_step": 0.07154829545454545,
+    "max_degree": 0.04204799107142858,
+    "pass": false
+   },
+   "7": {
+    "per_voice": {
+     "S": {
+      "step": 0.059105113636363636,
+      "degree": 0.04432198660714283,
+      "aux_step_within_phrase": 0.035937500000000004,
+      "aux_degree_duration": 0.041064453125000025
+     },
+     "A": {
+      "step": 0.06421874999999998,
+      "degree": 0.032784598214285685,
+      "aux_step_within_phrase": 0.026481119791666657,
+      "aux_degree_duration": 0.03494873046875
+     },
+     "T": {
+      "step": 0.07002840909090906,
+      "degree": 0.031012834821428564,
+      "aux_step_within_phrase": 0.03291015625000001,
+      "aux_degree_duration": 0.02867431640625001
+     },
+     "B": {
+      "step": 0.05701704545454545,
+      "degree": 0.012806919642857136,
+      "aux_step_within_phrase": 0.028564453125000014,
+      "aux_degree_duration": 0.01680908203125001
+     }
+    },
+    "max_step": 0.07002840909090906,
+    "max_degree": 0.04432198660714283,
+    "pass": false
+   },
+   "8": {
+    "per_voice": {
+     "S": {
+      "step": 0.06356534090909088,
+      "degree": 0.04040178571428573,
+      "aux_step_within_phrase": 0.03460286458333333,
+      "aux_degree_duration": 0.04290771484375
+     },
+     "A": {
+      "step": 0.06590909090909094,
+      "degree": 0.037890625000000004,
+      "aux_step_within_phrase": 0.025944010416666677,
+      "aux_degree_duration": 0.04211425781249997
+     },
+     "T": {
+      "step": 0.0690625,
+      "degree": 0.03196149553571433,
+      "aux_step_within_phrase": 0.027001953124999988,
+      "aux_degree_duration": 0.029577636718749994
+     },
+     "B": {
+      "step": 0.05998579545454547,
+      "degree": 0.014983258928571427,
+      "aux_step_within_phrase": 0.026822916666666648,
+      "aux_degree_duration": 0.01931152343750001
+     }
+    },
+    "max_step": 0.0690625,
+    "max_degree": 0.04040178571428573,
+    "pass": false
+   },
+   "9": {
+    "per_voice": {
+     "S": {
+      "step": 0.06036931818181819,
+      "degree": 0.04320591517857145,
+      "aux_step_within_phrase": 0.02775065104166664,
+      "aux_degree_duration": 0.047619628906249996
+     },
+     "A": {
+      "step": 0.06607954545454546,
+      "degree": 0.03793247767857143,
+      "aux_step_within_phrase": 0.030924479166666664,
+      "aux_degree_duration": 0.03963623046874999
+     },
+     "T": {
+      "step": 0.06497159090909092,
+      "degree": 0.03136160714285714,
+      "aux_step_within_phrase": 0.026757812499999995,
+      "aux_degree_duration": 0.030395507812499993
+     },
+     "B": {
+      "step": 0.058068181818181804,
+      "degree": 0.009723772321428584,
+      "aux_step_within_phrase": 0.023307291666666664,
+      "aux_degree_duration": 0.013793945312499986
+     }
+    },
+    "max_step": 0.06607954545454546,
+    "max_degree": 0.04320591517857145,
+    "pass": false
+   },
+   "10": {
+    "per_voice": {
+     "S": {
+      "step": 0.06396306818181818,
+      "degree": 0.04151785714285714,
+      "aux_step_within_phrase": 0.024690755208333328,
+      "aux_degree_duration": 0.03959960937499998
+     },
+     "A": {
+      "step": 0.06717329545454546,
+      "degree": 0.0383091517857143,
+      "aux_step_within_phrase": 0.029410807291666664,
+      "aux_degree_duration": 0.041589355468750006
+     },
+     "T": {
+      "step": 0.07765624999999998,
+      "degree": 0.03148716517857143,
+      "aux_step_within_phrase": 0.030859375000000005,
+      "aux_degree_duration": 0.028784179687499994
+     },
+     "B": {
+      "step": 0.06346590909090913,
+      "degree": 0.011983816964285729,
+      "aux_step_within_phrase": 0.03440755208333332,
+      "aux_degree_duration": 0.017504882812499987
+     }
+    },
+    "max_step": 0.07765624999999998,
+    "max_degree": 0.04151785714285714,
+    "pass": false
+   },
+   "11": {
+    "per_voice": {
+     "S": {
+      "step": 0.05730113636363638,
+      "degree": 0.03967633928571427,
+      "aux_step_within_phrase": 0.026123046874999997,
+      "aux_degree_duration": 0.04498291015624999
+     },
+     "A": {
+      "step": 0.07073863636363636,
+      "degree": 0.038434709821428596,
+      "aux_step_within_phrase": 0.029069010416666662,
+      "aux_degree_duration": 0.042004394531249975
+     },
+     "T": {
+      "step": 0.06663352272727276,
+      "degree": 0.03127790178571428,
+      "aux_step_within_phrase": 0.03147786458333335,
+      "aux_degree_duration": 0.028234863281249988
+     },
+     "B": {
+      "step": 0.06098011363636365,
+      "degree": 0.009695870535714302,
+      "aux_step_within_phrase": 0.029671223958333336,
+      "aux_degree_duration": 0.01422119140625
+     }
+    },
+    "max_step": 0.07073863636363636,
+    "max_degree": 0.03967633928571427,
+    "pass": false
+   },
+   "12": {
+    "per_voice": {
+     "S": {
+      "step": 0.06478693181818185,
+      "degree": 0.04030412946428571,
+      "aux_step_within_phrase": 0.029199218750000016,
+      "aux_degree_duration": 0.04454345703125
+     },
+     "A": {
+      "step": 0.055184659090909076,
+      "degree": 0.038895089285714286,
+      "aux_step_within_phrase": 0.029199218749999988,
+      "aux_degree_duration": 0.04492187500000003
+     },
+     "T": {
+      "step": 0.0644602272727273,
+      "degree": 0.02826450892857143,
+      "aux_step_within_phrase": 0.03374023437500001,
+      "aux_degree_duration": 0.025439453124999976
+     },
+     "B": {
+      "step": 0.06311079545454544,
+      "degree": 0.01590401785714287,
+      "aux_step_within_phrase": 0.025292968750000006,
+      "aux_degree_duration": 0.019238281249999996
+     }
+    },
+    "max_step": 0.06478693181818185,
+    "max_degree": 0.04030412946428571,
+    "pass": false
+   },
+   "13": {
+    "per_voice": {
+     "S": {
+      "step": 0.06683238636363636,
+      "degree": 0.043484933035714296,
+      "aux_step_within_phrase": 0.02931315104166666,
+      "aux_degree_duration": 0.04124755859375001
+     },
+     "A": {
+      "step": 0.0609943181818182,
+      "degree": 0.04041573660714288,
+      "aux_step_within_phrase": 0.024934895833333345,
+      "aux_degree_duration": 0.04388427734375
+     },
+     "T": {
+      "step": 0.0772159090909091,
+      "degree": 0.025990513392857146,
+      "aux_step_within_phrase": 0.031722005208333334,
+      "aux_degree_duration": 0.02250976562499999
+     },
+     "B": {
+      "step": 0.05725852272727272,
+      "degree": 0.016587611607142873,
+      "aux_step_within_phrase": 0.029703776041666654,
+      "aux_degree_duration": 0.021362304687499986
+     }
+    },
+    "max_step": 0.0772159090909091,
+    "max_degree": 0.043484933035714296,
+    "pass": false
+   },
+   "14": {
+    "per_voice": {
+     "S": {
+      "step": 0.056505681818181816,
+      "degree": 0.0496372767857143,
+      "aux_step_within_phrase": 0.032210286458333334,
+      "aux_degree_duration": 0.05341796875000002
+     },
+     "A": {
+      "step": 0.05826704545454546,
+      "degree": 0.03380301339285714,
+      "aux_step_within_phrase": 0.027083333333333317,
+      "aux_degree_duration": 0.03858642578124999
+     },
+     "T": {
+      "step": 0.06857954545454543,
+      "degree": 0.03023158482142858,
+      "aux_step_within_phrase": 0.026953124999999998,
+      "aux_degree_duration": 0.027441406249999994
+     },
+     "B": {
+      "step": 0.06478693181818182,
+      "degree": 0.01485770089285713,
+      "aux_step_within_phrase": 0.032438151041666655,
+      "aux_degree_duration": 0.015100097656249974
+     }
+    },
+    "max_step": 0.06857954545454543,
+    "max_degree": 0.0496372767857143,
+    "pass": false
+   },
+   "15": {
+    "per_voice": {
+     "S": {
+      "step": 0.056363636363636366,
+      "degree": 0.04393136160714285,
+      "aux_step_within_phrase": 0.02936197916666667,
+      "aux_degree_duration": 0.04632568359375002
+     },
+     "A": {
+      "step": 0.0638494318181818,
+      "degree": 0.03769531250000002,
+      "aux_step_within_phrase": 0.029980468750000006,
+      "aux_degree_duration": 0.04436035156249998
+     },
+     "T": {
+      "step": 0.07218749999999996,
+      "degree": 0.03032924107142857,
+      "aux_step_within_phrase": 0.03139648437499999,
+      "aux_degree_duration": 0.028369140624999983
+     },
+     "B": {
+      "step": 0.05599431818181817,
+      "degree": 0.01625279017857141,
+      "aux_step_within_phrase": 0.028483072916666664,
+      "aux_degree_duration": 0.020617675781249976
+     }
+    },
+    "max_step": 0.07218749999999996,
+    "max_degree": 0.04393136160714285,
+    "pass": false
+   },
+   "16": {
+    "per_voice": {
+     "S": {
+      "step": 0.06538352272727274,
+      "degree": 0.049009486607142855,
+      "aux_step_within_phrase": 0.03453776041666666,
+      "aux_degree_duration": 0.052392578125000006
+     },
+     "A": {
+      "step": 0.057017045454545466,
+      "degree": 0.03630022321428572,
+      "aux_step_within_phrase": 0.041796875,
+      "aux_degree_duration": 0.04240722656250001
+     },
+     "T": {
+      "step": 0.06958806818181819,
+      "degree": 0.033426339285714285,
+      "aux_step_within_phrase": 0.03238932291666667,
+      "aux_degree_duration": 0.03167724609375001
+     },
+     "B": {
+      "step": 0.062159090909090935,
+      "degree": 0.016308593749999996,
+      "aux_step_within_phrase": 0.027197265625000022,
+      "aux_degree_duration": 0.02044677734375001
+     }
+    },
+    "max_step": 0.06958806818181819,
+    "max_degree": 0.049009486607142855,
+    "pass": false
+   },
+   "17": {
+    "per_voice": {
+     "S": {
+      "step": 0.05596590909090911,
+      "degree": 0.050571986607142856,
+      "aux_step_within_phrase": 0.028108723958333325,
+      "aux_degree_duration": 0.053942871093750004
+     },
+     "A": {
+      "step": 0.0645028409090909,
+      "degree": 0.0361607142857143,
+      "aux_step_within_phrase": 0.027945963541666674,
+      "aux_degree_duration": 0.039514160156249985
+     },
+     "T": {
+      "step": 0.07214488636363635,
+      "degree": 0.02720424107142856,
+      "aux_step_within_phrase": 0.025520833333333326,
+      "aux_degree_duration": 0.025573730468750014
+     },
+     "B": {
+      "step": 0.061747159090909116,
+      "degree": 0.01381138392857146,
+      "aux_step_within_phrase": 0.02721354166666666,
+      "aux_degree_duration": 0.017541503906250026
+     }
+    },
+    "max_step": 0.07214488636363635,
+    "max_degree": 0.050571986607142856,
+    "pass": false
+   },
+   "18": {
+    "per_voice": {
+     "S": {
+      "step": 0.06806818181818179,
+      "degree": 0.03896484374999997,
+      "aux_step_within_phrase": 0.030550130208333328,
+      "aux_degree_duration": 0.03995361328125002
+     },
+     "A": {
+      "step": 0.0663068181818182,
+      "degree": 0.039941406249999985,
+      "aux_step_within_phrase": 0.03605143229166666,
+      "aux_degree_duration": 0.04317626953125
+     },
+     "T": {
+      "step": 0.06930397727272729,
+      "degree": 0.028738839285714305,
+      "aux_step_within_phrase": 0.03085937499999998,
+      "aux_degree_duration": 0.026623535156249996
+     },
+     "B": {
+      "step": 0.06579545454545455,
+      "degree": 0.01527622767857141,
+      "aux_step_within_phrase": 0.027799479166666675,
+      "aux_degree_duration": 0.02006835937499999
+     }
+    },
+    "max_step": 0.06930397727272729,
+    "max_degree": 0.039941406249999985,
+    "pass": false
+   },
+   "19": {
+    "per_voice": {
+     "S": {
+      "step": 0.05792613636363633,
+      "degree": 0.0430385044642857,
+      "aux_step_within_phrase": 0.027522786458333316,
+      "aux_degree_duration": 0.04606933593749999
+     },
+     "A": {
+      "step": 0.06366477272727274,
+      "degree": 0.0330078125,
+      "aux_step_within_phrase": 0.03277994791666666,
+      "aux_degree_duration": 0.03765869140624999
+     },
+     "T": {
+      "step": 0.0603693181818182,
+      "degree": 0.02657645089285716,
+      "aux_step_within_phrase": 0.031640625000000006,
+      "aux_degree_duration": 0.02734375000000001
+     },
+     "B": {
+      "step": 0.05872159090909092,
+      "degree": 0.014467075892857138,
+      "aux_step_within_phrase": 0.029654947916666667,
+      "aux_degree_duration": 0.019641113281249997
+     }
+    },
+    "max_step": 0.06366477272727274,
+    "max_degree": 0.0430385044642857,
+    "pass": false
+   }
+  }
+ },
+ "real": {
+  "hold_a": {
+   "per_voice": {
+    "S": {
+     "step": 0.05565046415678186,
+     "degree": 0.05049898938858008,
+     "aux_step_within_phrase": 0.04255969505178367,
+     "aux_degree_duration": 0.062461495810744234
+    },
+    "A": {
+     "step": 0.03744672498878422,
+     "degree": 0.04265370207139709,
+     "aux_step_within_phrase": 0.03393121301775148,
+     "aux_degree_duration": 0.04719521604938272
+    },
+    "T": {
+     "step": 0.033479265148259565,
+     "degree": 0.032226975073933246,
+     "aux_step_within_phrase": 0.033719426152398875,
+     "aux_degree_duration": 0.045063517513566846
+    },
+    "B": {
+     "step": 0.07854017292281738,
+     "degree": 0.054476876814599756,
+     "aux_step_within_phrase": 0.06358006912442396,
+     "aux_degree_duration": 0.06893405002464269
+    }
+   },
+   "max_step": 0.07854017292281738,
+   "max_degree": 0.054476876814599756,
+   "pass": false
+  },
+  "hold_b": {
+   "per_voice": {
+    "S": {
+     "step": 0.05305158324821245,
+     "degree": 0.020317192192192208,
+     "aux_step_within_phrase": 0.04442684331797234,
+     "aux_degree_duration": 0.028951992332713766
+    },
+    "A": {
+     "step": 0.04593469910371319,
+     "degree": 0.02036561057490557,
+     "aux_step_within_phrase": 0.03611209335219237,
+     "aux_degree_duration": 0.046958575581395344
+    },
+    "T": {
+     "step": 0.03782626427406198,
+     "degree": 0.026359349919743175,
+     "aux_step_within_phrase": 0.0398402466367713,
+     "aux_degree_duration": 0.04646802325581395
+    },
+    "B": {
+     "step": 0.07892094435736674,
+     "degree": 0.045681423611111126,
+     "aux_step_within_phrase": 0.06043454935622317,
+     "aux_degree_duration": 0.07676962209302324
+    }
+   },
+   "max_step": 0.07892094435736674,
+   "max_degree": 0.045681423611111126,
+   "pass": false
+  },
+  "hold_c": {
+   "per_voice": {
+    "S": {
+     "step": 0.03436008861622358,
+     "degree": 0.020661674646475885,
+     "aux_step_within_phrase": 0.012020145939086303,
+     "aux_degree_duration": 0.024852968144189445
+    },
+    "A": {
+     "step": 0.032137679378808744,
+     "degree": 0.01686709166425191,
+     "aux_step_within_phrase": 0.021238651102464354,
+     "aux_degree_duration": 0.025191995177185997
+    },
+    "T": {
+     "step": 0.026853284150404548,
+     "degree": 0.021278898352676878,
+     "aux_step_within_phrase": 0.026991156214129168,
+     "aux_degree_duration": 0.024428451575690836
+    },
+    "B": {
+     "step": 0.04462038590604027,
+     "degree": 0.01917060144861099,
+     "aux_step_within_phrase": 0.02840097899245358,
+     "aux_degree_duration": 0.026062159007449376
+    }
+   },
+   "max_step": 0.04462038590604027,
+   "max_degree": 0.021278898352676878,
+   "pass": true
+  }
+ },
+ "summary": {
+  "S1": {
+   "sets_passing": 0,
+   "n_sets": 20,
+   "max_step_range": [
+    0.05110795454545455,
+    0.05632102272727273
+   ],
+   "max_degree_range": [
+    0.05266462053571429,
+    0.061746651785714285
+   ],
+   "step_sets_over": 20,
+   "degree_sets_over": 20
+  },
+  "S2": {
+   "sets_passing": 0,
+   "n_sets": 20,
+   "max_step_range": [
+    0.05123579545454546,
+    0.059772727272727276
+   ],
+   "max_degree_range": [
+    0.03743024553571427,
+    0.04444754464285714
+   ],
+   "step_sets_over": 20,
+   "degree_sets_over": 0
+  },
+  "S3": {
+   "sets_passing": 0,
+   "n_sets": 20,
+   "max_step_range": [
+    0.05180397727272728,
+    0.06142045454545454
+   ],
+   "max_degree_range": [
+    0.03609095982142855,
+    0.050390625000000015
+   ],
+   "step_sets_over": 20,
+   "degree_sets_over": 1
+  },
+  "S4": {
+   "sets_passing": 0,
+   "n_sets": 20,
+   "max_step_range": [
+    0.05495738636363639,
+    0.061349431818181796
+   ],
+   "max_degree_range": [
+    0.041392299107142885,
+    0.05443638392857142
+   ],
+   "step_sets_over": 20,
+   "degree_sets_over": 7
+  },
+  "S5": {
+   "sets_passing": 0,
+   "n_sets": 20,
+   "max_step_range": [
+    0.0512786123032904,
+    0.06096813725490195
+   ],
+   "max_degree_range": [
+    0.03817771084337351,
+    0.052381378159275176
+   ],
+   "step_sets_over": 20,
+   "degree_sets_over": 1
+  },
+  "S6": {
+   "sets_passing": 0,
+   "n_sets": 20,
+   "max_step_range": [
+    0.06279829545454543,
+    0.07765624999999998
+   ],
+   "max_degree_range": [
+    0.039425223214285696,
+    0.050571986607142856
+   ],
+   "step_sets_over": 20,
+   "degree_sets_over": 1
+  },
+  "hold_a": {
+   "pass": false,
+   "max_step": 0.07854017292281738,
+   "max_degree": 0.054476876814599756
+  },
+  "hold_b": {
+   "pass": false,
+   "max_step": 0.07892094435736674,
+   "max_degree": 0.045681423611111126
+  },
+  "hold_c": {
+   "pass": true,
+   "max_step": 0.04462038590604027,
+   "max_degree": 0.021278898352676878
+  }
+ }
+}

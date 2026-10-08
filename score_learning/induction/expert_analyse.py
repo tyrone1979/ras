@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 """专家盲评分析（按 papers/rasfr/expert_review/protocol.md 的预定计划）。
 
-  venv/bin/python -m score_learning.induction.expert_analyse
+  venv/bin/python -m score_learning.induction.expert_analyse [c]
 
-读入 约束盲评表_<评审人>.xlsx 与 runs/induction/paper/expert_key.json，
-输出 runs/induction/paper/expert_results.json。
+第一阶段（留出集 A）：读入 约束盲评表_<评审人>.xlsx 与 expert_key.json，输出 expert_results.json；
+参数 c（留出集 C）：读入 约束盲评表_留出C_<评审人>.xlsx 与 expert_key_c.json，输出 expert_results_c.json。
 """
 from __future__ import annotations
 
@@ -12,24 +12,32 @@ import glob
 import json
 import os
 import random
+import re
+import sys
 from collections import Counter
 from typing import Dict, List
 
 from openpyxl import load_workbook
 
-KEY = 'runs/induction/paper/expert_key.json'
-SHEETS = 'papers/rasfr/expert_review/约束盲评表_*.xlsx'
-OUT = 'runs/induction/paper/expert_results.json'
+SETS = {'a': ('runs/induction/paper/expert_key.json', r'约束盲评表_([A-Z])\.xlsx',
+              'runs/induction/paper/expert_results.json'),
+        'c': ('runs/induction/paper/expert_key_c.json', r'约束盲评表_留出C_([A-Z])\.xlsx',
+              'runs/induction/paper/expert_results_c.json')}
+KEY, SHEET_RE, OUT = SETS['a']
+SHEET_DIR = 'papers/rasfr/expert_review'
 CATS = ('有效', '合理', '风格依赖', '无效')
 ACCEPT = ('有效', '合理')
 METHODS = ('ras', 'pmi', 'rarity', 'productive')
 N_BOOT = 2000
 
 
-def load_ratings() -> Dict[str, Dict[str, str]]:
+def load_ratings(sheet_re: str = SHEET_RE) -> Dict[str, Dict[str, str]]:
     out = {}
-    for path in sorted(glob.glob(SHEETS)):
-        rater = os.path.splitext(os.path.basename(path))[0].split('_')[-1]
+    for path in sorted(glob.glob(os.path.join(SHEET_DIR, '*.xlsx'))):
+        m = re.fullmatch(sheet_re, os.path.basename(path))
+        if not m:
+            continue
+        rater = m.group(1)
         ws = load_workbook(path)['评分']
         out[rater] = {r[0].value: (r[4].value or '无法判断') for r in ws.iter_rows(min_row=2) if r[0].value}
     return out
@@ -67,11 +75,12 @@ def cohen_kappa(x: List[str], y: List[str]) -> float:
     return (po - pe) / (1 - pe) if pe < 1 else float('nan')
 
 
-def main():
-    key = json.load(open(KEY))['items']
+def main(which: str = 'a'):
+    key_path, sheet_re, out_path = SETS[which]
+    key = json.load(open(key_path))['items']
     first = [it for it in key if it['repeat_of'] is None]
     repeats = [it for it in key if it['repeat_of']]
-    ratings = load_ratings()
+    ratings = load_ratings(sheet_re)
     raters = sorted(ratings)
     res = {'raters': raters, 'n_items': len(first), 'n_repeats': len(repeats)}
 
@@ -146,7 +155,7 @@ def main():
         by_cls[c] = {'n': len(sc), 'mean_score': sum(sc) / len(sc) if sc else None}
     res['by_provenance'] = by_cls
 
-    with open(OUT, 'w') as fh:
+    with open(out_path, 'w') as fh:
         json.dump(res, fh, indent=1, ensure_ascii=False)
     print(json.dumps({k: res[k] for k in ('raters', 'alpha_nominal', 'alpha_binary', 'intra_rater', 'validity',
                                           'validity_diff', 'oracle_crosstab', 'oracle_kappa', 'per_method',
@@ -168,4 +177,4 @@ def _cls(it) -> str:
 
 
 if __name__ == '__main__':
-    main()
+    main(sys.argv[1] if len(sys.argv) > 1 else 'a')

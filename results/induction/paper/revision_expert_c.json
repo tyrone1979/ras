@@ -1,0 +1,2554 @@
+{
+ "raters": [
+  "R1",
+  "R2",
+  "R3"
+ ],
+ "items": [
+  {
+   "item": "X001",
+   "polarity": "prohibition",
+   "statement": "某声部三个相继音（前—中—后）：进入中音为级进：是；离开中音为级进：是；进入与离开同方向：否；回到前一个音：否；中音与其他声部同时音同音级（和弦音）：否；中音被延住而其他声部换音：是；跳进（≥3 半音）进入中音：否；中音不属于当前和音而属于下一和音（先现）：否；中音出现时其他声部全部保持：否；跨拍延音形态：是",
+   "cells": [
+    "D:st01=1|st12=1|same=0|ret=0|inn=0|held=1|leap=0|ant=0|ped=1|holdO=0|hov=1"
+   ],
+   "methods": {
+    "pmi": 3
+   },
+   "reference": false,
+   "ratings": {
+    "R1": "无法判断",
+    "R2": "无效",
+    "R3": "无效"
+   },
+   "score": 0.0,
+   "class": "within-voice/positional",
+   "endorsed": false
+  },
+  {
+   "item": "X002",
+   "polarity": "prohibition",
+   "statement": "同一时刻 男高 与 男低 的距离：超过 19 半音",
+   "cells": [
+    "H:TB|gap=gt19"
+   ],
+   "methods": {
+    "rarity": 13
+   },
+   "reference": true,
+   "ratings": {
+    "R1": "无效",
+    "R2": "无效",
+    "R3": "风格依赖"
+   },
+   "score": 0.0,
+   "class": "relational",
+   "endorsed": false
+  },
+  {
+   "item": "X003",
+   "polarity": "prohibition",
+   "statement": "某声部三个相继音（前—中—后）：进入中音为级进：否；离开中音为级进：是；进入与离开同方向：否；回到前一个音：否；中音与其他声部同时音同音级（和弦音）：否；中音被延住而其他声部换音：是；跳进（≥3 半音）进入中音：是；中音不属于当前和音而属于下一和音（先现）：否；中音出现时其他声部全部保持：否；跨拍延音形态：是",
+   "cells": [
+    "D:st01=0|st12=1|same=0|ret=0|inn=0|held=1|leap=1|ant=0|ped=1|holdO=0|hov=1"
+   ],
+   "methods": {
+    "pmi": 18
+   },
+   "reference": false,
+   "ratings": {
+    "R1": "合理",
+    "R2": "有效",
+    "R3": "有效"
+   },
+   "score": 1.0,
+   "class": "within-voice/positional",
+   "endorsed": true
+  },
+  {
+   "item": "X004",
+   "polarity": "prohibition",
+   "statement": "全曲最后两个完整切片之一：低音 1，女高 其他（变化音）",
+   "cells": [
+    "P:b=0|sop=x"
+   ],
+   "methods": {
+    "productive": 14
+   },
+   "reference": false,
+   "ratings": {
+    "R1": "合理",
+    "R2": "有效",
+    "R3": "有效"
+   },
+   "score": 1.0,
+   "class": "within-voice/positional",
+   "endorsed": true
+  },
+  {
+   "item": "X005",
+   "polarity": "prohibition",
+   "statement": "某声部三个相继音（前—中—后）：进入中音为级进：是；离开中音为级进：是；进入与离开同方向：是；回到前一个音：否；中音与其他声部同时音同音级（和弦音）：是；中音被延住而其他声部换音：是；跳进（≥3 半音）进入中音：否；中音不属于当前和音而属于下一和音（先现）：否；中音出现时其他声部全部保持：否；跨拍延音形态：是",
+   "cells": [
+    "D:st01=1|st12=1|same=1|ret=0|inn=1|held=1|leap=0|ant=0|ped=1|holdO=0|hov=1"
+   ],
+   "methods": {
+    "pmi": 17
+   },
+   "reference": false,
+   "ratings": {
+    "R1": "无法判断",
+    "R2": "无效",
+    "R3": "无效"
+   },
+   "score": 0.0,
+   "class": "within-voice/positional",
+   "endorsed": false
+  },
+  {
+   "item": "X006",
+   "polarity": "prohibition",
+   "statement": "同一时刻 女中 与 男高 的距离：超过 19 半音",
+   "cells": [
+    "H:AT|gap=gt19"
+   ],
+   "methods": {
+    "rarity": 7,
+    "productive": 7
+   },
+   "reference": true,
+   "ratings": {
+    "R1": "有效",
+    "R2": "有效",
+    "R3": "有效"
+   },
+   "score": 1.0,
+   "class": "persists without coordination",
+   "endorsed": true
+  },
+  {
+   "item": "X007",
+   "polarity": "preference",
+   "statement": "低音级进行：低音 1 → 低音 4；位于乐句中间",
+   "cells": [
+    "K:b=0/to/b=5|slot=int"
+   ],
+   "methods": {
+    "rarity": 18
+   },
+   "reference": true,
+   "ratings": {
+    "R1": "合理",
+    "R2": "有效",
+    "R3": "合理"
+   },
+   "score": 1.0,
+   "class": "persists without coordination",
+   "endorsed": true
+  },
+  {
+   "item": "X008",
+   "polarity": "prohibition",
+   "statement": "任一声部换音时的旋律音程：八度或更大",
+   "cells": [
+    "G:oct+"
+   ],
+   "methods": {
+    "rarity": 6
+   },
+   "reference": true,
+   "ratings": {
+    "R1": "风格依赖",
+    "R2": "合理",
+    "R3": "合理"
+   },
+   "score": 0.6666666666666666,
+   "class": "within-voice/positional",
+   "endorsed": true
+  },
+  {
+   "item": "X009",
+   "polarity": "prohibition",
+   "statement": "同一时刻 女高 与 女中 的距离：13–19 半音",
+   "cells": [
+    "H:SA|gap=12to19"
+   ],
+   "methods": {
+    "pmi": 6,
+    "rarity": 10,
+    "productive": 1
+   },
+   "reference": true,
+   "ratings": {
+    "R1": "有效",
+    "R2": "有效",
+    "R3": "有效"
+   },
+   "score": 1.0,
+   "class": "relational",
+   "endorsed": true
+  },
+  {
+   "item": "X010",
+   "polarity": "preference",
+   "statement": "声部对从一个完整切片到下一个：相邻声部；至少一个声部不动；两声部移动量不同；到达的音程不是纯一/八度或纯五度；音程改变；上方声部级进或不动；运动方向：斜向（一声部不动）",
+   "cells": [
+    "V:both=0|eqΔ=0|pc07=0|hold=0|leapU=0|sgn=obl|role=adjacent"
+   ],
+   "methods": {
+    "rarity": 13
+   },
+   "reference": false,
+   "ratings": {
+    "R1": "合理",
+    "R2": "合理",
+    "R3": "合理"
+   },
+   "score": 1.0,
+   "class": "persists without coordination",
+   "endorsed": true
+  },
+  {
+   "item": "X011",
+   "polarity": "prohibition",
+   "statement": "全曲最后两个完整切片之一：低音 4，女高 1",
+   "cells": [
+    "P:b=5|sop=0"
+   ],
+   "methods": {
+    "productive": 16
+   },
+   "reference": false,
+   "ratings": {
+    "R1": "合理",
+    "R2": "合理",
+    "R3": "有效"
+   },
+   "score": 1.0,
+   "class": "within-voice/positional",
+   "endorsed": true
+  },
+  {
+   "item": "X012",
+   "polarity": "prohibition",
+   "statement": "某声部三个相继音（前—中—后）：进入中音为级进：否；离开中音为级进：否；进入与离开同方向：否；回到前一个音：否；中音与其他声部同时音同音级（和弦音）：否；中音被延住而其他声部换音：是；跳进（≥3 半音）进入中音：是；中音不属于当前和音而属于下一和音（先现）：否；中音出现时其他声部全部保持：否；跨拍延音形态：是",
+   "cells": [
+    "D:st01=0|st12=0|same=0|ret=0|inn=0|held=1|leap=1|ant=0|ped=1|holdO=0|hov=1"
+   ],
+   "methods": {
+    "ras": 4
+   },
+   "reference": false,
+   "ratings": {
+    "R1": "合理",
+    "R2": "有效",
+    "R3": "有效"
+   },
+   "score": 1.0,
+   "class": "within-voice/positional",
+   "endorsed": true
+  },
+  {
+   "item": "X013",
+   "polarity": "preference",
+   "statement": "和音连接：低音 5，音集 {2、5、7} → 低音 1，音集 {1、3、5}；位于乐句末尾（每句最后三个音集之内）",
+   "cells": [
+    "J:b=7|set=2.7.11|ch=0/to/b=0|set=0.4.7|ch=0|slot=fin",
+    "K:b=7|set=2.7.11|ch=0/to/b=0|set=0.4.7|ch=0|slot=fin"
+   ],
+   "methods": {
+    "ras": 11,
+    "pmi": 4
+   },
+   "reference": true,
+   "ratings": {
+    "R1": "有效",
+    "R2": "有效",
+    "R3": "合理"
+   },
+   "score": 1.0,
+   "class": "relational",
+   "endorsed": true
+  },
+  {
+   "item": "X014",
+   "polarity": "prohibition",
+   "statement": "相邻声部 女高—女中：一声部的新音越过另一声部的前一个音（声部超越）",
+   "cells": [
+    "O:SA|ov=1"
+   ],
+   "methods": {
+    "rarity": 1,
+    "productive": 4
+   },
+   "reference": true,
+   "ratings": {
+    "R1": "有效",
+    "R2": "有效",
+    "R3": "有效"
+   },
+   "score": 1.0,
+   "class": "persists without coordination",
+   "endorsed": true
+  },
+  {
+   "item": "X015",
+   "polarity": "preference",
+   "statement": "低音级进行：低音 4 → 低音 其他（变化音）；位于乐句中间",
+   "cells": [
+    "K:b=5/to/b=x|slot=int"
+   ],
+   "methods": {
+    "rarity": 15
+   },
+   "reference": false,
+   "ratings": {
+    "R1": "合理",
+    "R2": "合理",
+    "R3": "风格依赖"
+   },
+   "score": 0.6666666666666666,
+   "class": "no replay evidence",
+   "endorsed": true
+  },
+  {
+   "item": "X016",
+   "polarity": "prohibition",
+   "statement": "声部对从一个完整切片到下一个：外声部（女高—男低）；两声部都动；两声部移动量不同；到达的音程不是纯一/八度或纯五度；音程改变；上方声部级进或不动；运动方向：同向",
+   "cells": [
+    "V:both=1|eqΔ=0|pc07=0|hold=0|leapU=0|sgn=same|role=outer"
+   ],
+   "methods": {
+    "ras": 19
+   },
+   "reference": false,
+   "ratings": {
+    "R1": "合理",
+    "R2": "无效",
+    "R3": "合理"
+   },
+   "score": 0.6666666666666666,
+   "class": "persists without coordination",
+   "endorsed": true
+  },
+  {
+   "item": "X017",
+   "polarity": "preference",
+   "statement": "声部对从一个完整切片到下一个：相邻声部；至少一个声部不动；两声部移动量相同；到达的音程为纯一/八度或纯五度（含复音程）；音程保持不变；上方声部级进或不动；运动方向：两声部都不动",
+   "cells": [
+    "V:both=0|eqΔ=1|pc07=1|hold=1|leapU=0|sgn=stat|role=adjacent"
+   ],
+   "methods": {
+    "ras": 6
+   },
+   "reference": false,
+   "ratings": {
+    "R1": "合理",
+    "R2": "合理",
+    "R3": "合理"
+   },
+   "score": 1.0,
+   "class": "persists without coordination",
+   "endorsed": true
+  },
+  {
+   "item": "X018",
+   "polarity": "prohibition",
+   "statement": "声部对从一个完整切片到下一个：隔一声部；两声部都动；两声部移动量不同；到达的音程不是纯一/八度或纯五度；音程改变；上方声部级进或不动；运动方向：同向",
+   "cells": [
+    "V:both=1|eqΔ=0|pc07=0|hold=0|leapU=0|sgn=same|role=diagonal"
+   ],
+   "methods": {
+    "ras": 7
+   },
+   "reference": false,
+   "ratings": {
+    "R1": "合理",
+    "R2": "无效",
+    "R3": "无效"
+   },
+   "score": 0.3333333333333333,
+   "class": "persists without coordination",
+   "endorsed": false
+  },
+  {
+   "item": "X019",
+   "polarity": "prohibition",
+   "statement": "某声部三个相继音（前—中—后）：进入中音为级进：是；离开中音为级进：否；进入与离开同方向：否；回到前一个音：否；中音与其他声部同时音同音级（和弦音）：否；中音被延住而其他声部换音：否；跳进（≥3 半音）进入中音：否；中音不属于当前和音而属于下一和音（先现）：否；中音出现时其他声部全部保持：否；跨拍延音形态：否",
+   "cells": [
+    "D:st01=1|st12=0|same=0|ret=0|inn=0|held=0|leap=0|ant=0|ped=1|holdO=0|hov=0"
+   ],
+   "methods": {
+    "pmi": 7
+   },
+   "reference": false,
+   "ratings": {
+    "R1": "无法判断",
+    "R2": "有效",
+    "R3": "合理"
+   },
+   "score": 1.0,
+   "class": "within-voice/positional",
+   "endorsed": true
+  },
+  {
+   "item": "X020",
+   "polarity": "prohibition",
+   "statement": "同一时刻 女中 与 男高 的距离：交叉（上方声部低于下方声部）",
+   "cells": [
+    "H:AT|gap=cross"
+   ],
+   "methods": {
+    "rarity": 14
+   },
+   "reference": true,
+   "ratings": {
+    "R1": "合理",
+    "R2": "有效",
+    "R3": "有效"
+   },
+   "score": 1.0,
+   "class": "relational",
+   "endorsed": true
+  },
+  {
+   "item": "X021",
+   "polarity": "prohibition",
+   "statement": "任一声部换音时的旋律音程：七度（10–11 半音）",
+   "cells": [
+    "G:7th"
+   ],
+   "methods": {
+    "rarity": 4
+   },
+   "reference": true,
+   "ratings": {
+    "R1": "有效",
+    "R2": "有效",
+    "R3": "合理"
+   },
+   "score": 1.0,
+   "class": "within-voice/positional",
+   "endorsed": true
+  },
+  {
+   "item": "X022",
+   "polarity": "prohibition",
+   "statement": "低音级进行：低音 5 → 低音 其他（变化音）；位于乐句末尾（每句最后三个音集之内）",
+   "cells": [
+    "J:b=7/to/b=x|slot=fin",
+    "K:b=7/to/b=x|slot=fin"
+   ],
+   "methods": {
+    "productive": 19
+   },
+   "reference": false,
+   "ratings": {
+    "R1": "合理",
+    "R2": "合理",
+    "R3": "合理"
+   },
+   "score": 1.0,
+   "class": "persists without coordination",
+   "endorsed": true
+  },
+  {
+   "item": "X023",
+   "polarity": "prohibition",
+   "statement": "低音级进行：低音 5 → 低音 5；位于乐句中间",
+   "cells": [
+    "J:b=7/to/b=7|slot=int",
+    "K:b=7/to/b=7|slot=int"
+   ],
+   "methods": {
+    "productive": 9
+   },
+   "reference": false,
+   "ratings": {
+    "R1": "无法判断",
+    "R2": "无效",
+    "R3": "无效"
+   },
+   "score": 0.0,
+   "class": "relational",
+   "endorsed": false
+  },
+  {
+   "item": "X024",
+   "polarity": "prohibition",
+   "statement": "某声部三个相继音（前—中—后）：进入中音为级进：否；离开中音为级进：否；进入与离开同方向：否；回到前一个音：是；中音与其他声部同时音同音级（和弦音）：否；中音被延住而其他声部换音：否；跳进（≥3 半音）进入中音：是；中音不属于当前和音而属于下一和音（先现）：否；中音出现时其他声部全部保持：否；跨拍延音形态：否",
+   "cells": [
+    "D:st01=0|st12=0|same=0|ret=1|inn=0|held=0|leap=1|ant=0|ped=1|holdO=0|hov=0"
+   ],
+   "methods": {
+    "ras": 17
+   },
+   "reference": false,
+   "ratings": {
+    "R1": "无效",
+    "R2": "有效",
+    "R3": "有效"
+   },
+   "score": 0.6666666666666666,
+   "class": "within-voice/positional",
+   "endorsed": true
+  },
+  {
+   "item": "X025",
+   "polarity": "preference",
+   "statement": "同一时刻 男高 与 男低 的距离：13–19 半音",
+   "cells": [
+    "H:TB|gap=12to19"
+   ],
+   "methods": {
+    "pmi": 12,
+    "productive": 1
+   },
+   "reference": false,
+   "ratings": {
+    "R1": "合理",
+    "R2": "合理",
+    "R3": "合理"
+   },
+   "score": 1.0,
+   "class": "relational",
+   "endorsed": true
+  },
+  {
+   "item": "X026",
+   "polarity": "preference",
+   "statement": "一个四声部和音中：导音出现 0 次；有声部与低音构成三度；降 7 级出现 0 次；包含主三和弦的全部三个音",
+   "cells": [
+    "S:nlt=0|miss3=0|n7=0|missTon=0"
+   ],
+   "methods": {
+    "ras": 8
+   },
+   "reference": false,
+   "ratings": {
+    "R1": "合理",
+    "R2": "合理",
+    "R3": "有效"
+   },
+   "score": 1.0,
+   "class": "relational",
+   "endorsed": true
+  },
+  {
+   "item": "X027",
+   "polarity": "preference",
+   "statement": "全曲最后两个完整切片之一：低音 1，女高 1",
+   "cells": [
+    "P:b=0|sop=0"
+   ],
+   "methods": {
+    "productive": 12
+   },
+   "reference": false,
+   "ratings": {
+    "R1": "有效",
+    "R2": "有效",
+    "R3": "有效"
+   },
+   "score": 1.0,
+   "class": "within-voice/positional",
+   "endorsed": true
+  },
+  {
+   "item": "X028",
+   "polarity": "prohibition",
+   "statement": "全曲最后两个完整切片之一：低音 其他（变化音），女高 1",
+   "cells": [
+    "P:b=x|sop=0"
+   ],
+   "methods": {
+    "productive": 11
+   },
+   "reference": false,
+   "ratings": {
+    "R1": "合理",
+    "R2": "有效",
+    "R3": "有效"
+   },
+   "score": 1.0,
+   "class": "within-voice/positional",
+   "endorsed": true
+  },
+  {
+   "item": "X029",
+   "polarity": "preference",
+   "statement": "低音级进行：低音 其他（变化音） → 低音 1；位于乐句中间",
+   "cells": [
+    "K:b=x/to/b=0|slot=int"
+   ],
+   "methods": {
+    "rarity": 9
+   },
+   "reference": false,
+   "ratings": {
+    "R1": "无法判断",
+    "R2": "无法判断",
+    "R3": "风格依赖"
+   },
+   "score": 0.0,
+   "class": "relational",
+   "endorsed": false
+  },
+  {
+   "item": "X030",
+   "polarity": "prohibition",
+   "statement": "声部对从一个完整切片到下一个：相邻声部；至少一个声部不动；两声部移动量不同；到达的音程不是纯一/八度或纯五度；音程改变；上方声部级进或不动；运动方向：斜向（一声部不动）",
+   "cells": [
+    "V:both=0|eqΔ=0|pc07=0|hold=0|leapU=0|sgn=obl|role=adjacent"
+   ],
+   "methods": {
+    "pmi": 14
+   },
+   "reference": false,
+   "ratings": {
+    "R1": "无效",
+    "R2": "无效",
+    "R3": "无效"
+   },
+   "score": 0.0,
+   "class": "no replay evidence",
+   "endorsed": false
+  },
+  {
+   "item": "X031",
+   "polarity": "preference",
+   "statement": "和音连接：低音 5，音集 {1、2、5} → 低音 5，音集 {2、5、7}；位于乐句末尾（每句最后三个音集之内）",
+   "cells": [
+    "J:b=7|set=0.2.7|ch=0/to/b=7|set=2.7.11|ch=0|slot=fin",
+    "K:b=7|set=0.2.7|ch=0/to/b=7|set=2.7.11|ch=0|slot=fin"
+   ],
+   "methods": {
+    "pmi": 13,
+    "productive": 16
+   },
+   "reference": true,
+   "ratings": {
+    "R1": "有效",
+    "R2": "有效",
+    "R3": "有效"
+   },
+   "score": 1.0,
+   "class": "relational",
+   "endorsed": true
+  },
+  {
+   "item": "X032",
+   "polarity": "prohibition",
+   "statement": "声部对从一个完整切片到下一个：相邻声部；两声部都动；两声部移动量不同；到达的音程不是纯一/八度或纯五度；音程改变；上方声部级进或不动；运动方向：反向",
+   "cells": [
+    "V:both=1|eqΔ=0|pc07=0|hold=0|leapU=0|sgn=opp|role=adjacent"
+   ],
+   "methods": {
+    "ras": 1
+   },
+   "reference": false,
+   "ratings": {
+    "R1": "无效",
+    "R2": "无效",
+    "R3": "无效"
+   },
+   "score": 0.0,
+   "class": "persists without coordination",
+   "endorsed": false
+  },
+  {
+   "item": "X033",
+   "polarity": "preference",
+   "statement": "低音级进行：低音 1 → 低音 其他（变化音）；位于乐句中间",
+   "cells": [
+    "K:b=0/to/b=x|slot=int"
+   ],
+   "methods": {
+    "rarity": 4
+   },
+   "reference": false,
+   "ratings": {
+    "R1": "合理",
+    "R2": "合理",
+    "R3": "风格依赖"
+   },
+   "score": 0.6666666666666666,
+   "class": "relational",
+   "endorsed": true
+  },
+  {
+   "item": "X034",
+   "polarity": "preference",
+   "statement": "声部对从一个完整切片到下一个：外声部（女高—男低）；至少一个声部不动；两声部移动量相同；到达的音程不是纯一/八度或纯五度；音程保持不变；上方声部级进或不动；运动方向：两声部都不动",
+   "cells": [
+    "V:both=0|eqΔ=1|pc07=0|hold=1|leapU=0|sgn=stat|role=outer"
+   ],
+   "methods": {
+    "ras": 2
+   },
+   "reference": false,
+   "ratings": {
+    "R1": "合理",
+    "R2": "合理",
+    "R3": "合理"
+   },
+   "score": 1.0,
+   "class": "persists without coordination",
+   "endorsed": true
+  },
+  {
+   "item": "X035",
+   "polarity": "preference",
+   "statement": "低音级进行：低音 1 → 低音 5；位于乐句中间",
+   "cells": [
+    "K:b=0/to/b=7|slot=int"
+   ],
+   "methods": {
+    "rarity": 17
+   },
+   "reference": false,
+   "ratings": {
+    "R1": "合理",
+    "R2": "有效",
+    "R3": "合理"
+   },
+   "score": 1.0,
+   "class": "persists without coordination",
+   "endorsed": true
+  },
+  {
+   "item": "X036",
+   "polarity": "preference",
+   "statement": "同一时刻 女高 与 女中 的距离：0–7 半音",
+   "cells": [
+    "H:SA|gap=le8"
+   ],
+   "methods": {
+    "rarity": 20,
+    "productive": 2
+   },
+   "reference": false,
+   "ratings": {
+    "R1": "合理",
+    "R2": "合理",
+    "R3": "合理"
+   },
+   "score": 1.0,
+   "class": "relational",
+   "endorsed": true
+  },
+  {
+   "item": "X037",
+   "polarity": "preference",
+   "statement": "相邻声部 女中—男高：一声部的新音越过另一声部的前一个音（声部超越）",
+   "cells": [
+    "O:AT|ov=1"
+   ],
+   "methods": {
+    "productive": 11
+   },
+   "reference": false,
+   "ratings": {
+    "R1": "无效",
+    "R2": "无效",
+    "R3": "无效"
+   },
+   "score": 0.0,
+   "class": "no replay evidence",
+   "endorsed": false
+  },
+  {
+   "item": "X038",
+   "polarity": "preference",
+   "statement": "某声部三个相继音（前—中—后）：进入中音为级进：是；离开中音为级进：是；进入与离开同方向：是；回到前一个音：否；中音与其他声部同时音同音级（和弦音）：否；中音被延住而其他声部换音：否；跳进（≥3 半音）进入中音：否；中音不属于当前和音而属于下一和音（先现）：否；中音出现时其他声部全部保持：否；跨拍延音形态：否",
+   "cells": [
+    "D:st01=1|st12=1|same=1|ret=0|inn=0|held=0|leap=0|ant=0|ped=1|holdO=0|hov=0"
+   ],
+   "methods": {
+    "ras": 15,
+    "rarity": 12
+   },
+   "reference": true,
+   "ratings": {
+    "R1": "合理",
+    "R2": "有效",
+    "R3": "有效"
+   },
+   "score": 1.0,
+   "class": "within-voice/positional",
+   "endorsed": true
+  },
+  {
+   "item": "X039",
+   "polarity": "prohibition",
+   "statement": "某声部三个相继音（前—中—后）：进入中音为级进：是；离开中音为级进：是；进入与离开同方向：否；回到前一个音：否；中音与其他声部同时音同音级（和弦音）：否；中音被延住而其他声部换音：否；跳进（≥3 半音）进入中音：否；中音不属于当前和音而属于下一和音（先现）：是；中音出现时其他声部全部保持：否；跨拍延音形态：否",
+   "cells": [
+    "D:st01=1|st12=1|same=0|ret=0|inn=0|held=0|leap=0|ant=1|ped=1|holdO=0|hov=0"
+   ],
+   "methods": {
+    "pmi": 19
+   },
+   "reference": false,
+   "ratings": {
+    "R1": "无法判断",
+    "R2": "无法判断",
+    "R3": "无效"
+   },
+   "score": 0.0,
+   "class": "within-voice/positional",
+   "endorsed": false
+  },
+  {
+   "item": "X040",
+   "polarity": "prohibition",
+   "statement": "同一时刻 女中 与 男高 的距离：8–12 半音",
+   "cells": [
+    "H:AT|gap=8to12"
+   ],
+   "methods": {
+    "productive": 5
+   },
+   "reference": false,
+   "ratings": {
+    "R1": "合理",
+    "R2": "无效",
+    "R3": "无效"
+   },
+   "score": 0.3333333333333333,
+   "class": "relational",
+   "endorsed": false
+  },
+  {
+   "item": "X041",
+   "polarity": "prohibition",
+   "statement": "声部对从一个完整切片到下一个：相邻声部；两声部都动；两声部移动量相同；到达的音程为纯一/八度或纯五度（含复音程）；音程保持不变；上方声部跳进（>2 半音）；运动方向：同向（即平行纯五度或纯八度/同度）",
+   "cells": [
+    "V:both=1|eqΔ=1|pc07=1|hold=1|leapU=1|sgn=same|role=adjacent"
+   ],
+   "methods": {
+    "rarity": 15
+   },
+   "reference": true,
+   "ratings": {
+    "R1": "有效",
+    "R2": "有效",
+    "R3": "有效"
+   },
+   "score": 1.0,
+   "class": "relational",
+   "endorsed": true
+  },
+  {
+   "item": "X042",
+   "polarity": "prohibition",
+   "statement": "声部对从一个完整切片到下一个：外声部（女高—男低）；两声部都动；两声部移动量相同；到达的音程为纯一/八度或纯五度（含复音程）；音程保持不变；上方声部跳进（>2 半音）；运动方向：同向（即平行纯五度或纯八度/同度）",
+   "cells": [
+    "V:both=1|eqΔ=1|pc07=1|hold=1|leapU=1|sgn=same|role=outer"
+   ],
+   "methods": {
+    "rarity": 17
+   },
+   "reference": true,
+   "ratings": {
+    "R1": "有效",
+    "R2": "有效",
+    "R3": "有效"
+   },
+   "score": 1.0,
+   "class": "relational",
+   "endorsed": true
+  },
+  {
+   "item": "X043",
+   "polarity": "prohibition",
+   "statement": "声部对从一个完整切片到下一个：相邻声部；两声部都动；两声部移动量相同；到达的音程不是纯一/八度或纯五度；音程保持不变；上方声部级进或不动；运动方向：同向",
+   "cells": [
+    "V:both=1|eqΔ=1|pc07=0|hold=1|leapU=0|sgn=same|role=adjacent"
+   ],
+   "methods": {
+    "ras": 20
+   },
+   "reference": false,
+   "ratings": {
+    "R1": "无效",
+    "R2": "无效",
+    "R3": "无效"
+   },
+   "score": 0.0,
+   "class": "persists without coordination",
+   "endorsed": false
+  },
+  {
+   "item": "X044",
+   "polarity": "prohibition",
+   "statement": "同一时刻 男高 与 男低 的距离：交叉（上方声部低于下方声部）",
+   "cells": [
+    "H:TB|gap=cross"
+   ],
+   "methods": {
+    "rarity": 11
+   },
+   "reference": true,
+   "ratings": {
+    "R1": "合理",
+    "R2": "有效",
+    "R3": "有效"
+   },
+   "score": 1.0,
+   "class": "relational",
+   "endorsed": true
+  },
+  {
+   "item": "X045",
+   "polarity": "prohibition",
+   "statement": "声部对从一个完整切片到下一个：隔一声部；两声部都动；两声部移动量不同；到达的音程不是纯一/八度或纯五度；音程改变；上方声部级进或不动；运动方向：反向",
+   "cells": [
+    "V:both=1|eqΔ=0|pc07=0|hold=0|leapU=0|sgn=opp|role=diagonal"
+   ],
+   "methods": {
+    "ras": 3
+   },
+   "reference": false,
+   "ratings": {
+    "R1": "无效",
+    "R2": "无效",
+    "R3": "无效"
+   },
+   "score": 0.0,
+   "class": "persists without coordination",
+   "endorsed": false
+  },
+  {
+   "item": "X046",
+   "polarity": "preference",
+   "statement": "全曲最后两个完整切片之一：低音 5，女高 2",
+   "cells": [
+    "P:b=7|sop=2"
+   ],
+   "methods": {
+    "productive": 18
+   },
+   "reference": false,
+   "ratings": {
+    "R1": "合理",
+    "R2": "有效",
+    "R3": "无效"
+   },
+   "score": 0.6666666666666666,
+   "class": "within-voice/positional",
+   "endorsed": true
+  },
+  {
+   "item": "X047",
+   "polarity": "prohibition",
+   "statement": "同一时刻 女高 与 女中 的距离：交叉（上方声部低于下方声部）",
+   "cells": [
+    "H:SA|gap=cross"
+   ],
+   "methods": {
+    "ras": 15,
+    "rarity": 9,
+    "productive": 6
+   },
+   "reference": true,
+   "ratings": {
+    "R1": "合理",
+    "R2": "有效",
+    "R3": "有效"
+   },
+   "score": 1.0,
+   "class": "relational",
+   "endorsed": true
+  },
+  {
+   "item": "X048",
+   "polarity": "preference",
+   "statement": "和音连接：低音 5，音集 {2、5、7} → 低音 1，音集 {1、3、5}；位于乐句中间",
+   "cells": [
+    "J:b=7|set=2.7.11|ch=0/to/b=0|set=0.4.7|ch=0|slot=int",
+    "K:b=7|set=2.7.11|ch=0/to/b=0|set=0.4.7|ch=0|slot=int"
+   ],
+   "methods": {
+    "ras": 12,
+    "pmi": 8
+   },
+   "reference": true,
+   "ratings": {
+    "R1": "有效",
+    "R2": "有效",
+    "R3": "合理"
+   },
+   "score": 1.0,
+   "class": "relational",
+   "endorsed": true
+  },
+  {
+   "item": "X049",
+   "polarity": "preference",
+   "statement": "同一时刻 男高 与 男低 的距离：8–12 半音",
+   "cells": [
+    "H:TB|gap=8to12"
+   ],
+   "methods": {
+    "productive": 6
+   },
+   "reference": false,
+   "ratings": {
+    "R1": "合理",
+    "R2": "合理",
+    "R3": "合理"
+   },
+   "score": 1.0,
+   "class": "no replay evidence",
+   "endorsed": true
+  },
+  {
+   "item": "X050",
+   "polarity": "preference",
+   "statement": "某声部三个相继音（前—中—后）：进入中音为级进：否；离开中音为级进：是；进入与离开同方向：否；回到前一个音：否；中音与其他声部同时音同音级（和弦音）：否；中音被延住而其他声部换音：是；跳进（≥3 半音）进入中音：否；中音不属于当前和音而属于下一和音（先现）：否；中音出现时其他声部全部保持：否；跨拍延音形态：是",
+   "cells": [
+    "D:st01=0|st12=1|same=0|ret=0|inn=0|held=1|leap=0|ant=0|ped=1|holdO=0|hov=1"
+   ],
+   "methods": {
+    "ras": 7,
+    "pmi": 1,
+    "rarity": 2
+   },
+   "reference": true,
+   "ratings": {
+    "R1": "无法判断",
+    "R2": "有效",
+    "R3": "合理"
+   },
+   "score": 1.0,
+   "class": "within-voice/positional",
+   "endorsed": true
+  },
+  {
+   "item": "X051",
+   "polarity": "preference",
+   "statement": "低音级进行：低音 5 → 低音 1；位于乐句末尾（每句最后三个音集之内）",
+   "cells": [
+    "K:b=7/to/b=0|slot=fin"
+   ],
+   "methods": {
+    "rarity": 14
+   },
+   "reference": true,
+   "ratings": {
+    "R1": "有效",
+    "R2": "有效",
+    "R3": "有效"
+   },
+   "score": 1.0,
+   "class": "persists without coordination",
+   "endorsed": true
+  },
+  {
+   "item": "X052",
+   "polarity": "prohibition",
+   "statement": "同一时刻 女高 与 女中 的距离：8–12 半音",
+   "cells": [
+    "H:SA|gap=8to12"
+   ],
+   "methods": {
+    "productive": 13
+   },
+   "reference": false,
+   "ratings": {
+    "R1": "合理",
+    "R2": "无效",
+    "R3": "无效"
+   },
+   "score": 0.3333333333333333,
+   "class": "relational",
+   "endorsed": false
+  },
+  {
+   "item": "X053",
+   "polarity": "preference",
+   "statement": "全曲最后两个完整切片之一：低音 其他（变化音），女高 其他（变化音）",
+   "cells": [
+    "P:b=x|sop=x"
+   ],
+   "methods": {
+    "productive": 5
+   },
+   "reference": false,
+   "ratings": {
+    "R1": "无法判断",
+    "R2": "无效",
+    "R3": "无效"
+   },
+   "score": 0.0,
+   "class": "within-voice/positional",
+   "endorsed": false
+  },
+  {
+   "item": "X054",
+   "polarity": "prohibition",
+   "statement": "相邻声部 男高—男低：一声部的新音越过另一声部的前一个音（声部超越）",
+   "cells": [
+    "O:TB|ov=1"
+   ],
+   "methods": {
+    "rarity": 2
+   },
+   "reference": true,
+   "ratings": {
+    "R1": "有效",
+    "R2": "有效",
+    "R3": "有效"
+   },
+   "score": 1.0,
+   "class": "persists without coordination",
+   "endorsed": true
+  },
+  {
+   "item": "X055",
+   "polarity": "preference",
+   "statement": "某声部三个相继音（前—中—后）：进入中音为级进：是；离开中音为级进：是；进入与离开同方向：是；回到前一个音：否；中音与其他声部同时音同音级（和弦音）：否；中音被延住而其他声部换音：否；跳进（≥3 半音）进入中音：否；中音不属于当前和音而属于下一和音（先现）：否；中音出现时其他声部全部保持：是；跨拍延音形态：否",
+   "cells": [
+    "D:st01=1|st12=1|same=1|ret=0|inn=0|held=0|leap=0|ant=0|ped=1|holdO=1|hov=0"
+   ],
+   "methods": {
+    "ras": 20,
+    "pmi": 3
+   },
+   "reference": true,
+   "ratings": {
+    "R1": "无效",
+    "R2": "有效",
+    "R3": "有效"
+   },
+   "score": 0.6666666666666666,
+   "class": "within-voice/positional",
+   "endorsed": true
+  },
+  {
+   "item": "X056",
+   "polarity": "prohibition",
+   "statement": "同一时刻 女高 与 女中 的距离：超过 19 半音",
+   "cells": [
+    "H:SA|gap=gt19"
+   ],
+   "methods": {
+    "rarity": 8,
+    "productive": 8
+   },
+   "reference": true,
+   "ratings": {
+    "R1": "有效",
+    "R2": "有效",
+    "R3": "有效"
+   },
+   "score": 1.0,
+   "class": "persists without coordination",
+   "endorsed": true
+  },
+  {
+   "item": "X057",
+   "polarity": "preference",
+   "statement": "同一时刻 女中 与 男高 的距离：0–7 半音",
+   "cells": [
+    "H:AT|gap=le8"
+   ],
+   "methods": {
+    "productive": 3
+   },
+   "reference": false,
+   "ratings": {
+    "R1": "合理",
+    "R2": "合理",
+    "R3": "风格依赖"
+   },
+   "score": 0.6666666666666666,
+   "class": "relational",
+   "endorsed": true
+  },
+  {
+   "item": "X058",
+   "polarity": "prohibition",
+   "statement": "某声部三个相继音（前—中—后）：进入中音为级进：否；离开中音为级进：否；进入与离开同方向：否；回到前一个音：否；中音与其他声部同时音同音级（和弦音）：是；中音被延住而其他声部换音：是；跳进（≥3 半音）进入中音：是；中音不属于当前和音而属于下一和音（先现）：否；中音出现时其他声部全部保持：否；跨拍延音形态：是",
+   "cells": [
+    "D:st01=0|st12=0|same=0|ret=0|inn=1|held=1|leap=1|ant=0|ped=1|holdO=0|hov=1"
+   ],
+   "methods": {
+    "ras": 6
+   },
+   "reference": false,
+   "ratings": {
+    "R1": "无法判断",
+    "R2": "合理",
+    "R3": "无效"
+   },
+   "score": 0.5,
+   "class": "within-voice/positional",
+   "endorsed": false
+  },
+  {
+   "item": "X059",
+   "polarity": "prohibition",
+   "statement": "一个四声部和音中：导音出现 0 次；没有任何声部与低音构成三度（或复三度）；降 7 级出现 0 次；不包含主三和弦的全部三个音",
+   "cells": [
+    "S:nlt=0|miss3=1|n7=0|missTon=1"
+   ],
+   "methods": {
+    "ras": 5
+   },
+   "reference": true,
+   "ratings": {
+    "R1": "合理",
+    "R2": "合理",
+    "R3": "合理"
+   },
+   "score": 1.0,
+   "class": "relational",
+   "endorsed": true
+  },
+  {
+   "item": "X060",
+   "polarity": "preference",
+   "statement": "和音连接：低音 其他（变化音），音集 {2、4、♭7}，含变化音 → 低音 其他（变化音），音集 {♭3、5、♭7}，含变化音；位于乐句中间",
+   "cells": [
+    "J:b=x|set=2.5.10|ch=1/to/b=x|set=3.7.10|ch=1|slot=int",
+    "K:b=x|set=2.5.10|ch=1/to/b=x|set=3.7.10|ch=1|slot=int"
+   ],
+   "methods": {
+    "ras": 18,
+    "pmi": 15
+   },
+   "reference": true,
+   "ratings": {
+    "R1": "无法判断",
+    "R2": "合理",
+    "R3": "风格依赖"
+   },
+   "score": 0.5,
+   "class": "relational",
+   "endorsed": false
+  },
+  {
+   "item": "X061",
+   "polarity": "prohibition",
+   "statement": "任一声部换音时的旋律音程：三全音",
+   "cells": [
+    "G:tritone"
+   ],
+   "methods": {
+    "ras": 18,
+    "rarity": 5
+   },
+   "reference": false,
+   "ratings": {
+    "R1": "有效",
+    "R2": "有效",
+    "R3": "有效"
+   },
+   "score": 1.0,
+   "class": "within-voice/positional",
+   "endorsed": true
+  },
+  {
+   "item": "X062",
+   "polarity": "preference",
+   "statement": "和音连接：低音 4，音集 {1、2、4、6} → 低音 5，音集 {2、5、7}；位于乐句末尾（每句最后三个音集之内）",
+   "cells": [
+    "J:b=5|set=0.2.5.9|ch=0/to/b=7|set=2.7.11|ch=0|slot=fin",
+    "K:b=5|set=0.2.5.9|ch=0/to/b=7|set=2.7.11|ch=0|slot=fin"
+   ],
+   "methods": {
+    "pmi": 17,
+    "productive": 20
+   },
+   "reference": true,
+   "ratings": {
+    "R1": "有效",
+    "R2": "有效",
+    "R3": "合理"
+   },
+   "score": 1.0,
+   "class": "relational",
+   "endorsed": true
+  },
+  {
+   "item": "X063",
+   "polarity": "prohibition",
+   "statement": "声部对从一个完整切片到下一个：隔一声部；两声部都动；两声部移动量相同；到达的音程为纯一/八度或纯五度（含复音程）；音程保持不变；上方声部级进或不动；运动方向：同向（即平行纯五度或纯八度/同度）",
+   "cells": [
+    "V:both=1|eqΔ=1|pc07=1|hold=1|leapU=0|sgn=same|role=diagonal"
+   ],
+   "methods": {
+    "rarity": 20
+   },
+   "reference": true,
+   "ratings": {
+    "R1": "有效",
+    "R2": "有效",
+    "R3": "有效"
+   },
+   "score": 1.0,
+   "class": "persists without coordination",
+   "endorsed": true
+  },
+  {
+   "item": "X064",
+   "polarity": "prohibition",
+   "statement": "声部对从一个完整切片到下一个：外声部（女高—男低）；两声部都动；两声部移动量不同；到达的音程不是纯一/八度或纯五度；音程改变；上方声部级进或不动；运动方向：反向",
+   "cells": [
+    "V:both=1|eqΔ=0|pc07=0|hold=0|leapU=0|sgn=opp|role=outer"
+   ],
+   "methods": {
+    "ras": 12
+   },
+   "reference": false,
+   "ratings": {
+    "R1": "无效",
+    "R2": "无效",
+    "R3": "无效"
+   },
+   "score": 0.0,
+   "class": "persists without coordination",
+   "endorsed": false
+  },
+  {
+   "item": "X065",
+   "polarity": "prohibition",
+   "statement": "同一时刻 男高 与 男低 的距离：0–7 半音",
+   "cells": [
+    "H:TB|gap=le8"
+   ],
+   "methods": {
+    "pmi": 11,
+    "productive": 3
+   },
+   "reference": false,
+   "ratings": {
+    "R1": "合理",
+    "R2": "无效",
+    "R3": "合理"
+   },
+   "score": 0.6666666666666666,
+   "class": "no replay evidence",
+   "endorsed": true
+  },
+  {
+   "item": "X066",
+   "polarity": "prohibition",
+   "statement": "一个四声部和音中：导音出现 0 次；有声部与低音构成三度；降 7 级出现 0 次；不包含主三和弦的全部三个音",
+   "cells": [
+    "S:nlt=0|miss3=0|n7=0|missTon=1"
+   ],
+   "methods": {
+    "pmi": 15,
+    "productive": 12
+   },
+   "reference": false,
+   "ratings": {
+    "R1": "无效",
+    "R2": "无效",
+    "R3": "无效"
+   },
+   "score": 0.0,
+   "class": "no replay evidence",
+   "endorsed": false
+  },
+  {
+   "item": "X067",
+   "polarity": "preference",
+   "statement": "全曲最后两个完整切片之一：低音 5，女高 5",
+   "cells": [
+    "P:b=7|sop=7"
+   ],
+   "methods": {
+    "productive": 8
+   },
+   "reference": false,
+   "ratings": {
+    "R1": "合理",
+    "R2": "有效",
+    "R3": "无效"
+   },
+   "score": 0.6666666666666666,
+   "class": "within-voice/positional",
+   "endorsed": true
+  },
+  {
+   "item": "X068",
+   "polarity": "prohibition",
+   "statement": "某声部三个相继音（前—中—后）：进入中音为级进：是；离开中音为级进：否；进入与离开同方向：否；回到前一个音：否；中音与其他声部同时音同音级（和弦音）：否；中音被延住而其他声部换音：是；跳进（≥3 半音）进入中音：否；中音不属于当前和音而属于下一和音（先现）：否；中音出现时其他声部全部保持：否；跨拍延音形态：是",
+   "cells": [
+    "D:st01=1|st12=0|same=0|ret=0|inn=0|held=1|leap=0|ant=0|ped=1|holdO=0|hov=1"
+   ],
+   "methods": {
+    "ras": 13,
+    "pmi": 10
+   },
+   "reference": false,
+   "ratings": {
+    "R1": "无法判断",
+    "R2": "有效",
+    "R3": "有效"
+   },
+   "score": 1.0,
+   "class": "within-voice/positional",
+   "endorsed": true
+  },
+  {
+   "item": "X069",
+   "polarity": "prohibition",
+   "statement": "相邻声部 女中—男高：一声部的新音越过另一声部的前一个音（声部超越）",
+   "cells": [
+    "O:AT|ov=1"
+   ],
+   "methods": {
+    "rarity": 3
+   },
+   "reference": true,
+   "ratings": {
+    "R1": "有效",
+    "R2": "有效",
+    "R3": "有效"
+   },
+   "score": 1.0,
+   "class": "persists without coordination",
+   "endorsed": true
+  },
+  {
+   "item": "X070",
+   "polarity": "preference",
+   "statement": "某声部三个相继音（前—中—后）：进入中音为级进：否；离开中音为级进：否；进入与离开同方向：否；回到前一个音：否；中音与其他声部同时音同音级（和弦音）：是；中音被延住而其他声部换音：是；跳进（≥3 半音）进入中音：否；中音不属于当前和音而属于下一和音（先现）：否；中音出现时其他声部全部保持：否；跨拍延音形态：是",
+   "cells": [
+    "D:st01=0|st12=0|same=0|ret=0|inn=1|held=1|leap=0|ant=0|ped=1|holdO=0|hov=1"
+   ],
+   "methods": {
+    "ras": 14
+   },
+   "reference": false,
+   "ratings": {
+    "R1": "无法判断",
+    "R2": "合理",
+    "R3": "合理"
+   },
+   "score": 1.0,
+   "class": "within-voice/positional",
+   "endorsed": true
+  },
+  {
+   "item": "X071",
+   "polarity": "preference",
+   "statement": "某声部三个相继音（前—中—后）：进入中音为级进：是；离开中音为级进：是；进入与离开同方向：否；回到前一个音：是；中音与其他声部同时音同音级（和弦音）：否；中音被延住而其他声部换音：否；跳进（≥3 半音）进入中音：否；中音不属于当前和音而属于下一和音（先现）：否；中音出现时其他声部全部保持：否；跨拍延音形态：否",
+   "cells": [
+    "D:st01=1|st12=1|same=0|ret=1|inn=0|held=0|leap=0|ant=0|ped=1|holdO=0|hov=0"
+   ],
+   "methods": {
+    "pmi": 11
+   },
+   "reference": true,
+   "ratings": {
+    "R1": "合理",
+    "R2": "有效",
+    "R3": "有效"
+   },
+   "score": 1.0,
+   "class": "within-voice/positional",
+   "endorsed": true
+  },
+  {
+   "item": "X072",
+   "polarity": "preference",
+   "statement": "同一时刻 女中 与 男高 的距离：交叉（上方声部低于下方声部）",
+   "cells": [
+    "H:AT|gap=cross"
+   ],
+   "methods": {
+    "productive": 9
+   },
+   "reference": false,
+   "ratings": {
+    "R1": "无效",
+    "R2": "无效",
+    "R3": "无效"
+   },
+   "score": 0.0,
+   "class": "no replay evidence",
+   "endorsed": false
+  },
+  {
+   "item": "X073",
+   "polarity": "prohibition",
+   "statement": "声部对从一个完整切片到下一个：相邻声部；两声部都动；两声部移动量不同；到达的音程不是纯一/八度或纯五度；音程改变；上方声部级进或不动；运动方向：同向",
+   "cells": [
+    "V:both=1|eqΔ=0|pc07=0|hold=0|leapU=0|sgn=same|role=adjacent"
+   ],
+   "methods": {
+    "ras": 8
+   },
+   "reference": false,
+   "ratings": {
+    "R1": "合理",
+    "R2": "无效",
+    "R3": "无效"
+   },
+   "score": 0.3333333333333333,
+   "class": "persists without coordination",
+   "endorsed": false
+  },
+  {
+   "item": "X074",
+   "polarity": "preference",
+   "statement": "声部对从一个完整切片到下一个：隔一声部；至少一个声部不动；两声部移动量相同；到达的音程为纯一/八度或纯五度（含复音程）；音程保持不变；上方声部级进或不动；运动方向：两声部都不动",
+   "cells": [
+    "V:both=0|eqΔ=1|pc07=1|hold=1|leapU=0|sgn=stat|role=diagonal"
+   ],
+   "methods": {
+    "ras": 5,
+    "productive": 19
+   },
+   "reference": false,
+   "ratings": {
+    "R1": "合理",
+    "R2": "合理",
+    "R3": "合理"
+   },
+   "score": 1.0,
+   "class": "persists without coordination",
+   "endorsed": true
+  },
+  {
+   "item": "X075",
+   "polarity": "prohibition",
+   "statement": "声部对从一个完整切片到下一个：相邻声部；两声部都动；两声部移动量不同；到达的音程不是纯一/八度或纯五度；音程改变；上方声部跳进（>2 半音）；运动方向：反向",
+   "cells": [
+    "V:both=1|eqΔ=0|pc07=0|hold=0|leapU=1|sgn=opp|role=adjacent"
+   ],
+   "methods": {
+    "ras": 16
+   },
+   "reference": false,
+   "ratings": {
+    "R1": "无效",
+    "R2": "无效",
+    "R3": "无效"
+   },
+   "score": 0.0,
+   "class": "persists without coordination",
+   "endorsed": false
+  },
+  {
+   "item": "X076",
+   "polarity": "prohibition",
+   "statement": "某声部三个相继音（前—中—后）：进入中音为级进：是；离开中音为级进：是；进入与离开同方向：否；回到前一个音：否；中音与其他声部同时音同音级（和弦音）：否；中音被延住而其他声部换音：否；跳进（≥3 半音）进入中音：否；中音不属于当前和音而属于下一和音（先现）：否；中音出现时其他声部全部保持：否；跨拍延音形态：否",
+   "cells": [
+    "D:st01=1|st12=1|same=0|ret=0|inn=0|held=0|leap=0|ant=0|ped=1|holdO=0|hov=0"
+   ],
+   "methods": {
+    "pmi": 1
+   },
+   "reference": false,
+   "ratings": {
+    "R1": "无效",
+    "R2": "合理",
+    "R3": "无效"
+   },
+   "score": 0.3333333333333333,
+   "class": "within-voice/positional",
+   "endorsed": false
+  },
+  {
+   "item": "X077",
+   "polarity": "prohibition",
+   "statement": "声部对从一个完整切片到下一个：相邻声部；至少一个声部不动；两声部移动量不同；到达的音程为纯一/八度或纯五度（含复音程）；音程改变；上方声部级进或不动；运动方向：斜向（一声部不动）",
+   "cells": [
+    "V:both=0|eqΔ=0|pc07=1|hold=0|leapU=0|sgn=obl|role=adjacent"
+   ],
+   "methods": {
+    "pmi": 8
+   },
+   "reference": false,
+   "ratings": {
+    "R1": "无效",
+    "R2": "无效",
+    "R3": "无效"
+   },
+   "score": 0.0,
+   "class": "no replay evidence",
+   "endorsed": false
+  },
+  {
+   "item": "X078",
+   "polarity": "preference",
+   "statement": "声部对从一个完整切片到下一个：隔一声部；两声部都动；两声部移动量不同；到达的音程为纯一/八度或纯五度（含复音程）；音程改变；上方声部跳进（>2 半音）；运动方向：同向（即同向进入纯五度或纯八度）",
+   "cells": [
+    "V:both=1|eqΔ=0|pc07=1|hold=0|leapU=1|sgn=same|role=diagonal"
+   ],
+   "methods": {
+    "productive": 13
+   },
+   "reference": false,
+   "ratings": {
+    "R1": "无法判断",
+    "R2": "无效",
+    "R3": "无效"
+   },
+   "score": 0.0,
+   "class": "relational",
+   "endorsed": false
+  },
+  {
+   "item": "X079",
+   "polarity": "preference",
+   "statement": "低音级进行：低音 5 → 低音 其他（变化音）；位于乐句中间",
+   "cells": [
+    "K:b=7/to/b=x|slot=int"
+   ],
+   "methods": {
+    "rarity": 8
+   },
+   "reference": false,
+   "ratings": {
+    "R1": "合理",
+    "R2": "合理",
+    "R3": "风格依赖"
+   },
+   "score": 0.6666666666666666,
+   "class": "relational",
+   "endorsed": true
+  },
+  {
+   "item": "X080",
+   "polarity": "prohibition",
+   "statement": "同一时刻 女中 与 男高 的距离：13–19 半音",
+   "cells": [
+    "H:AT|gap=12to19"
+   ],
+   "methods": {
+    "pmi": 9,
+    "rarity": 12,
+    "productive": 2
+   },
+   "reference": true,
+   "ratings": {
+    "R1": "有效",
+    "R2": "有效",
+    "R3": "有效"
+   },
+   "score": 1.0,
+   "class": "relational",
+   "endorsed": true
+  },
+  {
+   "item": "X081",
+   "polarity": "prohibition",
+   "statement": "声部对从一个完整切片到下一个：相邻声部；两声部都动；两声部移动量不同；到达的音程为纯一/八度或纯五度（含复音程）；音程改变；上方声部级进或不动；运动方向：同向（即同向进入纯五度或纯八度）",
+   "cells": [
+    "V:both=1|eqΔ=0|pc07=1|hold=0|leapU=0|sgn=same|role=adjacent"
+   ],
+   "methods": {
+    "pmi": 20
+   },
+   "reference": false,
+   "ratings": {
+    "R1": "风格依赖",
+    "R2": "风格依赖",
+    "R3": "风格依赖"
+   },
+   "score": 0.0,
+   "class": "persists without coordination",
+   "endorsed": false
+  },
+  {
+   "item": "X082",
+   "polarity": "prohibition",
+   "statement": "声部对从一个完整切片到下一个：外声部（女高—男低）；至少一个声部不动；两声部移动量不同；到达的音程不是纯一/八度或纯五度；音程改变；上方声部级进或不动；运动方向：斜向（一声部不动）",
+   "cells": [
+    "V:both=0|eqΔ=0|pc07=0|hold=0|leapU=0|sgn=obl|role=outer"
+   ],
+   "methods": {
+    "pmi": 12
+   },
+   "reference": false,
+   "ratings": {
+    "R1": "无效",
+    "R2": "无效",
+    "R3": "无效"
+   },
+   "score": 0.0,
+   "class": "no replay evidence",
+   "endorsed": false
+  },
+  {
+   "item": "X083",
+   "polarity": "preference",
+   "statement": "某声部三个相继音（前—中—后）：进入中音为级进：否；离开中音为级进：是；进入与离开同方向：否；回到前一个音：否；中音与其他声部同时音同音级（和弦音）：是；中音被延住而其他声部换音：是；跳进（≥3 半音）进入中音：否；中音不属于当前和音而属于下一和音（先现）：否；中音出现时其他声部全部保持：否；跨拍延音形态：是",
+   "cells": [
+    "D:st01=0|st12=1|same=0|ret=0|inn=1|held=1|leap=0|ant=0|ped=1|holdO=0|hov=1"
+   ],
+   "methods": {
+    "ras": 9
+   },
+   "reference": false,
+   "ratings": {
+    "R1": "无法判断",
+    "R2": "合理",
+    "R3": "合理"
+   },
+   "score": 1.0,
+   "class": "within-voice/positional",
+   "endorsed": true
+  },
+  {
+   "item": "X084",
+   "polarity": "prohibition",
+   "statement": "全曲最后两个完整切片之一：低音 1，女高 5",
+   "cells": [
+    "P:b=0|sop=7"
+   ],
+   "methods": {
+    "productive": 18
+   },
+   "reference": false,
+   "ratings": {
+    "R1": "合理",
+    "R2": "无效",
+    "R3": "合理"
+   },
+   "score": 0.6666666666666666,
+   "class": "within-voice/positional",
+   "endorsed": true
+  },
+  {
+   "item": "X085",
+   "polarity": "preference",
+   "statement": "低音级进行：低音 4 → 低音 5；位于乐句末尾（每句最后三个音集之内）",
+   "cells": [
+    "J:b=5/to/b=7|slot=fin",
+    "K:b=5/to/b=7|slot=fin"
+   ],
+   "methods": {
+    "rarity": 19,
+    "productive": 14
+   },
+   "reference": true,
+   "ratings": {
+    "R1": "有效",
+    "R2": "有效",
+    "R3": "合理"
+   },
+   "score": 1.0,
+   "class": "relational",
+   "endorsed": true
+  },
+  {
+   "item": "X086",
+   "polarity": "preference",
+   "statement": "声部对从一个完整切片到下一个：外声部（女高—男低）；至少一个声部不动；两声部移动量相同；到达的音程为纯一/八度或纯五度（含复音程）；音程保持不变；上方声部级进或不动；运动方向：两声部都不动",
+   "cells": [
+    "V:both=0|eqΔ=1|pc07=1|hold=1|leapU=0|sgn=stat|role=outer"
+   ],
+   "methods": {
+    "ras": 1
+   },
+   "reference": false,
+   "ratings": {
+    "R1": "合理",
+    "R2": "合理",
+    "R3": "合理"
+   },
+   "score": 1.0,
+   "class": "relational",
+   "endorsed": true
+  },
+  {
+   "item": "X087",
+   "polarity": "preference",
+   "statement": "和音连接：低音 5，音集 {2、5、7} → 低音 1，音集 {1、♭3、5}，含变化音；位于乐句中间",
+   "cells": [
+    "J:b=7|set=2.7.11|ch=0/to/b=0|set=0.3.7|ch=1|slot=int",
+    "K:b=7|set=2.7.11|ch=0/to/b=0|set=0.3.7|ch=1|slot=int"
+   ],
+   "methods": {
+    "ras": 10,
+    "pmi": 6
+   },
+   "reference": true,
+   "ratings": {
+    "R1": "有效",
+    "R2": "有效",
+    "R3": "风格依赖"
+   },
+   "score": 0.6666666666666666,
+   "class": "relational",
+   "endorsed": true
+  },
+  {
+   "item": "X088",
+   "polarity": "preference",
+   "statement": "和音连接：低音 1，音集 {1、3、5} → 低音 4，音集 {1、4、6}；位于乐句中间",
+   "cells": [
+    "J:b=0|set=0.4.7|ch=0/to/b=5|set=0.5.9|ch=0|slot=int",
+    "K:b=0|set=0.4.7|ch=0/to/b=5|set=0.5.9|ch=0|slot=int"
+   ],
+   "methods": {
+    "pmi": 19
+   },
+   "reference": true,
+   "ratings": {
+    "R1": "合理",
+    "R2": "有效",
+    "R3": "合理"
+   },
+   "score": 1.0,
+   "class": "relational",
+   "endorsed": true
+  },
+  {
+   "item": "X089",
+   "polarity": "prohibition",
+   "statement": "声部对从一个完整切片到下一个：相邻声部；两声部都动；两声部移动量相同；到达的音程为纯一/八度或纯五度（含复音程）；音程保持不变；上方声部级进或不动；运动方向：同向（即平行纯五度或纯八度/同度）",
+   "cells": [
+    "V:both=1|eqΔ=1|pc07=1|hold=1|leapU=0|sgn=same|role=adjacent"
+   ],
+   "methods": {
+    "pmi": 16,
+    "rarity": 19
+   },
+   "reference": true,
+   "ratings": {
+    "R1": "有效",
+    "R2": "有效",
+    "R3": "有效"
+   },
+   "score": 1.0,
+   "class": "persists without coordination",
+   "endorsed": true
+  },
+  {
+   "item": "X090",
+   "polarity": "preference",
+   "statement": "低音级进行：低音 7 → 低音 1；位于乐句中间",
+   "cells": [
+    "K:b=11/to/b=0|slot=int"
+   ],
+   "methods": {
+    "rarity": 16
+   },
+   "reference": false,
+   "ratings": {
+    "R1": "合理",
+    "R2": "有效",
+    "R3": "风格依赖"
+   },
+   "score": 0.6666666666666666,
+   "class": "persists without coordination",
+   "endorsed": true
+  },
+  {
+   "item": "X091",
+   "polarity": "preference",
+   "statement": "乐句结尾最后两个不同切片：低音 5/女高 2 → 低音 1/女高 1；全曲最后一句",
+   "cells": [
+    "Q:b=7|sop=2/to/b=0|sop=0|slot=fin"
+   ],
+   "methods": {
+    "productive": 10
+   },
+   "reference": true,
+   "ratings": {
+    "R1": "有效",
+    "R2": "有效",
+    "R3": "有效"
+   },
+   "score": 1.0,
+   "class": "within-voice/positional",
+   "endorsed": true
+  },
+  {
+   "item": "X092",
+   "polarity": "preference",
+   "statement": "某声部三个相继音（前—中—后）：进入中音为级进：是；离开中音为级进：是；进入与离开同方向：是；回到前一个音：否；中音与其他声部同时音同音级（和弦音）：是；中音被延住而其他声部换音：否；跳进（≥3 半音）进入中音：否；中音不属于当前和音而属于下一和音（先现）：否；中音出现时其他声部全部保持：否；跨拍延音形态：否",
+   "cells": [
+    "D:st01=1|st12=1|same=1|ret=0|inn=1|held=0|leap=0|ant=0|ped=1|holdO=0|hov=0"
+   ],
+   "methods": {
+    "ras": 13
+   },
+   "reference": false,
+   "ratings": {
+    "R1": "合理",
+    "R2": "有效",
+    "R3": "有效"
+   },
+   "score": 1.0,
+   "class": "within-voice/positional",
+   "endorsed": true
+  },
+  {
+   "item": "X093",
+   "polarity": "prohibition",
+   "statement": "外声部（女高或男低）从非导音、非降 7 级的音出发的旋律进行：其他跳进（3–9 半音，三全音除外）",
+   "cells": [
+    "M:out=1|lt=0|b7=0|mv=leap"
+   ],
+   "methods": {
+    "ras": 9
+   },
+   "reference": false,
+   "ratings": {
+    "R1": "合理",
+    "R2": "无效",
+    "R3": "无效"
+   },
+   "score": 0.3333333333333333,
+   "class": "within-voice/positional",
+   "endorsed": false
+  },
+  {
+   "item": "X094",
+   "polarity": "preference",
+   "statement": "和音连接：低音 1，音集 {1、♭3、5}，含变化音 → 低音 其他（变化音），音集 {1、♭3、5}，含变化音；位于乐句中间",
+   "cells": [
+    "K:b=0|set=0.3.7|ch=1/to/b=x|set=0.3.7|ch=1|slot=int"
+   ],
+   "methods": {
+    "ras": 19
+   },
+   "reference": true,
+   "ratings": {
+    "R1": "无法判断",
+    "R2": "无法判断",
+    "R3": "风格依赖"
+   },
+   "score": 0.0,
+   "class": "relational",
+   "endorsed": false
+  },
+  {
+   "item": "X095",
+   "polarity": "prohibition",
+   "statement": "某声部三个相继音（前—中—后）：进入中音为级进：是；离开中音为级进：是；进入与离开同方向：否；回到前一个音：否；中音与其他声部同时音同音级（和弦音）：是；中音被延住而其他声部换音：是；跳进（≥3 半音）进入中音：否；中音不属于当前和音而属于下一和音（先现）：否；中音出现时其他声部全部保持：否；跨拍延音形态：是",
+   "cells": [
+    "D:st01=1|st12=1|same=0|ret=0|inn=1|held=1|leap=0|ant=0|ped=1|holdO=0|hov=1"
+   ],
+   "methods": {
+    "pmi": 4
+   },
+   "reference": false,
+   "ratings": {
+    "R1": "无法判断",
+    "R2": "无效",
+    "R3": "无效"
+   },
+   "score": 0.0,
+   "class": "within-voice/positional",
+   "endorsed": false
+  },
+  {
+   "item": "X096",
+   "polarity": "preference",
+   "statement": "低音级进行：低音 其他（变化音） → 低音 5；位于乐句中间",
+   "cells": [
+    "K:b=x/to/b=7|slot=int"
+   ],
+   "methods": {
+    "rarity": 6
+   },
+   "reference": false,
+   "ratings": {
+    "R1": "合理",
+    "R2": "有效",
+    "R3": "风格依赖"
+   },
+   "score": 0.6666666666666666,
+   "class": "persists without coordination",
+   "endorsed": true
+  },
+  {
+   "item": "X097",
+   "polarity": "preference",
+   "statement": "低音级进行：低音 5 → 低音 1；位于乐句中间",
+   "cells": [
+    "K:b=7/to/b=0|slot=int"
+   ],
+   "methods": {
+    "rarity": 3
+   },
+   "reference": true,
+   "ratings": {
+    "R1": "有效",
+    "R2": "有效",
+    "R3": "合理"
+   },
+   "score": 1.0,
+   "class": "persists without coordination",
+   "endorsed": true
+  },
+  {
+   "item": "X098",
+   "polarity": "prohibition",
+   "statement": "任一声部换音时的旋律音程：跳进（5–9 半音，三全音除外）",
+   "cells": [
+    "G:leap"
+   ],
+   "methods": {
+    "ras": 10
+   },
+   "reference": false,
+   "ratings": {
+    "R1": "合理",
+    "R2": "无效",
+    "R3": "无效"
+   },
+   "score": 0.3333333333333333,
+   "class": "within-voice/positional",
+   "endorsed": false
+  },
+  {
+   "item": "X099",
+   "polarity": "prohibition",
+   "statement": "声部对从一个完整切片到下一个：隔一声部；两声部都动；两声部移动量相同；到达的音程为纯一/八度或纯五度（含复音程）；音程保持不变；上方声部跳进（>2 半音）；运动方向：同向（即平行纯五度或纯八度/同度）",
+   "cells": [
+    "V:both=1|eqΔ=1|pc07=1|hold=1|leapU=1|sgn=same|role=diagonal"
+   ],
+   "methods": {
+    "rarity": 18
+   },
+   "reference": true,
+   "ratings": {
+    "R1": "有效",
+    "R2": "有效",
+    "R3": "有效"
+   },
+   "score": 1.0,
+   "class": "relational",
+   "endorsed": true
+  },
+  {
+   "item": "X100",
+   "polarity": "preference",
+   "statement": "任一声部换音时的旋律音程：级进或小跳（1–4 半音）",
+   "cells": [
+    "G:small"
+   ],
+   "methods": {
+    "rarity": 11
+   },
+   "reference": false,
+   "ratings": {
+    "R1": "有效",
+    "R2": "有效",
+    "R3": "有效"
+   },
+   "score": 1.0,
+   "class": "within-voice/positional",
+   "endorsed": true
+  },
+  {
+   "item": "X101",
+   "polarity": "preference",
+   "statement": "某声部三个相继音（前—中—后）：进入中音为级进：否；离开中音为级进：否；进入与离开同方向：否；回到前一个音：否；中音与其他声部同时音同音级（和弦音）：否；中音被延住而其他声部换音：是；跳进（≥3 半音）进入中音：否；中音不属于当前和音而属于下一和音（先现）：是；中音出现时其他声部全部保持：否；跨拍延音形态：是",
+   "cells": [
+    "D:st01=0|st12=0|same=0|ret=0|inn=0|held=1|leap=0|ant=1|ped=1|holdO=0|hov=1"
+   ],
+   "methods": {
+    "ras": 17,
+    "pmi": 2
+   },
+   "reference": true,
+   "ratings": {
+    "R1": "无法判断",
+    "R2": "无法判断",
+    "R3": "合理"
+   },
+   "score": 1.0,
+   "class": "within-voice/positional",
+   "endorsed": true
+  },
+  {
+   "item": "X102",
+   "polarity": "preference",
+   "statement": "某声部三个相继音（前—中—后）：进入中音为级进：否；离开中音为级进：否；进入与离开同方向：否；回到前一个音：否；中音与其他声部同时音同音级（和弦音）：否；中音被延住而其他声部换音：是；跳进（≥3 半音）进入中音：否；中音不属于当前和音而属于下一和音（先现）：否；中音出现时其他声部全部保持：否；跨拍延音形态：是",
+   "cells": [
+    "D:st01=0|st12=0|same=0|ret=0|inn=0|held=1|leap=0|ant=0|ped=1|holdO=0|hov=1"
+   ],
+   "methods": {
+    "ras": 16
+   },
+   "reference": false,
+   "ratings": {
+    "R1": "无法判断",
+    "R2": "无效",
+    "R3": "风格依赖"
+   },
+   "score": 0.0,
+   "class": "within-voice/positional",
+   "endorsed": false
+  },
+  {
+   "item": "X103",
+   "polarity": "preference",
+   "statement": "声部对从一个完整切片到下一个：相邻声部；至少一个声部不动；两声部移动量相同；到达的音程不是纯一/八度或纯五度；音程保持不变；上方声部级进或不动；运动方向：两声部都不动",
+   "cells": [
+    "V:both=0|eqΔ=1|pc07=0|hold=1|leapU=0|sgn=stat|role=adjacent"
+   ],
+   "methods": {
+    "ras": 3,
+    "rarity": 7
+   },
+   "reference": false,
+   "ratings": {
+    "R1": "合理",
+    "R2": "合理",
+    "R3": "合理"
+   },
+   "score": 1.0,
+   "class": "persists without coordination",
+   "endorsed": true
+  },
+  {
+   "item": "X104",
+   "polarity": "prohibition",
+   "statement": "声部对从一个完整切片到下一个：外声部（女高—男低）；两声部都动；两声部移动量相同；到达的音程为纯一/八度或纯五度（含复音程）；音程保持不变；上方声部级进或不动；运动方向：同向（即平行纯五度或纯八度/同度）",
+   "cells": [
+    "V:both=1|eqΔ=1|pc07=1|hold=1|leapU=0|sgn=same|role=outer"
+   ],
+   "methods": {
+    "rarity": 16
+   },
+   "reference": true,
+   "ratings": {
+    "R1": "有效",
+    "R2": "有效",
+    "R3": "有效"
+   },
+   "score": 1.0,
+   "class": "persists without coordination",
+   "endorsed": true
+  },
+  {
+   "item": "X105",
+   "polarity": "prohibition",
+   "statement": "某声部三个相继音（前—中—后）：进入中音为级进：是；离开中音为级进：是；进入与离开同方向：是；回到前一个音：否；中音与其他声部同时音同音级（和弦音）：否；中音被延住而其他声部换音：是；跳进（≥3 半音）进入中音：否；中音不属于当前和音而属于下一和音（先现）：否；中音出现时其他声部全部保持：否；跨拍延音形态：是",
+   "cells": [
+    "D:st01=1|st12=1|same=1|ret=0|inn=0|held=1|leap=0|ant=0|ped=1|holdO=0|hov=1"
+   ],
+   "methods": {
+    "pmi": 5
+   },
+   "reference": false,
+   "ratings": {
+    "R1": "无法判断",
+    "R2": "无效",
+    "R3": "无效"
+   },
+   "score": 0.0,
+   "class": "within-voice/positional",
+   "endorsed": false
+  },
+  {
+   "item": "X106",
+   "polarity": "preference",
+   "statement": "全曲最后两个完整切片之一：低音 4，女高 4",
+   "cells": [
+    "P:b=5|sop=5"
+   ],
+   "methods": {
+    "productive": 4
+   },
+   "reference": false,
+   "ratings": {
+    "R1": "合理",
+    "R2": "合理",
+    "R3": "无效"
+   },
+   "score": 0.6666666666666666,
+   "class": "within-voice/positional",
+   "endorsed": true
+  },
+  {
+   "item": "X107",
+   "polarity": "preference",
+   "statement": "同一时刻 男高 与 男低 的距离：超过 19 半音",
+   "cells": [
+    "H:TB|gap=gt19"
+   ],
+   "methods": {
+    "productive": 7
+   },
+   "reference": false,
+   "ratings": {
+    "R1": "合理",
+    "R2": "合理",
+    "R3": "无效"
+   },
+   "score": 0.6666666666666666,
+   "class": "no replay evidence",
+   "endorsed": true
+  },
+  {
+   "item": "X108",
+   "polarity": "preference",
+   "statement": "声部对从一个完整切片到下一个：隔一声部；至少一个声部不动；两声部移动量相同；到达的音程不是纯一/八度或纯五度；音程保持不变；上方声部级进或不动；运动方向：两声部都不动",
+   "cells": [
+    "V:both=0|eqΔ=1|pc07=0|hold=1|leapU=0|sgn=stat|role=diagonal"
+   ],
+   "methods": {
+    "ras": 4
+   },
+   "reference": false,
+   "ratings": {
+    "R1": "合理",
+    "R2": "合理",
+    "R3": "合理"
+   },
+   "score": 1.0,
+   "class": "persists without coordination",
+   "endorsed": true
+  },
+  {
+   "item": "X109",
+   "polarity": "prohibition",
+   "statement": "全曲最后两个完整切片之一：低音 5，女高 1",
+   "cells": [
+    "P:b=7|sop=0"
+   ],
+   "methods": {
+    "productive": 17
+   },
+   "reference": false,
+   "ratings": {
+    "R1": "无效",
+    "R2": "无效",
+    "R3": "有效"
+   },
+   "score": 0.3333333333333333,
+   "class": "within-voice/positional",
+   "endorsed": false
+  },
+  {
+   "item": "X110",
+   "polarity": "preference",
+   "statement": "低音级进行：低音 其他（变化音） → 低音 其他（变化音）；位于乐句中间",
+   "cells": [
+    "J:b=x/to/b=x|slot=int",
+    "K:b=x/to/b=x|slot=int"
+   ],
+   "methods": {
+    "rarity": 1
+   },
+   "reference": false,
+   "ratings": {
+    "R1": "无法判断",
+    "R2": "风格依赖",
+    "R3": "风格依赖"
+   },
+   "score": 0.0,
+   "class": "no replay evidence",
+   "endorsed": false
+  },
+  {
+   "item": "X111",
+   "polarity": "prohibition",
+   "statement": "声部对从一个完整切片到下一个：隔一声部；至少一个声部不动；两声部移动量不同；到达的音程不是纯一/八度或纯五度；音程改变；上方声部级进或不动；运动方向：斜向（一声部不动）",
+   "cells": [
+    "V:both=0|eqΔ=0|pc07=0|hold=0|leapU=0|sgn=obl|role=diagonal"
+   ],
+   "methods": {
+    "pmi": 13
+   },
+   "reference": false,
+   "ratings": {
+    "R1": "无效",
+    "R2": "无效",
+    "R3": "无效"
+   },
+   "score": 0.0,
+   "class": "no replay evidence",
+   "endorsed": false
+  },
+  {
+   "item": "X112",
+   "polarity": "prohibition",
+   "statement": "全曲最后两个完整切片之一：低音 1，女高 4",
+   "cells": [
+    "P:b=0|sop=5"
+   ],
+   "methods": {
+    "productive": 15
+   },
+   "reference": false,
+   "ratings": {
+    "R1": "合理",
+    "R2": "有效",
+    "R3": "有效"
+   },
+   "score": 1.0,
+   "class": "within-voice/positional",
+   "endorsed": true
+  },
+  {
+   "item": "X113",
+   "polarity": "prohibition",
+   "statement": "某声部三个相继音（前—中—后）：进入中音为级进：是；离开中音为级进：是；进入与离开同方向：否；回到前一个音：否；中音与其他声部同时音同音级（和弦音）：是；中音被延住而其他声部换音：否；跳进（≥3 半音）进入中音：否；中音不属于当前和音而属于下一和音（先现）：否；中音出现时其他声部全部保持：否；跨拍延音形态：否",
+   "cells": [
+    "D:st01=1|st12=1|same=0|ret=0|inn=1|held=0|leap=0|ant=0|ped=1|holdO=0|hov=0"
+   ],
+   "methods": {
+    "pmi": 2
+   },
+   "reference": false,
+   "ratings": {
+    "R1": "无效",
+    "R2": "无效",
+    "R3": "无效"
+   },
+   "score": 0.0,
+   "class": "within-voice/positional",
+   "endorsed": false
+  },
+  {
+   "item": "X114",
+   "polarity": "preference",
+   "statement": "低音级进行：低音 其他（变化音） → 低音 其他（变化音）；位于乐句末尾（每句最后三个音集之内）",
+   "cells": [
+    "K:b=x/to/b=x|slot=fin"
+   ],
+   "methods": {
+    "rarity": 5
+   },
+   "reference": false,
+   "ratings": {
+    "R1": "无法判断",
+    "R2": "无法判断",
+    "R3": "风格依赖"
+   },
+   "score": 0.0,
+   "class": "no replay evidence",
+   "endorsed": false
+  },
+  {
+   "item": "X115",
+   "polarity": "prohibition",
+   "statement": "某声部三个相继音（前—中—后）：进入中音为级进：否；离开中音为级进：否；进入与离开同方向：否；回到前一个音：否；中音与其他声部同时音同音级（和弦音）：否；中音被延住而其他声部换音：否；跳进（≥3 半音）进入中音：是；中音不属于当前和音而属于下一和音（先现）：否；中音出现时其他声部全部保持：否；跨拍延音形态：否",
+   "cells": [
+    "D:st01=0|st12=0|same=0|ret=0|inn=0|held=0|leap=1|ant=0|ped=1|holdO=0|hov=0"
+   ],
+   "methods": {
+    "ras": 2
+   },
+   "reference": false,
+   "ratings": {
+    "R1": "无效",
+    "R2": "有效",
+    "R3": "有效"
+   },
+   "score": 0.6666666666666666,
+   "class": "within-voice/positional",
+   "endorsed": true
+  },
+  {
+   "item": "X116",
+   "polarity": "prohibition",
+   "statement": "内声部（女中或男高）从非导音、非降 7 级的音出发的旋律进行：其他跳进（3–9 半音，三全音除外）",
+   "cells": [
+    "M:out=0|lt=0|b7=0|mv=leap"
+   ],
+   "methods": {
+    "ras": 11
+   },
+   "reference": false,
+   "ratings": {
+    "R1": "合理",
+    "R2": "无效",
+    "R3": "无效"
+   },
+   "score": 0.3333333333333333,
+   "class": "within-voice/positional",
+   "endorsed": false
+  },
+  {
+   "item": "X117",
+   "polarity": "preference",
+   "statement": "声部对从一个完整切片到下一个：相邻声部；两声部都动；两声部移动量不同；到达的音程不是纯一/八度或纯五度；音程改变；上方声部跳进（>2 半音）；运动方向：同向",
+   "cells": [
+    "V:both=1|eqΔ=0|pc07=0|hold=0|leapU=1|sgn=same|role=adjacent"
+   ],
+   "methods": {
+    "pmi": 10
+   },
+   "reference": false,
+   "ratings": {
+    "R1": "无效",
+    "R2": "合理",
+    "R3": "合理"
+   },
+   "score": 0.6666666666666666,
+   "class": "no replay evidence",
+   "endorsed": true
+  },
+  {
+   "item": "X118",
+   "polarity": "prohibition",
+   "statement": "一个四声部和音中没有重复的音级",
+   "cells": [
+    "U:dbl=none"
+   ],
+   "methods": {
+    "ras": 14
+   },
+   "reference": false,
+   "ratings": {
+    "R1": "有效",
+    "R2": "合理",
+    "R3": "有效"
+   },
+   "score": 1.0,
+   "class": "relational",
+   "endorsed": true
+  }
+ ],
+ "leave_one_out": {
+  "R1": {
+   "ras": 0.65,
+   "pmi": 0.5757575757575758,
+   "rarity": 0.8333333333333334,
+   "productive": 0.6666666666666666
+  },
+  "R2": {
+   "ras": 0.6625,
+   "pmi": 0.5303030303030303,
+   "rarity": 0.8205128205128205,
+   "productive": 0.7222222222222222
+  },
+  "R3": {
+   "ras": 0.7236842105263158,
+   "pmi": 0.5806451612903226,
+   "rarity": 0.9324324324324325,
+   "productive": 0.75
+  }
+ },
+ "single_rater": {
+  "R1": {
+   "ras": 0.7419354838709677,
+   "pmi": 0.5652173913043478,
+   "rarity": 0.9428571428571428,
+   "productive": 0.8787878787878788
+  },
+  "R2": {
+   "ras": 0.6842105263157895,
+   "pmi": 0.6129032258064516,
+   "rarity": 0.9459459459459459,
+   "productive": 0.6944444444444444
+  },
+  "R3": {
+   "ras": 0.625,
+   "pmi": 0.5454545454545454,
+   "rarity": 0.7692307692307693,
+   "productive": 0.6388888888888888
+  }
+ },
+ "p_at_20": {
+  "ras/prohibition": {
+   "n": 20,
+   "reference": 0.1,
+   "endorsed": 0.45,
+   "union": 0.45
+  },
+  "ras/preference": {
+   "n": 20,
+   "reference": 0.45,
+   "endorsed": 0.85,
+   "union": 0.95
+  },
+  "pmi/prohibition": {
+   "n": 20,
+   "reference": 0.15,
+   "endorsed": 0.35,
+   "union": 0.35
+  },
+  "pmi/preference": {
+   "n": 13,
+   "reference": 0.8461538461538461,
+   "endorsed": 0.9230769230769231,
+   "union": 1.0
+  },
+  "rarity/prohibition": {
+   "n": 20,
+   "reference": 0.95,
+   "endorsed": 0.95,
+   "union": 1.0
+  },
+  "rarity/preference": {
+   "n": 19,
+   "reference": 0.3157894736842105,
+   "endorsed": 0.8421052631578947,
+   "union": 0.8421052631578947
+  },
+  "productive/prohibition": {
+   "n": 18,
+   "reference": 0.3333333333333333,
+   "endorsed": 0.7222222222222222,
+   "union": 0.7222222222222222
+  },
+  "productive/preference": {
+   "n": 18,
+   "reference": 0.2222222222222222,
+   "endorsed": 0.7777777777777778,
+   "union": 0.7777777777777778
+  }
+ },
+ "endorsed_rate": {
+  "ras": {
+   "k": 26,
+   "n": 40,
+   "rate": 0.65,
+   "wilson": [
+    0.4950559699353738,
+    0.7786566682895085
+   ]
+  },
+  "pmi": {
+   "k": 19,
+   "n": 33,
+   "rate": 0.5757575757575758,
+   "wilson": [
+    0.4080697369146003,
+    0.727646410049701
+   ]
+  },
+  "rarity": {
+   "k": 35,
+   "n": 39,
+   "rate": 0.8974358974358975,
+   "wilson": [
+    0.7642084129775517,
+    0.9593873444171301
+   ]
+  },
+  "productive": {
+   "k": 27,
+   "n": 36,
+   "rate": 0.75,
+   "wilson": [
+    0.5892923231679658,
+    0.862496761607746
+   ]
+  }
+ },
+ "reference_endorsed": {
+  "k": 35,
+  "n": 38,
+  "wilson": [
+   0.792003210797347,
+   0.9727858986057349
+  ]
+ },
+ "nonreference_endorsed": {
+  "k": 44,
+  "n": 80,
+  "wilson": [
+   0.4411931301173402,
+   0.6542248962562024
+  ]
+ }
+}

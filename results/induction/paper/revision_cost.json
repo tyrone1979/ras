@@ -1,0 +1,40 @@
+{
+ "reps": 3,
+ "replay": 16,
+ "sets": {
+  "hold_a": {
+   "n_pieces": 40,
+   "n_slices": 4080,
+   "real_s": 0.5328105832450092,
+   "replay_s": 3.7354635829105973,
+   "residual_s": 0.019077083095908165,
+   "pmi_s": 0.16695491690188646,
+   "rarity_s": 0.02489679167047143,
+   "productive_s": 0.12190729193389416
+  },
+  "hold_c": {
+   "n_pieces": 179,
+   "n_slices": 19300,
+   "real_s": 2.6484420830383897,
+   "replay_s": 15.960058208089322,
+   "residual_s": 0.09254970820620656,
+   "pmi_s": 0.7662279172800481,
+   "rarity_s": 0.1361350421793759,
+   "productive_s": 0.5762540833093226
+  }
+ },
+ "train": {
+  "n_pieces": 16,
+  "catalogs_s": 0.0006601247005164623,
+  "calibrate_s": 6.016617958899587,
+  "soft_z_s": 5.674467042088509
+ },
+ "loc": {
+  "real_counting": 143,
+  "replay_null": 228,
+  "calibration": 57,
+  "pmi": 22,
+  "rarity": 9,
+  "productive": 51
+ }
+}

@@ -1,0 +1,2153 @@
+{
+ "commit": "f7fb885",
+ "cfg": {
+  "z_cut": 2.5,
+  "q": 0.08,
+  "false_frac": 0.033112582781456956,
+  "n_false": 5,
+  "score": 0.005612582781456958,
+  "soft_z": -1.75,
+  "soft_false_frac": 0.03106801770323783,
+  "soft_trace": {
+   "-1.0": 0.19735616119263918,
+   "-1.25": 0.12124388539482878,
+   "-1.5": 0.07922781271837875,
+   "-1.75": 0.03106801770323783,
+   "-2.0": 0.0170917773119031,
+   "-2.25": 0.007745166550197996,
+   "-2.5": 0.0,
+   "-2.75": 0.0,
+   "-3.0": 0.0
+  }
+ },
+ "n_train": 16,
+ "n_hold": 40,
+ "n_truth": 600,
+ "n_rep": 5,
+ "gens": {
+  "S1": {
+   "truth_counts": {
+    "indep": 231023,
+    "grey": 40
+   },
+   "reps": [
+    {
+     "n_under": 120,
+     "n_over": 95,
+     "by_op": {
+      "rot": {
+       "under": {
+        "n_vertical": 72,
+        "n_typeI": 15,
+        "n_typeII": 57,
+        "n_true_dep": 0,
+        "typeI_true": 0,
+        "typeI_false": 15,
+        "typeII_true": 57,
+        "typeII_false": 0,
+        "dep_found_typeI": 0
+       },
+       "over": {
+        "n_vertical": 45,
+        "n_typeI": 11,
+        "n_typeII": 34,
+        "n_true_dep": 0,
+        "typeI_true": 0,
+        "typeI_false": 11,
+        "typeII_true": 34,
+        "typeII_false": 0,
+        "dep_found_typeI": 0
+       },
+       "planted": {}
+      },
+      "metric": {
+       "under": {
+        "n_vertical": 72,
+        "n_typeI": 16,
+        "n_typeII": 56,
+        "n_true_dep": 0,
+        "typeI_true": 0,
+        "typeI_false": 16,
+        "typeII_true": 56,
+        "typeII_false": 0,
+        "dep_found_typeI": 0
+       },
+       "over": {
+        "n_vertical": 45,
+        "n_typeI": 12,
+        "n_typeII": 33,
+        "n_true_dep": 0,
+        "typeI_true": 0,
+        "typeI_false": 12,
+        "typeII_true": 33,
+        "typeII_false": 0,
+        "dep_found_typeI": 0
+       },
+       "planted": {}
+      },
+      "recombine": {
+       "under": {
+        "n_vertical": 72,
+        "n_typeI": 4,
+        "n_typeII": 68,
+        "n_true_dep": 0,
+        "typeI_true": 0,
+        "typeI_false": 4,
+        "typeII_true": 68,
+        "typeII_false": 0,
+        "dep_found_typeI": 0
+       },
+       "over": {
+        "n_vertical": 45,
+        "n_typeI": 5,
+        "n_typeII": 40,
+        "n_true_dep": 0,
+        "typeI_true": 0,
+        "typeI_false": 5,
+        "typeII_true": 40,
+        "typeII_false": 0,
+        "dep_found_typeI": 0
+       },
+       "planted": {}
+      }
+     },
+     "truth_dep_cells": 0,
+     "truth_dep_found": 0,
+     "within_dep_cells": 0
+    },
+    {
+     "n_under": 122,
+     "n_over": 92,
+     "by_op": {
+      "rot": {
+       "under": {
+        "n_vertical": 76,
+        "n_typeI": 15,
+        "n_typeII": 61,
+        "n_true_dep": 0,
+        "typeI_true": 0,
+        "typeI_false": 15,
+        "typeII_true": 61,
+        "typeII_false": 0,
+        "dep_found_typeI": 0
+       },
+       "over": {
+        "n_vertical": 40,
+        "n_typeI": 13,
+        "n_typeII": 27,
+        "n_true_dep": 0,
+        "typeI_true": 0,
+        "typeI_false": 13,
+        "typeII_true": 27,
+        "typeII_false": 0,
+        "dep_found_typeI": 0
+       },
+       "planted": {}
+      },
+      "metric": {
+       "under": {
+        "n_vertical": 76,
+        "n_typeI": 14,
+        "n_typeII": 62,
+        "n_true_dep": 0,
+        "typeI_true": 0,
+        "typeI_false": 14,
+        "typeII_true": 62,
+        "typeII_false": 0,
+        "dep_found_typeI": 0
+       },
+       "over": {
+        "n_vertical": 40,
+        "n_typeI": 11,
+        "n_typeII": 29,
+        "n_true_dep": 0,
+        "typeI_true": 0,
+        "typeI_false": 11,
+        "typeII_true": 29,
+        "typeII_false": 0,
+        "dep_found_typeI": 0
+       },
+       "planted": {}
+      },
+      "recombine": {
+       "under": {
+        "n_vertical": 76,
+        "n_typeI": 2,
+        "n_typeII": 74,
+        "n_true_dep": 0,
+        "typeI_true": 0,
+        "typeI_false": 2,
+        "typeII_true": 74,
+        "typeII_false": 0,
+        "dep_found_typeI": 0
+       },
+       "over": {
+        "n_vertical": 40,
+        "n_typeI": 3,
+        "n_typeII": 37,
+        "n_true_dep": 0,
+        "typeI_true": 0,
+        "typeI_false": 3,
+        "typeII_true": 37,
+        "typeII_false": 0,
+        "dep_found_typeI": 0
+       },
+       "planted": {}
+      }
+     },
+     "truth_dep_cells": 0,
+     "truth_dep_found": 0,
+     "within_dep_cells": 0
+    },
+    {
+     "n_under": 121,
+     "n_over": 93,
+     "by_op": {
+      "rot": {
+       "under": {
+        "n_vertical": 73,
+        "n_typeI": 16,
+        "n_typeII": 57,
+        "n_true_dep": 0,
+        "typeI_true": 0,
+        "typeI_false": 16,
+        "typeII_true": 57,
+        "typeII_false": 0,
+        "dep_found_typeI": 0
+       },
+       "over": {
+        "n_vertical": 48,
+        "n_typeI": 16,
+        "n_typeII": 32,
+        "n_true_dep": 0,
+        "typeI_true": 0,
+        "typeI_false": 16,
+        "typeII_true": 32,
+        "typeII_false": 0,
+        "dep_found_typeI": 0
+       },
+       "planted": {}
+      },
+      "metric": {
+       "under": {
+        "n_vertical": 73,
+        "n_typeI": 14,
+        "n_typeII": 59,
+        "n_true_dep": 0,
+        "typeI_true": 0,
+        "typeI_false": 14,
+        "typeII_true": 59,
+        "typeII_false": 0,
+        "dep_found_typeI": 0
+       },
+       "over": {
+        "n_vertical": 48,
+        "n_typeI": 12,
+        "n_typeII": 36,
+        "n_true_dep": 0,
+        "typeI_true": 0,
+        "typeI_false": 12,
+        "typeII_true": 36,
+        "typeII_false": 0,
+        "dep_found_typeI": 0
+       },
+       "planted": {}
+      },
+      "recombine": {
+       "under": {
+        "n_vertical": 73,
+        "n_typeI": 4,
+        "n_typeII": 69,
+        "n_true_dep": 0,
+        "typeI_true": 0,
+        "typeI_false": 4,
+        "typeII_true": 69,
+        "typeII_false": 0,
+        "dep_found_typeI": 0
+       },
+       "over": {
+        "n_vertical": 48,
+        "n_typeI": 5,
+        "n_typeII": 43,
+        "n_true_dep": 0,
+        "typeI_true": 0,
+        "typeI_false": 5,
+        "typeII_true": 43,
+        "typeII_false": 0,
+        "dep_found_typeI": 0
+       },
+       "planted": {}
+      }
+     },
+     "truth_dep_cells": 0,
+     "truth_dep_found": 0,
+     "within_dep_cells": 0
+    },
+    {
+     "n_under": 117,
+     "n_over": 95,
+     "by_op": {
+      "rot": {
+       "under": {
+        "n_vertical": 69,
+        "n_typeI": 17,
+        "n_typeII": 52,
+        "n_true_dep": 0,
+        "typeI_true": 0,
+        "typeI_false": 17,
+        "typeII_true": 52,
+        "typeII_false": 0,
+        "dep_found_typeI": 0
+       },
+       "over": {
+        "n_vertical": 46,
+        "n_typeI": 12,
+        "n_typeII": 34,
+        "n_true_dep": 0,
+        "typeI_true": 0,
+        "typeI_false": 12,
+        "typeII_true": 34,
+        "typeII_false": 0,
+        "dep_found_typeI": 0
+       },
+       "planted": {}
+      },
+      "metric": {
+       "under": {
+        "n_vertical": 69,
+        "n_typeI": 14,
+        "n_typeII": 55,
+        "n_true_dep": 0,
+        "typeI_true": 0,
+        "typeI_false": 14,
+        "typeII_true": 55,
+        "typeII_false": 0,
+        "dep_found_typeI": 0
+       },
+       "over": {
+        "n_vertical": 46,
+        "n_typeI": 13,
+        "n_typeII": 33,
+        "n_true_dep": 0,
+        "typeI_true": 0,
+        "typeI_false": 13,
+        "typeII_true": 33,
+        "typeII_false": 0,
+        "dep_found_typeI": 0
+       },
+       "planted": {}
+      },
+      "recombine": {
+       "under": {
+        "n_vertical": 69,
+        "n_typeI": 6,
+        "n_typeII": 63,
+        "n_true_dep": 0,
+        "typeI_true": 0,
+        "typeI_false": 6,
+        "typeII_true": 63,
+        "typeII_false": 0,
+        "dep_found_typeI": 0
+       },
+       "over": {
+        "n_vertical": 46,
+        "n_typeI": 5,
+        "n_typeII": 41,
+        "n_true_dep": 0,
+        "typeI_true": 0,
+        "typeI_false": 5,
+        "typeII_true": 41,
+        "typeII_false": 0,
+        "dep_found_typeI": 0
+       },
+       "planted": {}
+      }
+     },
+     "truth_dep_cells": 0,
+     "truth_dep_found": 0,
+     "within_dep_cells": 0
+    },
+    {
+     "n_under": 123,
+     "n_over": 98,
+     "by_op": {
+      "rot": {
+       "under": {
+        "n_vertical": 75,
+        "n_typeI": 17,
+        "n_typeII": 58,
+        "n_true_dep": 0,
+        "typeI_true": 0,
+        "typeI_false": 17,
+        "typeII_true": 58,
+        "typeII_false": 0,
+        "dep_found_typeI": 0
+       },
+       "over": {
+        "n_vertical": 48,
+        "n_typeI": 10,
+        "n_typeII": 38,
+        "n_true_dep": 0,
+        "typeI_true": 0,
+        "typeI_false": 10,
+        "typeII_true": 38,
+        "typeII_false": 0,
+        "dep_found_typeI": 0
+       },
+       "planted": {}
+      },
+      "metric": {
+       "under": {
+        "n_vertical": 75,
+        "n_typeI": 16,
+        "n_typeII": 59,
+        "n_true_dep": 0,
+        "typeI_true": 0,
+        "typeI_false": 16,
+        "typeII_true": 59,
+        "typeII_false": 0,
+        "dep_found_typeI": 0
+       },
+       "over": {
+        "n_vertical": 48,
+        "n_typeI": 7,
+        "n_typeII": 41,
+        "n_true_dep": 0,
+        "typeI_true": 0,
+        "typeI_false": 7,
+        "typeII_true": 41,
+        "typeII_false": 0,
+        "dep_found_typeI": 0
+       },
+       "planted": {}
+      },
+      "recombine": {
+       "under": {
+        "n_vertical": 75,
+        "n_typeI": 6,
+        "n_typeII": 69,
+        "n_true_dep": 0,
+        "typeI_true": 0,
+        "typeI_false": 6,
+        "typeII_true": 69,
+        "typeII_false": 0,
+        "dep_found_typeI": 0
+       },
+       "over": {
+        "n_vertical": 48,
+        "n_typeI": 4,
+        "n_typeII": 44,
+        "n_true_dep": 0,
+        "typeI_true": 0,
+        "typeI_false": 4,
+        "typeII_true": 44,
+        "typeII_false": 0,
+        "dep_found_typeI": 0
+       },
+       "planted": {}
+      }
+     },
+     "truth_dep_cells": 0,
+     "truth_dep_found": 0,
+     "within_dep_cells": 0
+    }
+   ]
+  },
+  "S2": {
+   "truth_counts": {
+    "indep": 184948,
+    "grey": 170
+   },
+   "reps": [
+    {
+     "n_under": 117,
+     "n_over": 133,
+     "by_op": {
+      "rot": {
+       "under": {
+        "n_vertical": 70,
+        "n_typeI": 19,
+        "n_typeII": 51,
+        "n_true_dep": 0,
+        "typeI_true": 0,
+        "typeI_false": 19,
+        "typeII_true": 51,
+        "typeII_false": 0,
+        "dep_found_typeI": 0
+       },
+       "over": {
+        "n_vertical": 64,
+        "n_typeI": 38,
+        "n_typeII": 26,
+        "n_true_dep": 0,
+        "typeI_true": 0,
+        "typeI_false": 38,
+        "typeII_true": 26,
+        "typeII_false": 0,
+        "dep_found_typeI": 0
+       },
+       "planted": {}
+      },
+      "metric": {
+       "under": {
+        "n_vertical": 70,
+        "n_typeI": 18,
+        "n_typeII": 52,
+        "n_true_dep": 0,
+        "typeI_true": 0,
+        "typeI_false": 18,
+        "typeII_true": 52,
+        "typeII_false": 0,
+        "dep_found_typeI": 0
+       },
+       "over": {
+        "n_vertical": 64,
+        "n_typeI": 35,
+        "n_typeII": 29,
+        "n_true_dep": 0,
+        "typeI_true": 0,
+        "typeI_false": 35,
+        "typeII_true": 29,
+        "typeII_false": 0,
+        "dep_found_typeI": 0
+       },
+       "planted": {}
+      },
+      "recombine": {
+       "under": {
+        "n_vertical": 70,
+        "n_typeI": 5,
+        "n_typeII": 65,
+        "n_true_dep": 0,
+        "typeI_true": 0,
+        "typeI_false": 5,
+        "typeII_true": 65,
+        "typeII_false": 0,
+        "dep_found_typeI": 0
+       },
+       "over": {
+        "n_vertical": 64,
+        "n_typeI": 16,
+        "n_typeII": 48,
+        "n_true_dep": 0,
+        "typeI_true": 0,
+        "typeI_false": 16,
+        "typeII_true": 48,
+        "typeII_false": 0,
+        "dep_found_typeI": 0
+       },
+       "planted": {}
+      }
+     },
+     "truth_dep_cells": 0,
+     "truth_dep_found": 0,
+     "within_dep_cells": 1
+    },
+    {
+     "n_under": 127,
+     "n_over": 137,
+     "by_op": {
+      "rot": {
+       "under": {
+        "n_vertical": 79,
+        "n_typeI": 18,
+        "n_typeII": 61,
+        "n_true_dep": 0,
+        "typeI_true": 0,
+        "typeI_false": 18,
+        "typeII_true": 61,
+        "typeII_false": 0,
+        "dep_found_typeI": 0
+       },
+       "over": {
+        "n_vertical": 65,
+        "n_typeI": 31,
+        "n_typeII": 34,
+        "n_true_dep": 0,
+        "typeI_true": 0,
+        "typeI_false": 31,
+        "typeII_true": 34,
+        "typeII_false": 0,
+        "dep_found_typeI": 0
+       },
+       "planted": {}
+      },
+      "metric": {
+       "under": {
+        "n_vertical": 79,
+        "n_typeI": 17,
+        "n_typeII": 62,
+        "n_true_dep": 0,
+        "typeI_true": 0,
+        "typeI_false": 17,
+        "typeII_true": 62,
+        "typeII_false": 0,
+        "dep_found_typeI": 0
+       },
+       "over": {
+        "n_vertical": 65,
+        "n_typeI": 33,
+        "n_typeII": 32,
+        "n_true_dep": 0,
+        "typeI_true": 0,
+        "typeI_false": 33,
+        "typeII_true": 32,
+        "typeII_false": 0,
+        "dep_found_typeI": 0
+       },
+       "planted": {}
+      },
+      "recombine": {
+       "under": {
+        "n_vertical": 79,
+        "n_typeI": 7,
+        "n_typeII": 72,
+        "n_true_dep": 0,
+        "typeI_true": 0,
+        "typeI_false": 7,
+        "typeII_true": 72,
+        "typeII_false": 0,
+        "dep_found_typeI": 0
+       },
+       "over": {
+        "n_vertical": 65,
+        "n_typeI": 15,
+        "n_typeII": 50,
+        "n_true_dep": 0,
+        "typeI_true": 0,
+        "typeI_false": 15,
+        "typeII_true": 50,
+        "typeII_false": 0,
+        "dep_found_typeI": 0
+       },
+       "planted": {}
+      }
+     },
+     "truth_dep_cells": 0,
+     "truth_dep_found": 0,
+     "within_dep_cells": 1
+    },
+    {
+     "n_under": 124,
+     "n_over": 131,
+     "by_op": {
+      "rot": {
+       "under": {
+        "n_vertical": 75,
+        "n_typeI": 18,
+        "n_typeII": 57,
+        "n_true_dep": 0,
+        "typeI_true": 0,
+        "typeI_false": 18,
+        "typeII_true": 57,
+        "typeII_false": 0,
+        "dep_found_typeI": 0
+       },
+       "over": {
+        "n_vertical": 67,
+        "n_typeI": 30,
+        "n_typeII": 37,
+        "n_true_dep": 0,
+        "typeI_true": 0,
+        "typeI_false": 30,
+        "typeII_true": 37,
+        "typeII_false": 0,
+        "dep_found_typeI": 0
+       },
+       "planted": {}
+      },
+      "metric": {
+       "under": {
+        "n_vertical": 75,
+        "n_typeI": 17,
+        "n_typeII": 58,
+        "n_true_dep": 0,
+        "typeI_true": 0,
+        "typeI_false": 17,
+        "typeII_true": 58,
+        "typeII_false": 0,
+        "dep_found_typeI": 0
+       },
+       "over": {
+        "n_vertical": 67,
+        "n_typeI": 30,
+        "n_typeII": 37,
+        "n_true_dep": 0,
+        "typeI_true": 0,
+        "typeI_false": 30,
+        "typeII_true": 37,
+        "typeII_false": 0,
+        "dep_found_typeI": 0
+       },
+       "planted": {}
+      },
+      "recombine": {
+       "under": {
+        "n_vertical": 75,
+        "n_typeI": 5,
+        "n_typeII": 70,
+        "n_true_dep": 0,
+        "typeI_true": 0,
+        "typeI_false": 5,
+        "typeII_true": 70,
+        "typeII_false": 0,
+        "dep_found_typeI": 0
+       },
+       "over": {
+        "n_vertical": 67,
+        "n_typeI": 14,
+        "n_typeII": 53,
+        "n_true_dep": 0,
+        "typeI_true": 0,
+        "typeI_false": 14,
+        "typeII_true": 53,
+        "typeII_false": 0,
+        "dep_found_typeI": 0
+       },
+       "planted": {}
+      }
+     },
+     "truth_dep_cells": 0,
+     "truth_dep_found": 0,
+     "within_dep_cells": 1
+    },
+    {
+     "n_under": 129,
+     "n_over": 144,
+     "by_op": {
+      "rot": {
+       "under": {
+        "n_vertical": 82,
+        "n_typeI": 25,
+        "n_typeII": 57,
+        "n_true_dep": 0,
+        "typeI_true": 0,
+        "typeI_false": 25,
+        "typeII_true": 57,
+        "typeII_false": 0,
+        "dep_found_typeI": 0
+       },
+       "over": {
+        "n_vertical": 75,
+        "n_typeI": 39,
+        "n_typeII": 36,
+        "n_true_dep": 0,
+        "typeI_true": 0,
+        "typeI_false": 39,
+        "typeII_true": 36,
+        "typeII_false": 0,
+        "dep_found_typeI": 0
+       },
+       "planted": {}
+      },
+      "metric": {
+       "under": {
+        "n_vertical": 82,
+        "n_typeI": 22,
+        "n_typeII": 60,
+        "n_true_dep": 0,
+        "typeI_true": 0,
+        "typeI_false": 22,
+        "typeII_true": 60,
+        "typeII_false": 0,
+        "dep_found_typeI": 0
+       },
+       "over": {
+        "n_vertical": 75,
+        "n_typeI": 31,
+        "n_typeII": 44,
+        "n_true_dep": 0,
+        "typeI_true": 0,
+        "typeI_false": 31,
+        "typeII_true": 44,
+        "typeII_false": 0,
+        "dep_found_typeI": 0
+       },
+       "planted": {}
+      },
+      "recombine": {
+       "under": {
+        "n_vertical": 82,
+        "n_typeI": 3,
+        "n_typeII": 79,
+        "n_true_dep": 0,
+        "typeI_true": 0,
+        "typeI_false": 3,
+        "typeII_true": 79,
+        "typeII_false": 0,
+        "dep_found_typeI": 0
+       },
+       "over": {
+        "n_vertical": 75,
+        "n_typeI": 15,
+        "n_typeII": 60,
+        "n_true_dep": 0,
+        "typeI_true": 0,
+        "typeI_false": 15,
+        "typeII_true": 60,
+        "typeII_false": 0,
+        "dep_found_typeI": 0
+       },
+       "planted": {}
+      }
+     },
+     "truth_dep_cells": 0,
+     "truth_dep_found": 0,
+     "within_dep_cells": 1
+    },
+    {
+     "n_under": 126,
+     "n_over": 142,
+     "by_op": {
+      "rot": {
+       "under": {
+        "n_vertical": 79,
+        "n_typeI": 22,
+        "n_typeII": 57,
+        "n_true_dep": 0,
+        "typeI_true": 0,
+        "typeI_false": 22,
+        "typeII_true": 57,
+        "typeII_false": 0,
+        "dep_found_typeI": 0
+       },
+       "over": {
+        "n_vertical": 69,
+        "n_typeI": 44,
+        "n_typeII": 25,
+        "n_true_dep": 0,
+        "typeI_true": 0,
+        "typeI_false": 44,
+        "typeII_true": 25,
+        "typeII_false": 0,
+        "dep_found_typeI": 0
+       },
+       "planted": {}
+      },
+      "metric": {
+       "under": {
+        "n_vertical": 79,
+        "n_typeI": 21,
+        "n_typeII": 58,
+        "n_true_dep": 0,
+        "typeI_true": 0,
+        "typeI_false": 21,
+        "typeII_true": 58,
+        "typeII_false": 0,
+        "dep_found_typeI": 0
+       },
+       "over": {
+        "n_vertical": 69,
+        "n_typeI": 39,
+        "n_typeII": 30,
+        "n_true_dep": 0,
+        "typeI_true": 0,
+        "typeI_false": 39,
+        "typeII_true": 30,
+        "typeII_false": 0,
+        "dep_found_typeI": 0
+       },
+       "planted": {}
+      },
+      "recombine": {
+       "under": {
+        "n_vertical": 79,
+        "n_typeI": 6,
+        "n_typeII": 73,
+        "n_true_dep": 0,
+        "typeI_true": 0,
+        "typeI_false": 6,
+        "typeII_true": 73,
+        "typeII_false": 0,
+        "dep_found_typeI": 0
+       },
+       "over": {
+        "n_vertical": 69,
+        "n_typeI": 15,
+        "n_typeII": 54,
+        "n_true_dep": 0,
+        "typeI_true": 0,
+        "typeI_false": 15,
+        "typeII_true": 54,
+        "typeII_false": 0,
+        "dep_found_typeI": 0
+       },
+       "planted": {}
+      }
+     },
+     "truth_dep_cells": 0,
+     "truth_dep_found": 0,
+     "within_dep_cells": 1
+    }
+   ]
+  },
+  "S3": {
+   "truth_counts": {
+    "indep": 175795,
+    "grey": 217,
+    "avoid": 12,
+    "prefer": 2
+   },
+   "reps": [
+    {
+     "n_under": 127,
+     "n_over": 156,
+     "by_op": {
+      "rot": {
+       "under": {
+        "n_vertical": 78,
+        "n_typeI": 18,
+        "n_typeII": 60,
+        "n_true_dep": 12,
+        "typeI_true": 0,
+        "typeI_false": 18,
+        "typeII_true": 46,
+        "typeII_false": 12,
+        "dep_found_typeI": 0
+       },
+       "over": {
+        "n_vertical": 85,
+        "n_typeI": 49,
+        "n_typeII": 36,
+        "n_true_dep": 0,
+        "typeI_true": 0,
+        "typeI_false": 44,
+        "typeII_true": 35,
+        "typeII_false": 0,
+        "dep_found_typeI": 0
+       },
+       "planted": {
+        "A1": {
+         "n_disc": 6,
+         "classes": {
+          "typeII": 6
+         }
+        }
+       }
+      },
+      "metric": {
+       "under": {
+        "n_vertical": 78,
+        "n_typeI": 17,
+        "n_typeII": 61,
+        "n_true_dep": 12,
+        "typeI_true": 0,
+        "typeI_false": 17,
+        "typeII_true": 47,
+        "typeII_false": 12,
+        "dep_found_typeI": 0
+       },
+       "over": {
+        "n_vertical": 85,
+        "n_typeI": 48,
+        "n_typeII": 37,
+        "n_true_dep": 0,
+        "typeI_true": 0,
+        "typeI_false": 42,
+        "typeII_true": 37,
+        "typeII_false": 0,
+        "dep_found_typeI": 0
+       },
+       "planted": {
+        "A1": {
+         "n_disc": 6,
+         "classes": {
+          "typeII": 6
+         }
+        }
+       }
+      },
+      "recombine": {
+       "under": {
+        "n_vertical": 78,
+        "n_typeI": 14,
+        "n_typeII": 64,
+        "n_true_dep": 12,
+        "typeI_true": 8,
+        "typeI_false": 6,
+        "typeII_true": 58,
+        "typeII_false": 4,
+        "dep_found_typeI": 8
+       },
+       "over": {
+        "n_vertical": 85,
+        "n_typeI": 26,
+        "n_typeII": 59,
+        "n_true_dep": 0,
+        "typeI_true": 0,
+        "typeI_false": 22,
+        "typeII_true": 57,
+        "typeII_false": 0,
+        "dep_found_typeI": 0
+       },
+       "planted": {
+        "A1": {
+         "n_disc": 6,
+         "classes": {
+          "typeI": 6
+         }
+        }
+       }
+      }
+     },
+     "truth_dep_cells": 14,
+     "truth_dep_found": 12,
+     "within_dep_cells": 5
+    },
+    {
+     "n_under": 134,
+     "n_over": 150,
+     "by_op": {
+      "rot": {
+       "under": {
+        "n_vertical": 85,
+        "n_typeI": 21,
+        "n_typeII": 64,
+        "n_true_dep": 12,
+        "typeI_true": 0,
+        "typeI_false": 21,
+        "typeII_true": 50,
+        "typeII_false": 12,
+        "dep_found_typeI": 0
+       },
+       "over": {
+        "n_vertical": 80,
+        "n_typeI": 45,
+        "n_typeII": 35,
+        "n_true_dep": 0,
+        "typeI_true": 0,
+        "typeI_false": 41,
+        "typeII_true": 35,
+        "typeII_false": 0,
+        "dep_found_typeI": 0
+       },
+       "planted": {
+        "A1": {
+         "n_disc": 6,
+         "classes": {
+          "typeII": 6
+         }
+        }
+       }
+      },
+      "metric": {
+       "under": {
+        "n_vertical": 85,
+        "n_typeI": 18,
+        "n_typeII": 67,
+        "n_true_dep": 12,
+        "typeI_true": 0,
+        "typeI_false": 18,
+        "typeII_true": 53,
+        "typeII_false": 12,
+        "dep_found_typeI": 0
+       },
+       "over": {
+        "n_vertical": 80,
+        "n_typeI": 46,
+        "n_typeII": 34,
+        "n_true_dep": 0,
+        "typeI_true": 0,
+        "typeI_false": 42,
+        "typeII_true": 34,
+        "typeII_false": 0,
+        "dep_found_typeI": 0
+       },
+       "planted": {
+        "A1": {
+         "n_disc": 6,
+         "classes": {
+          "typeII": 6
+         }
+        }
+       }
+      },
+      "recombine": {
+       "under": {
+        "n_vertical": 85,
+        "n_typeI": 8,
+        "n_typeII": 77,
+        "n_true_dep": 12,
+        "typeI_true": 5,
+        "typeI_false": 3,
+        "typeII_true": 68,
+        "typeII_false": 7,
+        "dep_found_typeI": 5
+       },
+       "over": {
+        "n_vertical": 80,
+        "n_typeI": 21,
+        "n_typeII": 59,
+        "n_true_dep": 0,
+        "typeI_true": 0,
+        "typeI_false": 18,
+        "typeII_true": 58,
+        "typeII_false": 0,
+        "dep_found_typeI": 0
+       },
+       "planted": {
+        "A1": {
+         "n_disc": 6,
+         "classes": {
+          "typeI": 4,
+          "typeII": 2
+         }
+        }
+       }
+      }
+     },
+     "truth_dep_cells": 14,
+     "truth_dep_found": 12,
+     "within_dep_cells": 5
+    },
+    {
+     "n_under": 131,
+     "n_over": 147,
+     "by_op": {
+      "rot": {
+       "under": {
+        "n_vertical": 84,
+        "n_typeI": 20,
+        "n_typeII": 64,
+        "n_true_dep": 12,
+        "typeI_true": 0,
+        "typeI_false": 20,
+        "typeII_true": 49,
+        "typeII_false": 12,
+        "dep_found_typeI": 0
+       },
+       "over": {
+        "n_vertical": 79,
+        "n_typeI": 45,
+        "n_typeII": 34,
+        "n_true_dep": 0,
+        "typeI_true": 0,
+        "typeI_false": 43,
+        "typeII_true": 34,
+        "typeII_false": 0,
+        "dep_found_typeI": 0
+       },
+       "planted": {
+        "A1": {
+         "n_disc": 6,
+         "classes": {
+          "typeII": 6
+         }
+        }
+       }
+      },
+      "metric": {
+       "under": {
+        "n_vertical": 84,
+        "n_typeI": 22,
+        "n_typeII": 62,
+        "n_true_dep": 12,
+        "typeI_true": 0,
+        "typeI_false": 21,
+        "typeII_true": 48,
+        "typeII_false": 12,
+        "dep_found_typeI": 0
+       },
+       "over": {
+        "n_vertical": 79,
+        "n_typeI": 48,
+        "n_typeII": 31,
+        "n_true_dep": 0,
+        "typeI_true": 0,
+        "typeI_false": 46,
+        "typeII_true": 31,
+        "typeII_false": 0,
+        "dep_found_typeI": 0
+       },
+       "planted": {
+        "A1": {
+         "n_disc": 6,
+         "classes": {
+          "typeII": 6
+         }
+        }
+       }
+      },
+      "recombine": {
+       "under": {
+        "n_vertical": 84,
+        "n_typeI": 12,
+        "n_typeII": 72,
+        "n_true_dep": 12,
+        "typeI_true": 7,
+        "typeI_false": 4,
+        "typeII_true": 65,
+        "typeII_false": 5,
+        "dep_found_typeI": 7
+       },
+       "over": {
+        "n_vertical": 79,
+        "n_typeI": 22,
+        "n_typeII": 57,
+        "n_true_dep": 0,
+        "typeI_true": 0,
+        "typeI_false": 20,
+        "typeII_true": 57,
+        "typeII_false": 0,
+        "dep_found_typeI": 0
+       },
+       "planted": {
+        "A1": {
+         "n_disc": 6,
+         "classes": {
+          "typeI": 5,
+          "typeII": 1
+         }
+        }
+       }
+      }
+     },
+     "truth_dep_cells": 14,
+     "truth_dep_found": 12,
+     "within_dep_cells": 5
+    },
+    {
+     "n_under": 124,
+     "n_over": 145,
+     "by_op": {
+      "rot": {
+       "under": {
+        "n_vertical": 74,
+        "n_typeI": 20,
+        "n_typeII": 54,
+        "n_true_dep": 12,
+        "typeI_true": 0,
+        "typeI_false": 20,
+        "typeII_true": 40,
+        "typeII_false": 12,
+        "dep_found_typeI": 0
+       },
+       "over": {
+        "n_vertical": 81,
+        "n_typeI": 50,
+        "n_typeII": 31,
+        "n_true_dep": 0,
+        "typeI_true": 0,
+        "typeI_false": 48,
+        "typeII_true": 30,
+        "typeII_false": 0,
+        "dep_found_typeI": 0
+       },
+       "planted": {
+        "A1": {
+         "n_disc": 6,
+         "classes": {
+          "typeII": 6
+         }
+        }
+       }
+      },
+      "metric": {
+       "under": {
+        "n_vertical": 74,
+        "n_typeI": 17,
+        "n_typeII": 57,
+        "n_true_dep": 12,
+        "typeI_true": 0,
+        "typeI_false": 17,
+        "typeII_true": 43,
+        "typeII_false": 12,
+        "dep_found_typeI": 0
+       },
+       "over": {
+        "n_vertical": 81,
+        "n_typeI": 45,
+        "n_typeII": 36,
+        "n_true_dep": 0,
+        "typeI_true": 0,
+        "typeI_false": 42,
+        "typeII_true": 36,
+        "typeII_false": 0,
+        "dep_found_typeI": 0
+       },
+       "planted": {
+        "A1": {
+         "n_disc": 6,
+         "classes": {
+          "typeII": 6
+         }
+        }
+       }
+      },
+      "recombine": {
+       "under": {
+        "n_vertical": 74,
+        "n_typeI": 11,
+        "n_typeII": 63,
+        "n_true_dep": 12,
+        "typeI_true": 6,
+        "typeI_false": 5,
+        "typeII_true": 55,
+        "typeII_false": 6,
+        "dep_found_typeI": 6
+       },
+       "over": {
+        "n_vertical": 81,
+        "n_typeI": 20,
+        "n_typeII": 61,
+        "n_true_dep": 0,
+        "typeI_true": 0,
+        "typeI_false": 17,
+        "typeII_true": 61,
+        "typeII_false": 0,
+        "dep_found_typeI": 0
+       },
+       "planted": {
+        "A1": {
+         "n_disc": 6,
+         "classes": {
+          "typeI": 4,
+          "typeII": 2
+         }
+        }
+       }
+      }
+     },
+     "truth_dep_cells": 14,
+     "truth_dep_found": 12,
+     "within_dep_cells": 5
+    },
+    {
+     "n_under": 129,
+     "n_over": 142,
+     "by_op": {
+      "rot": {
+       "under": {
+        "n_vertical": 78,
+        "n_typeI": 20,
+        "n_typeII": 58,
+        "n_true_dep": 12,
+        "typeI_true": 1,
+        "typeI_false": 19,
+        "typeII_true": 45,
+        "typeII_false": 11,
+        "dep_found_typeI": 1
+       },
+       "over": {
+        "n_vertical": 74,
+        "n_typeI": 38,
+        "n_typeII": 36,
+        "n_true_dep": 0,
+        "typeI_true": 0,
+        "typeI_false": 37,
+        "typeII_true": 36,
+        "typeII_false": 0,
+        "dep_found_typeI": 0
+       },
+       "planted": {
+        "A1": {
+         "n_disc": 6,
+         "classes": {
+          "typeII": 5,
+          "typeI": 1
+         }
+        }
+       }
+      },
+      "metric": {
+       "under": {
+        "n_vertical": 78,
+        "n_typeI": 19,
+        "n_typeII": 59,
+        "n_true_dep": 12,
+        "typeI_true": 0,
+        "typeI_false": 19,
+        "typeII_true": 45,
+        "typeII_false": 12,
+        "dep_found_typeI": 0
+       },
+       "over": {
+        "n_vertical": 74,
+        "n_typeI": 36,
+        "n_typeII": 38,
+        "n_true_dep": 0,
+        "typeI_true": 0,
+        "typeI_false": 35,
+        "typeII_true": 38,
+        "typeII_false": 0,
+        "dep_found_typeI": 0
+       },
+       "planted": {
+        "A1": {
+         "n_disc": 6,
+         "classes": {
+          "typeII": 6
+         }
+        }
+       }
+      },
+      "recombine": {
+       "under": {
+        "n_vertical": 78,
+        "n_typeI": 13,
+        "n_typeII": 65,
+        "n_true_dep": 12,
+        "typeI_true": 8,
+        "typeI_false": 5,
+        "typeII_true": 59,
+        "typeII_false": 4,
+        "dep_found_typeI": 8
+       },
+       "over": {
+        "n_vertical": 74,
+        "n_typeI": 18,
+        "n_typeII": 56,
+        "n_true_dep": 0,
+        "typeI_true": 0,
+        "typeI_false": 17,
+        "typeII_true": 56,
+        "typeII_false": 0,
+        "dep_found_typeI": 0
+       },
+       "planted": {
+        "A1": {
+         "n_disc": 6,
+         "classes": {
+          "typeI": 6
+         }
+        }
+       }
+      }
+     },
+     "truth_dep_cells": 14,
+     "truth_dep_found": 12,
+     "within_dep_cells": 5
+    }
+   ]
+  },
+  "S4": {
+   "truth_counts": {
+    "indep": 151131,
+    "grey": 2111,
+    "avoid": 280,
+    "prefer": 381
+   },
+   "reps": [
+    {
+     "n_under": 147,
+     "n_over": 254,
+     "by_op": {
+      "rot": {
+       "under": {
+        "n_vertical": 94,
+        "n_typeI": 34,
+        "n_typeII": 60,
+        "n_true_dep": 16,
+        "typeI_true": 8,
+        "typeI_false": 20,
+        "typeII_true": 44,
+        "typeII_false": 8,
+        "dep_found_typeI": 8
+       },
+       "over": {
+        "n_vertical": 185,
+        "n_typeI": 140,
+        "n_typeII": 45,
+        "n_true_dep": 67,
+        "typeI_true": 59,
+        "typeI_false": 51,
+        "typeII_true": 32,
+        "typeII_false": 8,
+        "dep_found_typeI": 59
+       },
+       "planted": {
+        "A1": {
+         "n_disc": 6,
+         "classes": {
+          "typeII": 6
+         }
+        },
+        "A11": {
+         "n_disc": 2,
+         "classes": {
+          "typeI": 2
+         }
+        },
+        "A12": {
+         "n_disc": 5,
+         "classes": {
+          "typeI": 5
+         }
+        }
+       }
+      },
+      "metric": {
+       "under": {
+        "n_vertical": 94,
+        "n_typeI": 32,
+        "n_typeII": 62,
+        "n_true_dep": 16,
+        "typeI_true": 7,
+        "typeI_false": 20,
+        "typeII_true": 44,
+        "typeII_false": 9,
+        "dep_found_typeI": 7
+       },
+       "over": {
+        "n_vertical": 185,
+        "n_typeI": 124,
+        "n_typeII": 61,
+        "n_true_dep": 67,
+        "typeI_true": 52,
+        "typeI_false": 45,
+        "typeII_true": 38,
+        "typeII_false": 15,
+        "dep_found_typeI": 52
+       },
+       "planted": {
+        "A1": {
+         "n_disc": 6,
+         "classes": {
+          "typeII": 6
+         }
+        },
+        "A11": {
+         "n_disc": 2,
+         "classes": {
+          "typeI": 1,
+          "typeII": 1
+         }
+        },
+        "A12": {
+         "n_disc": 5,
+         "classes": {
+          "typeI": 4,
+          "typeII": 1
+         }
+        }
+       }
+      },
+      "recombine": {
+       "under": {
+        "n_vertical": 94,
+        "n_typeI": 26,
+        "n_typeII": 68,
+        "n_true_dep": 16,
+        "typeI_true": 13,
+        "typeI_false": 8,
+        "typeII_true": 56,
+        "typeII_false": 3,
+        "dep_found_typeI": 13
+       },
+       "over": {
+        "n_vertical": 185,
+        "n_typeI": 110,
+        "n_typeII": 75,
+        "n_true_dep": 67,
+        "typeI_true": 57,
+        "typeI_false": 26,
+        "typeII_true": 57,
+        "typeII_false": 10,
+        "dep_found_typeI": 57
+       },
+       "planted": {
+        "A1": {
+         "n_disc": 6,
+         "classes": {
+          "typeI": 4,
+          "typeII": 2
+         }
+        },
+        "A11": {
+         "n_disc": 2,
+         "classes": {
+          "typeI": 2
+         }
+        },
+        "A12": {
+         "n_disc": 5,
+         "classes": {
+          "typeI": 4,
+          "typeII": 1
+         }
+        }
+       }
+      }
+     },
+     "truth_dep_cells": 661,
+     "truth_dep_found": 87,
+     "within_dep_cells": 26
+    },
+    {
+     "n_under": 130,
+     "n_over": 257,
+     "by_op": {
+      "rot": {
+       "under": {
+        "n_vertical": 81,
+        "n_typeI": 23,
+        "n_typeII": 58,
+        "n_true_dep": 16,
+        "typeI_true": 8,
+        "typeI_false": 13,
+        "typeII_true": 42,
+        "typeII_false": 8,
+        "dep_found_typeI": 8
+       },
+       "over": {
+        "n_vertical": 186,
+        "n_typeI": 129,
+        "n_typeII": 57,
+        "n_true_dep": 61,
+        "typeI_true": 54,
+        "typeI_false": 47,
+        "typeII_true": 42,
+        "typeII_false": 7,
+        "dep_found_typeI": 54
+       },
+       "planted": {
+        "A1": {
+         "n_disc": 6,
+         "classes": {
+          "typeII": 6
+         }
+        },
+        "A11": {
+         "n_disc": 2,
+         "classes": {
+          "typeI": 2
+         }
+        },
+        "A12": {
+         "n_disc": 5,
+         "classes": {
+          "typeI": 5
+         }
+        }
+       }
+      },
+      "metric": {
+       "under": {
+        "n_vertical": 81,
+        "n_typeI": 23,
+        "n_typeII": 58,
+        "n_true_dep": 16,
+        "typeI_true": 6,
+        "typeI_false": 16,
+        "typeII_true": 39,
+        "typeII_false": 10,
+        "dep_found_typeI": 6
+       },
+       "over": {
+        "n_vertical": 186,
+        "n_typeI": 123,
+        "n_typeII": 63,
+        "n_true_dep": 61,
+        "typeI_true": 42,
+        "typeI_false": 55,
+        "typeII_true": 34,
+        "typeII_false": 19,
+        "dep_found_typeI": 42
+       },
+       "planted": {
+        "A1": {
+         "n_disc": 6,
+         "classes": {
+          "typeII": 6
+         }
+        },
+        "A11": {
+         "n_disc": 2,
+         "classes": {
+          "typeI": 1,
+          "typeII": 1
+         }
+        },
+        "A12": {
+         "n_disc": 5,
+         "classes": {
+          "typeI": 4,
+          "typeII": 1
+         }
+        }
+       }
+      },
+      "recombine": {
+       "under": {
+        "n_vertical": 81,
+        "n_typeI": 23,
+        "n_typeII": 58,
+        "n_true_dep": 16,
+        "typeI_true": 15,
+        "typeI_false": 7,
+        "typeII_true": 48,
+        "typeII_false": 1,
+        "dep_found_typeI": 15
+       },
+       "over": {
+        "n_vertical": 186,
+        "n_typeI": 110,
+        "n_typeII": 76,
+        "n_true_dep": 61,
+        "typeI_true": 51,
+        "typeI_false": 31,
+        "typeII_true": 58,
+        "typeII_false": 10,
+        "dep_found_typeI": 51
+       },
+       "planted": {
+        "A1": {
+         "n_disc": 6,
+         "classes": {
+          "typeI": 5,
+          "typeII": 1
+         }
+        },
+        "A11": {
+         "n_disc": 2,
+         "classes": {
+          "typeI": 2
+         }
+        },
+        "A12": {
+         "n_disc": 5,
+         "classes": {
+          "typeI": 5
+         }
+        }
+       }
+      }
+     },
+     "truth_dep_cells": 661,
+     "truth_dep_found": 78,
+     "within_dep_cells": 26
+    },
+    {
+     "n_under": 146,
+     "n_over": 265,
+     "by_op": {
+      "rot": {
+       "under": {
+        "n_vertical": 94,
+        "n_typeI": 33,
+        "n_typeII": 61,
+        "n_true_dep": 16,
+        "typeI_true": 8,
+        "typeI_false": 21,
+        "typeII_true": 44,
+        "typeII_false": 8,
+        "dep_found_typeI": 8
+       },
+       "over": {
+        "n_vertical": 193,
+        "n_typeI": 132,
+        "n_typeII": 61,
+        "n_true_dep": 66,
+        "typeI_true": 57,
+        "typeI_false": 48,
+        "typeII_true": 42,
+        "typeII_false": 9,
+        "dep_found_typeI": 57
+       },
+       "planted": {
+        "A1": {
+         "n_disc": 6,
+         "classes": {
+          "typeII": 6
+         }
+        },
+        "A11": {
+         "n_disc": 2,
+         "classes": {
+          "typeI": 2
+         }
+        },
+        "A12": {
+         "n_disc": 5,
+         "classes": {
+          "typeI": 5
+         }
+        }
+       }
+      },
+      "metric": {
+       "under": {
+        "n_vertical": 94,
+        "n_typeI": 32,
+        "n_typeII": 62,
+        "n_true_dep": 16,
+        "typeI_true": 8,
+        "typeI_false": 22,
+        "typeII_true": 43,
+        "typeII_false": 8,
+        "dep_found_typeI": 8
+       },
+       "over": {
+        "n_vertical": 193,
+        "n_typeI": 130,
+        "n_typeII": 63,
+        "n_true_dep": 66,
+        "typeI_true": 51,
+        "typeI_false": 51,
+        "typeII_true": 39,
+        "typeII_false": 15,
+        "dep_found_typeI": 51
+       },
+       "planted": {
+        "A1": {
+         "n_disc": 6,
+         "classes": {
+          "typeII": 6
+         }
+        },
+        "A11": {
+         "n_disc": 2,
+         "classes": {
+          "typeI": 2
+         }
+        },
+        "A12": {
+         "n_disc": 5,
+         "classes": {
+          "typeI": 5
+         }
+        }
+       }
+      },
+      "recombine": {
+       "under": {
+        "n_vertical": 94,
+        "n_typeI": 27,
+        "n_typeII": 67,
+        "n_true_dep": 16,
+        "typeI_true": 15,
+        "typeI_false": 8,
+        "typeII_true": 57,
+        "typeII_false": 1,
+        "dep_found_typeI": 15
+       },
+       "over": {
+        "n_vertical": 193,
+        "n_typeI": 130,
+        "n_typeII": 63,
+        "n_true_dep": 66,
+        "typeI_true": 60,
+        "typeI_false": 40,
+        "typeII_true": 50,
+        "typeII_false": 6,
+        "dep_found_typeI": 60
+       },
+       "planted": {
+        "A1": {
+         "n_disc": 6,
+         "classes": {
+          "typeI": 6
+         }
+        },
+        "A11": {
+         "n_disc": 2,
+         "classes": {
+          "typeI": 2
+         }
+        },
+        "A12": {
+         "n_disc": 5,
+         "classes": {
+          "typeI": 5
+         }
+        }
+       }
+      }
+     },
+     "truth_dep_cells": 661,
+     "truth_dep_found": 84,
+     "within_dep_cells": 26
+    },
+    {
+     "n_under": 144,
+     "n_over": 255,
+     "by_op": {
+      "rot": {
+       "under": {
+        "n_vertical": 93,
+        "n_typeI": 31,
+        "n_typeII": 62,
+        "n_true_dep": 16,
+        "typeI_true": 8,
+        "typeI_false": 21,
+        "typeII_true": 46,
+        "typeII_false": 8,
+        "dep_found_typeI": 8
+       },
+       "over": {
+        "n_vertical": 183,
+        "n_typeI": 134,
+        "n_typeII": 49,
+        "n_true_dep": 71,
+        "typeI_true": 65,
+        "typeI_false": 34,
+        "typeII_true": 35,
+        "typeII_false": 6,
+        "dep_found_typeI": 65
+       },
+       "planted": {
+        "A1": {
+         "n_disc": 6,
+         "classes": {
+          "typeII": 6
+         }
+        },
+        "A11": {
+         "n_disc": 2,
+         "classes": {
+          "typeI": 2
+         }
+        },
+        "A12": {
+         "n_disc": 5,
+         "classes": {
+          "typeI": 5
+         }
+        }
+       }
+      },
+      "metric": {
+       "under": {
+        "n_vertical": 93,
+        "n_typeI": 28,
+        "n_typeII": 65,
+        "n_true_dep": 16,
+        "typeI_true": 5,
+        "typeI_false": 22,
+        "typeII_true": 45,
+        "typeII_false": 11,
+        "dep_found_typeI": 5
+       },
+       "over": {
+        "n_vertical": 183,
+        "n_typeI": 126,
+        "n_typeII": 57,
+        "n_true_dep": 71,
+        "typeI_true": 55,
+        "typeI_false": 38,
+        "typeII_true": 31,
+        "typeII_false": 16,
+        "dep_found_typeI": 55
+       },
+       "planted": {
+        "A1": {
+         "n_disc": 6,
+         "classes": {
+          "typeII": 6
+         }
+        },
+        "A11": {
+         "n_disc": 2,
+         "classes": {
+          "typeI": 1,
+          "typeII": 1
+         }
+        },
+        "A12": {
+         "n_disc": 5,
+         "classes": {
+          "typeII": 2,
+          "typeI": 3
+         }
+        }
+       }
+      },
+      "recombine": {
+       "under": {
+        "n_vertical": 93,
+        "n_typeI": 22,
+        "n_typeII": 71,
+        "n_true_dep": 16,
+        "typeI_true": 14,
+        "typeI_false": 7,
+        "typeII_true": 60,
+        "typeII_false": 2,
+        "dep_found_typeI": 14
+       },
+       "over": {
+        "n_vertical": 183,
+        "n_typeI": 113,
+        "n_typeII": 70,
+        "n_true_dep": 71,
+        "typeI_true": 57,
+        "typeI_false": 19,
+        "typeII_true": 50,
+        "typeII_false": 14,
+        "dep_found_typeI": 57
+       },
+       "planted": {
+        "A1": {
+         "n_disc": 6,
+         "classes": {
+          "typeI": 5,
+          "typeII": 1
+         }
+        },
+        "A11": {
+         "n_disc": 2,
+         "classes": {
+          "typeI": 2
+         }
+        },
+        "A12": {
+         "n_disc": 5,
+         "classes": {
+          "typeI": 4,
+          "typeII": 1
+         }
+        }
+       }
+      }
+     },
+     "truth_dep_cells": 661,
+     "truth_dep_found": 88,
+     "within_dep_cells": 26
+    },
+    {
+     "n_under": 140,
+     "n_over": 252,
+     "by_op": {
+      "rot": {
+       "under": {
+        "n_vertical": 89,
+        "n_typeI": 34,
+        "n_typeII": 55,
+        "n_true_dep": 16,
+        "typeI_true": 8,
+        "typeI_false": 23,
+        "typeII_true": 39,
+        "typeII_false": 8,
+        "dep_found_typeI": 8
+       },
+       "over": {
+        "n_vertical": 185,
+        "n_typeI": 130,
+        "n_typeII": 55,
+        "n_true_dep": 64,
+        "typeI_true": 51,
+        "typeI_false": 48,
+        "typeII_true": 35,
+        "typeII_false": 13,
+        "dep_found_typeI": 51
+       },
+       "planted": {
+        "A1": {
+         "n_disc": 6,
+         "classes": {
+          "typeII": 6
+         }
+        },
+        "A11": {
+         "n_disc": 2,
+         "classes": {
+          "typeI": 2
+         }
+        },
+        "A12": {
+         "n_disc": 5,
+         "classes": {
+          "typeI": 5
+         }
+        }
+       }
+      },
+      "metric": {
+       "under": {
+        "n_vertical": 89,
+        "n_typeI": 27,
+        "n_typeII": 62,
+        "n_true_dep": 16,
+        "typeI_true": 6,
+        "typeI_false": 20,
+        "typeII_true": 42,
+        "typeII_false": 10,
+        "dep_found_typeI": 6
+       },
+       "over": {
+        "n_vertical": 185,
+        "n_typeI": 123,
+        "n_typeII": 62,
+        "n_true_dep": 64,
+        "typeI_true": 46,
+        "typeI_false": 49,
+        "typeII_true": 34,
+        "typeII_false": 18,
+        "dep_found_typeI": 46
+       },
+       "planted": {
+        "A1": {
+         "n_disc": 6,
+         "classes": {
+          "typeII": 6
+         }
+        },
+        "A11": {
+         "n_disc": 2,
+         "classes": {
+          "typeI": 1,
+          "typeII": 1
+         }
+        },
+        "A12": {
+         "n_disc": 5,
+         "classes": {
+          "typeII": 2,
+          "typeI": 3
+         }
+        }
+       }
+      },
+      "recombine": {
+       "under": {
+        "n_vertical": 89,
+        "n_typeI": 22,
+        "n_typeII": 67,
+        "n_true_dep": 16,
+        "typeI_true": 13,
+        "typeI_false": 7,
+        "typeII_true": 55,
+        "typeII_false": 3,
+        "dep_found_typeI": 13
+       },
+       "over": {
+        "n_vertical": 185,
+        "n_typeI": 105,
+        "n_typeII": 80,
+        "n_true_dep": 64,
+        "typeI_true": 52,
+        "typeI_false": 28,
+        "typeII_true": 55,
+        "typeII_false": 12,
+        "dep_found_typeI": 52
+       },
+       "planted": {
+        "A1": {
+         "n_disc": 6,
+         "classes": {
+          "typeI": 6
+         }
+        },
+        "A11": {
+         "n_disc": 2,
+         "classes": {
+          "typeI": 2
+         }
+        },
+        "A12": {
+         "n_disc": 5,
+         "classes": {
+          "typeII": 2,
+          "typeI": 3
+         }
+        }
+       }
+      }
+     },
+     "truth_dep_cells": 661,
+     "truth_dep_found": 81,
+     "within_dep_cells": 26
+    }
+   ]
+  }
+ }
+}

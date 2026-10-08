@@ -1,0 +1,1507 @@
+{
+ "raters": [
+  "H",
+  "M",
+  "S"
+ ],
+ "n_items": 118,
+ "n_repeats": 10,
+ "alpha_nominal": 0.4738562091503269,
+ "alpha_binary": 0.5714665956880489,
+ "rating_dist": {
+  "H": {
+   "无法判断": 22,
+   "无效": 23,
+   "合理": 52,
+   "有效": 29,
+   "风格依赖": 2
+  },
+  "M": {
+   "无效": 37,
+   "有效": 55,
+   "合理": 28,
+   "无法判断": 6,
+   "风格依赖": 2
+  },
+  "S": {
+   "无效": 38,
+   "风格依赖": 16,
+   "有效": 40,
+   "合理": 34
+  }
+ },
+ "intra_rater": {
+  "H": {
+   "identical": 1.0,
+   "kappa": 1.0
+  },
+  "M": {
+   "identical": 1.0,
+   "kappa": 1.0
+  },
+  "S": {
+   "identical": 1.0,
+   "kappa": 1.0
+  }
+ },
+ "items": [
+  {
+   "item": "X001",
+   "polarity": "prohibition",
+   "methods": {
+    "pmi": 3
+   },
+   "reference": false,
+   "score": 0.0,
+   "endorsed": false,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "X002",
+   "polarity": "prohibition",
+   "methods": {
+    "rarity": 13
+   },
+   "reference": true,
+   "score": 0.0,
+   "endorsed": false,
+   "class": "relational"
+  },
+  {
+   "item": "X003",
+   "polarity": "prohibition",
+   "methods": {
+    "pmi": 18
+   },
+   "reference": false,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "X004",
+   "polarity": "prohibition",
+   "methods": {
+    "productive": 14
+   },
+   "reference": false,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "X005",
+   "polarity": "prohibition",
+   "methods": {
+    "pmi": 17
+   },
+   "reference": false,
+   "score": 0.0,
+   "endorsed": false,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "X006",
+   "polarity": "prohibition",
+   "methods": {
+    "rarity": 7,
+    "productive": 7
+   },
+   "reference": true,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "persists without coordination"
+  },
+  {
+   "item": "X007",
+   "polarity": "preference",
+   "methods": {
+    "rarity": 18
+   },
+   "reference": true,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "persists without coordination"
+  },
+  {
+   "item": "X008",
+   "polarity": "prohibition",
+   "methods": {
+    "rarity": 6
+   },
+   "reference": true,
+   "score": 0.6666666666666666,
+   "endorsed": true,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "X009",
+   "polarity": "prohibition",
+   "methods": {
+    "pmi": 6,
+    "rarity": 10,
+    "productive": 1
+   },
+   "reference": true,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "relational"
+  },
+  {
+   "item": "X010",
+   "polarity": "preference",
+   "methods": {
+    "rarity": 13
+   },
+   "reference": false,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "persists without coordination"
+  },
+  {
+   "item": "X011",
+   "polarity": "prohibition",
+   "methods": {
+    "productive": 16
+   },
+   "reference": false,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "X012",
+   "polarity": "prohibition",
+   "methods": {
+    "ras": 4
+   },
+   "reference": false,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "X013",
+   "polarity": "preference",
+   "methods": {
+    "ras": 11,
+    "pmi": 4
+   },
+   "reference": true,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "relational"
+  },
+  {
+   "item": "X014",
+   "polarity": "prohibition",
+   "methods": {
+    "rarity": 1,
+    "productive": 4
+   },
+   "reference": true,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "persists without coordination"
+  },
+  {
+   "item": "X015",
+   "polarity": "preference",
+   "methods": {
+    "rarity": 15
+   },
+   "reference": false,
+   "score": 0.6666666666666666,
+   "endorsed": true,
+   "class": "no replay evidence"
+  },
+  {
+   "item": "X016",
+   "polarity": "prohibition",
+   "methods": {
+    "ras": 19
+   },
+   "reference": false,
+   "score": 0.6666666666666666,
+   "endorsed": true,
+   "class": "persists without coordination"
+  },
+  {
+   "item": "X017",
+   "polarity": "preference",
+   "methods": {
+    "ras": 6
+   },
+   "reference": false,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "persists without coordination"
+  },
+  {
+   "item": "X018",
+   "polarity": "prohibition",
+   "methods": {
+    "ras": 7
+   },
+   "reference": false,
+   "score": 0.3333333333333333,
+   "endorsed": false,
+   "class": "persists without coordination"
+  },
+  {
+   "item": "X019",
+   "polarity": "prohibition",
+   "methods": {
+    "pmi": 7
+   },
+   "reference": false,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "X020",
+   "polarity": "prohibition",
+   "methods": {
+    "rarity": 14
+   },
+   "reference": true,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "relational"
+  },
+  {
+   "item": "X021",
+   "polarity": "prohibition",
+   "methods": {
+    "rarity": 4
+   },
+   "reference": true,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "X022",
+   "polarity": "prohibition",
+   "methods": {
+    "productive": 19
+   },
+   "reference": false,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "persists without coordination"
+  },
+  {
+   "item": "X023",
+   "polarity": "prohibition",
+   "methods": {
+    "productive": 9
+   },
+   "reference": false,
+   "score": 0.0,
+   "endorsed": false,
+   "class": "relational"
+  },
+  {
+   "item": "X024",
+   "polarity": "prohibition",
+   "methods": {
+    "ras": 17
+   },
+   "reference": false,
+   "score": 0.6666666666666666,
+   "endorsed": true,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "X025",
+   "polarity": "preference",
+   "methods": {
+    "pmi": 12,
+    "productive": 1
+   },
+   "reference": false,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "relational"
+  },
+  {
+   "item": "X026",
+   "polarity": "preference",
+   "methods": {
+    "ras": 8
+   },
+   "reference": false,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "relational"
+  },
+  {
+   "item": "X027",
+   "polarity": "preference",
+   "methods": {
+    "productive": 12
+   },
+   "reference": false,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "X028",
+   "polarity": "prohibition",
+   "methods": {
+    "productive": 11
+   },
+   "reference": false,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "X029",
+   "polarity": "preference",
+   "methods": {
+    "rarity": 9
+   },
+   "reference": false,
+   "score": 0.0,
+   "endorsed": false,
+   "class": "relational"
+  },
+  {
+   "item": "X030",
+   "polarity": "prohibition",
+   "methods": {
+    "pmi": 14
+   },
+   "reference": false,
+   "score": 0.0,
+   "endorsed": false,
+   "class": "no replay evidence"
+  },
+  {
+   "item": "X031",
+   "polarity": "preference",
+   "methods": {
+    "pmi": 13,
+    "productive": 16
+   },
+   "reference": true,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "relational"
+  },
+  {
+   "item": "X032",
+   "polarity": "prohibition",
+   "methods": {
+    "ras": 1
+   },
+   "reference": false,
+   "score": 0.0,
+   "endorsed": false,
+   "class": "persists without coordination"
+  },
+  {
+   "item": "X033",
+   "polarity": "preference",
+   "methods": {
+    "rarity": 4
+   },
+   "reference": false,
+   "score": 0.6666666666666666,
+   "endorsed": true,
+   "class": "relational"
+  },
+  {
+   "item": "X034",
+   "polarity": "preference",
+   "methods": {
+    "ras": 2
+   },
+   "reference": false,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "persists without coordination"
+  },
+  {
+   "item": "X035",
+   "polarity": "preference",
+   "methods": {
+    "rarity": 17
+   },
+   "reference": false,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "persists without coordination"
+  },
+  {
+   "item": "X036",
+   "polarity": "preference",
+   "methods": {
+    "rarity": 20,
+    "productive": 2
+   },
+   "reference": false,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "relational"
+  },
+  {
+   "item": "X037",
+   "polarity": "preference",
+   "methods": {
+    "productive": 11
+   },
+   "reference": false,
+   "score": 0.0,
+   "endorsed": false,
+   "class": "no replay evidence"
+  },
+  {
+   "item": "X038",
+   "polarity": "preference",
+   "methods": {
+    "ras": 15,
+    "rarity": 12
+   },
+   "reference": true,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "X039",
+   "polarity": "prohibition",
+   "methods": {
+    "pmi": 19
+   },
+   "reference": false,
+   "score": 0.0,
+   "endorsed": false,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "X040",
+   "polarity": "prohibition",
+   "methods": {
+    "productive": 5
+   },
+   "reference": false,
+   "score": 0.3333333333333333,
+   "endorsed": false,
+   "class": "relational"
+  },
+  {
+   "item": "X041",
+   "polarity": "prohibition",
+   "methods": {
+    "rarity": 15
+   },
+   "reference": true,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "relational"
+  },
+  {
+   "item": "X042",
+   "polarity": "prohibition",
+   "methods": {
+    "rarity": 17
+   },
+   "reference": true,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "relational"
+  },
+  {
+   "item": "X043",
+   "polarity": "prohibition",
+   "methods": {
+    "ras": 20
+   },
+   "reference": false,
+   "score": 0.0,
+   "endorsed": false,
+   "class": "persists without coordination"
+  },
+  {
+   "item": "X044",
+   "polarity": "prohibition",
+   "methods": {
+    "rarity": 11
+   },
+   "reference": true,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "relational"
+  },
+  {
+   "item": "X045",
+   "polarity": "prohibition",
+   "methods": {
+    "ras": 3
+   },
+   "reference": false,
+   "score": 0.0,
+   "endorsed": false,
+   "class": "persists without coordination"
+  },
+  {
+   "item": "X046",
+   "polarity": "preference",
+   "methods": {
+    "productive": 18
+   },
+   "reference": false,
+   "score": 0.6666666666666666,
+   "endorsed": true,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "X047",
+   "polarity": "prohibition",
+   "methods": {
+    "ras": 15,
+    "rarity": 9,
+    "productive": 6
+   },
+   "reference": true,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "relational"
+  },
+  {
+   "item": "X048",
+   "polarity": "preference",
+   "methods": {
+    "ras": 12,
+    "pmi": 8
+   },
+   "reference": true,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "relational"
+  },
+  {
+   "item": "X049",
+   "polarity": "preference",
+   "methods": {
+    "productive": 6
+   },
+   "reference": false,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "no replay evidence"
+  },
+  {
+   "item": "X050",
+   "polarity": "preference",
+   "methods": {
+    "ras": 7,
+    "pmi": 1,
+    "rarity": 2
+   },
+   "reference": true,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "X051",
+   "polarity": "preference",
+   "methods": {
+    "rarity": 14
+   },
+   "reference": true,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "persists without coordination"
+  },
+  {
+   "item": "X052",
+   "polarity": "prohibition",
+   "methods": {
+    "productive": 13
+   },
+   "reference": false,
+   "score": 0.3333333333333333,
+   "endorsed": false,
+   "class": "relational"
+  },
+  {
+   "item": "X053",
+   "polarity": "preference",
+   "methods": {
+    "productive": 5
+   },
+   "reference": false,
+   "score": 0.0,
+   "endorsed": false,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "X054",
+   "polarity": "prohibition",
+   "methods": {
+    "rarity": 2
+   },
+   "reference": true,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "persists without coordination"
+  },
+  {
+   "item": "X055",
+   "polarity": "preference",
+   "methods": {
+    "ras": 20,
+    "pmi": 3
+   },
+   "reference": true,
+   "score": 0.6666666666666666,
+   "endorsed": true,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "X056",
+   "polarity": "prohibition",
+   "methods": {
+    "rarity": 8,
+    "productive": 8
+   },
+   "reference": true,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "persists without coordination"
+  },
+  {
+   "item": "X057",
+   "polarity": "preference",
+   "methods": {
+    "productive": 3
+   },
+   "reference": false,
+   "score": 0.6666666666666666,
+   "endorsed": true,
+   "class": "relational"
+  },
+  {
+   "item": "X058",
+   "polarity": "prohibition",
+   "methods": {
+    "ras": 6
+   },
+   "reference": false,
+   "score": 0.5,
+   "endorsed": false,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "X059",
+   "polarity": "prohibition",
+   "methods": {
+    "ras": 5
+   },
+   "reference": true,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "relational"
+  },
+  {
+   "item": "X060",
+   "polarity": "preference",
+   "methods": {
+    "ras": 18,
+    "pmi": 15
+   },
+   "reference": true,
+   "score": 0.5,
+   "endorsed": false,
+   "class": "relational"
+  },
+  {
+   "item": "X061",
+   "polarity": "prohibition",
+   "methods": {
+    "ras": 18,
+    "rarity": 5
+   },
+   "reference": false,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "X062",
+   "polarity": "preference",
+   "methods": {
+    "pmi": 17,
+    "productive": 20
+   },
+   "reference": true,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "relational"
+  },
+  {
+   "item": "X063",
+   "polarity": "prohibition",
+   "methods": {
+    "rarity": 20
+   },
+   "reference": true,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "persists without coordination"
+  },
+  {
+   "item": "X064",
+   "polarity": "prohibition",
+   "methods": {
+    "ras": 12
+   },
+   "reference": false,
+   "score": 0.0,
+   "endorsed": false,
+   "class": "persists without coordination"
+  },
+  {
+   "item": "X065",
+   "polarity": "prohibition",
+   "methods": {
+    "pmi": 11,
+    "productive": 3
+   },
+   "reference": false,
+   "score": 0.6666666666666666,
+   "endorsed": true,
+   "class": "no replay evidence"
+  },
+  {
+   "item": "X066",
+   "polarity": "prohibition",
+   "methods": {
+    "pmi": 15,
+    "productive": 12
+   },
+   "reference": false,
+   "score": 0.0,
+   "endorsed": false,
+   "class": "no replay evidence"
+  },
+  {
+   "item": "X067",
+   "polarity": "preference",
+   "methods": {
+    "productive": 8
+   },
+   "reference": false,
+   "score": 0.6666666666666666,
+   "endorsed": true,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "X068",
+   "polarity": "prohibition",
+   "methods": {
+    "ras": 13,
+    "pmi": 10
+   },
+   "reference": false,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "X069",
+   "polarity": "prohibition",
+   "methods": {
+    "rarity": 3
+   },
+   "reference": true,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "persists without coordination"
+  },
+  {
+   "item": "X070",
+   "polarity": "preference",
+   "methods": {
+    "ras": 14
+   },
+   "reference": false,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "X071",
+   "polarity": "preference",
+   "methods": {
+    "pmi": 11
+   },
+   "reference": true,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "X072",
+   "polarity": "preference",
+   "methods": {
+    "productive": 9
+   },
+   "reference": false,
+   "score": 0.0,
+   "endorsed": false,
+   "class": "no replay evidence"
+  },
+  {
+   "item": "X073",
+   "polarity": "prohibition",
+   "methods": {
+    "ras": 8
+   },
+   "reference": false,
+   "score": 0.3333333333333333,
+   "endorsed": false,
+   "class": "persists without coordination"
+  },
+  {
+   "item": "X074",
+   "polarity": "preference",
+   "methods": {
+    "ras": 5,
+    "productive": 19
+   },
+   "reference": false,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "persists without coordination"
+  },
+  {
+   "item": "X075",
+   "polarity": "prohibition",
+   "methods": {
+    "ras": 16
+   },
+   "reference": false,
+   "score": 0.0,
+   "endorsed": false,
+   "class": "persists without coordination"
+  },
+  {
+   "item": "X076",
+   "polarity": "prohibition",
+   "methods": {
+    "pmi": 1
+   },
+   "reference": false,
+   "score": 0.3333333333333333,
+   "endorsed": false,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "X077",
+   "polarity": "prohibition",
+   "methods": {
+    "pmi": 8
+   },
+   "reference": false,
+   "score": 0.0,
+   "endorsed": false,
+   "class": "no replay evidence"
+  },
+  {
+   "item": "X078",
+   "polarity": "preference",
+   "methods": {
+    "productive": 13
+   },
+   "reference": false,
+   "score": 0.0,
+   "endorsed": false,
+   "class": "relational"
+  },
+  {
+   "item": "X079",
+   "polarity": "preference",
+   "methods": {
+    "rarity": 8
+   },
+   "reference": false,
+   "score": 0.6666666666666666,
+   "endorsed": true,
+   "class": "relational"
+  },
+  {
+   "item": "X080",
+   "polarity": "prohibition",
+   "methods": {
+    "pmi": 9,
+    "rarity": 12,
+    "productive": 2
+   },
+   "reference": true,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "relational"
+  },
+  {
+   "item": "X081",
+   "polarity": "prohibition",
+   "methods": {
+    "pmi": 20
+   },
+   "reference": false,
+   "score": 0.0,
+   "endorsed": false,
+   "class": "persists without coordination"
+  },
+  {
+   "item": "X082",
+   "polarity": "prohibition",
+   "methods": {
+    "pmi": 12
+   },
+   "reference": false,
+   "score": 0.0,
+   "endorsed": false,
+   "class": "no replay evidence"
+  },
+  {
+   "item": "X083",
+   "polarity": "preference",
+   "methods": {
+    "ras": 9
+   },
+   "reference": false,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "X084",
+   "polarity": "prohibition",
+   "methods": {
+    "productive": 18
+   },
+   "reference": false,
+   "score": 0.6666666666666666,
+   "endorsed": true,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "X085",
+   "polarity": "preference",
+   "methods": {
+    "rarity": 19,
+    "productive": 14
+   },
+   "reference": true,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "relational"
+  },
+  {
+   "item": "X086",
+   "polarity": "preference",
+   "methods": {
+    "ras": 1
+   },
+   "reference": false,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "relational"
+  },
+  {
+   "item": "X087",
+   "polarity": "preference",
+   "methods": {
+    "ras": 10,
+    "pmi": 6
+   },
+   "reference": true,
+   "score": 0.6666666666666666,
+   "endorsed": true,
+   "class": "relational"
+  },
+  {
+   "item": "X088",
+   "polarity": "preference",
+   "methods": {
+    "pmi": 19
+   },
+   "reference": true,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "relational"
+  },
+  {
+   "item": "X089",
+   "polarity": "prohibition",
+   "methods": {
+    "pmi": 16,
+    "rarity": 19
+   },
+   "reference": true,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "persists without coordination"
+  },
+  {
+   "item": "X090",
+   "polarity": "preference",
+   "methods": {
+    "rarity": 16
+   },
+   "reference": false,
+   "score": 0.6666666666666666,
+   "endorsed": true,
+   "class": "persists without coordination"
+  },
+  {
+   "item": "X091",
+   "polarity": "preference",
+   "methods": {
+    "productive": 10
+   },
+   "reference": true,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "X092",
+   "polarity": "preference",
+   "methods": {
+    "ras": 13
+   },
+   "reference": false,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "X093",
+   "polarity": "prohibition",
+   "methods": {
+    "ras": 9
+   },
+   "reference": false,
+   "score": 0.3333333333333333,
+   "endorsed": false,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "X094",
+   "polarity": "preference",
+   "methods": {
+    "ras": 19
+   },
+   "reference": true,
+   "score": 0.0,
+   "endorsed": false,
+   "class": "relational"
+  },
+  {
+   "item": "X095",
+   "polarity": "prohibition",
+   "methods": {
+    "pmi": 4
+   },
+   "reference": false,
+   "score": 0.0,
+   "endorsed": false,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "X096",
+   "polarity": "preference",
+   "methods": {
+    "rarity": 6
+   },
+   "reference": false,
+   "score": 0.6666666666666666,
+   "endorsed": true,
+   "class": "persists without coordination"
+  },
+  {
+   "item": "X097",
+   "polarity": "preference",
+   "methods": {
+    "rarity": 3
+   },
+   "reference": true,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "persists without coordination"
+  },
+  {
+   "item": "X098",
+   "polarity": "prohibition",
+   "methods": {
+    "ras": 10
+   },
+   "reference": false,
+   "score": 0.3333333333333333,
+   "endorsed": false,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "X099",
+   "polarity": "prohibition",
+   "methods": {
+    "rarity": 18
+   },
+   "reference": true,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "relational"
+  },
+  {
+   "item": "X100",
+   "polarity": "preference",
+   "methods": {
+    "rarity": 11
+   },
+   "reference": false,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "X101",
+   "polarity": "preference",
+   "methods": {
+    "ras": 17,
+    "pmi": 2
+   },
+   "reference": true,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "X102",
+   "polarity": "preference",
+   "methods": {
+    "ras": 16
+   },
+   "reference": false,
+   "score": 0.0,
+   "endorsed": false,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "X103",
+   "polarity": "preference",
+   "methods": {
+    "ras": 3,
+    "rarity": 7
+   },
+   "reference": false,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "persists without coordination"
+  },
+  {
+   "item": "X104",
+   "polarity": "prohibition",
+   "methods": {
+    "rarity": 16
+   },
+   "reference": true,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "persists without coordination"
+  },
+  {
+   "item": "X105",
+   "polarity": "prohibition",
+   "methods": {
+    "pmi": 5
+   },
+   "reference": false,
+   "score": 0.0,
+   "endorsed": false,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "X106",
+   "polarity": "preference",
+   "methods": {
+    "productive": 4
+   },
+   "reference": false,
+   "score": 0.6666666666666666,
+   "endorsed": true,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "X107",
+   "polarity": "preference",
+   "methods": {
+    "productive": 7
+   },
+   "reference": false,
+   "score": 0.6666666666666666,
+   "endorsed": true,
+   "class": "no replay evidence"
+  },
+  {
+   "item": "X108",
+   "polarity": "preference",
+   "methods": {
+    "ras": 4
+   },
+   "reference": false,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "persists without coordination"
+  },
+  {
+   "item": "X109",
+   "polarity": "prohibition",
+   "methods": {
+    "productive": 17
+   },
+   "reference": false,
+   "score": 0.3333333333333333,
+   "endorsed": false,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "X110",
+   "polarity": "preference",
+   "methods": {
+    "rarity": 1
+   },
+   "reference": false,
+   "score": 0.0,
+   "endorsed": false,
+   "class": "no replay evidence"
+  },
+  {
+   "item": "X111",
+   "polarity": "prohibition",
+   "methods": {
+    "pmi": 13
+   },
+   "reference": false,
+   "score": 0.0,
+   "endorsed": false,
+   "class": "no replay evidence"
+  },
+  {
+   "item": "X112",
+   "polarity": "prohibition",
+   "methods": {
+    "productive": 15
+   },
+   "reference": false,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "X113",
+   "polarity": "prohibition",
+   "methods": {
+    "pmi": 2
+   },
+   "reference": false,
+   "score": 0.0,
+   "endorsed": false,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "X114",
+   "polarity": "preference",
+   "methods": {
+    "rarity": 5
+   },
+   "reference": false,
+   "score": 0.0,
+   "endorsed": false,
+   "class": "no replay evidence"
+  },
+  {
+   "item": "X115",
+   "polarity": "prohibition",
+   "methods": {
+    "ras": 2
+   },
+   "reference": false,
+   "score": 0.6666666666666666,
+   "endorsed": true,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "X116",
+   "polarity": "prohibition",
+   "methods": {
+    "ras": 11
+   },
+   "reference": false,
+   "score": 0.3333333333333333,
+   "endorsed": false,
+   "class": "within-voice/positional"
+  },
+  {
+   "item": "X117",
+   "polarity": "preference",
+   "methods": {
+    "pmi": 10
+   },
+   "reference": false,
+   "score": 0.6666666666666666,
+   "endorsed": true,
+   "class": "no replay evidence"
+  },
+  {
+   "item": "X118",
+   "polarity": "prohibition",
+   "methods": {
+    "ras": 14
+   },
+   "reference": false,
+   "score": 1.0,
+   "endorsed": true,
+   "class": "relational"
+  }
+ ],
+ "validity": {
+  "ras/prohibition": 0.5083333333333333,
+  "ras/preference": 0.8416666666666668,
+  "ras/all": 0.675,
+  "pmi/prohibition": 0.35,
+  "pmi/preference": 0.8846153846153846,
+  "pmi/all": 0.5606060606060606,
+  "rarity/prohibition": 0.9333333333333332,
+  "rarity/preference": 0.7543859649122805,
+  "rarity/all": 0.8461538461538461,
+  "productive/prohibition": 0.7407407407407407,
+  "productive/preference": 0.6851851851851851,
+  "productive/all": 0.7129629629629631
+ },
+ "validity_diff": {
+  "ras-pmi/prohibition": {
+   "diff": 0.15833333333333333,
+   "ci": [
+    -0.13224637681159424,
+    0.43650793650793646
+   ]
+  },
+  "ras-pmi/preference": {
+   "diff": -0.042948717948717796,
+   "ci": [
+    -0.20538720538720567,
+    0.16666666666666674
+   ]
+  },
+  "ras-pmi/all": {
+   "diff": 0.11439393939393949,
+   "ci": [
+    -0.09343434343434343,
+    0.32225480612577384
+   ]
+  },
+  "ras-rarity/prohibition": {
+   "diff": -0.42499999999999993,
+   "ci": [
+    -0.6833333333333333,
+    -0.1789215686274509
+   ]
+  },
+  "ras-rarity/preference": {
+   "diff": 0.08728070175438629,
+   "ci": [
+    -0.16666666666666663,
+    0.3404634581105169
+   ]
+  },
+  "ras-rarity/all": {
+   "diff": -0.1711538461538461,
+   "ci": [
+    -0.35582010582010604,
+    -0.016380016380016404
+   ]
+  },
+  "ras-productive/prohibition": {
+   "diff": -0.2324074074074074,
+   "ci": [
+    -0.5079365079365079,
+    0.042735042735042805
+   ]
+  },
+  "ras-productive/preference": {
+   "diff": 0.15648148148148167,
+   "ci": [
+    -0.09117647058823508,
+    0.4126984126984126
+   ]
+  },
+  "ras-productive/all": {
+   "diff": -0.03796296296296309,
+   "ci": [
+    -0.22764227642276402,
+    0.15677655677655677
+   ]
+  }
+ },
+ "oracle_crosstab": {
+  "ref_endorsed": 35,
+  "ref_not_endorsed": 3,
+  "noref_endorsed": 44,
+  "noref_not_endorsed": 36
+ },
+ "oracle_kappa": 0.2891566265060241,
+ "per_method": {
+  "ras": {
+   "n": 40,
+   "endorsed": 26,
+   "reference": 11,
+   "endorsed_not_reference": 17
+  },
+  "pmi": {
+   "n": 33,
+   "endorsed": 19,
+   "reference": 14,
+   "endorsed_not_reference": 6
+  },
+  "rarity": {
+   "n": 39,
+   "endorsed": 35,
+   "reference": 25,
+   "endorsed_not_reference": 11
+  },
+  "productive": {
+   "n": 36,
+   "endorsed": 27,
+   "reference": 10,
+   "endorsed_not_reference": 17
+  }
+ },
+ "by_provenance": {
+  "no replay evidence": {
+   "n": 14,
+   "mean_score": 0.26190476190476186
+  },
+  "persists without coordination": {
+   "n": 30,
+   "mean_score": 0.7222222222222224
+  },
+  "relational": {
+   "n": 32,
+   "mean_score": 0.7447916666666667
+  },
+  "within-voice/positional": {
+   "n": 42,
+   "mean_score": 0.6547619047619045
+  }
+ }
+}

@@ -1,0 +1,231 @@
+{
+ "commit": "f7fb885-dirty",
+ "sets": {
+  "hold_a": {
+   "n": 40,
+   "fields": {
+    "V": {
+     "cells": 54,
+     "testable": 54,
+     "atoms": 2,
+     "atoms_eval": 2,
+     "under": 30,
+     "over": 21,
+     "sparse": false
+    },
+    "H": {
+     "cells": 15,
+     "testable": 15,
+     "atoms": 2,
+     "atoms_eval": 2,
+     "under": 10,
+     "over": 3,
+     "sparse": false
+    },
+    "M": {
+     "cells": 48,
+     "testable": 48,
+     "atoms": 3,
+     "atoms_eval": 3,
+     "under": 25,
+     "over": 18,
+     "sparse": false
+    },
+    "S": {
+     "cells": 23,
+     "testable": 22,
+     "atoms": 3,
+     "atoms_eval": 3,
+     "under": 11,
+     "over": 9,
+     "sparse": false
+    },
+    "P": {
+     "cells": 59,
+     "testable": 50,
+     "atoms": 0,
+     "atoms_eval": 0,
+     "under": 9,
+     "over": 3,
+     "sparse": true
+    },
+    "O": {
+     "cells": 6,
+     "testable": 6,
+     "atoms": 1,
+     "atoms_eval": 1,
+     "under": 3,
+     "over": 3,
+     "sparse": true
+    },
+    "G": {
+     "cells": 5,
+     "testable": 5,
+     "atoms": 2,
+     "atoms_eval": 2,
+     "under": 4,
+     "over": 1,
+     "sparse": true
+    },
+    "Q": {
+     "cells": 414,
+     "testable": 63,
+     "atoms": 6,
+     "atoms_eval": 5,
+     "under": 0,
+     "over": 11,
+     "sparse": true
+    },
+    "K": {
+     "cells": 28645,
+     "testable": 251,
+     "atoms": 7,
+     "atoms_eval": 7,
+     "under": 17,
+     "over": 135,
+     "sparse": true
+    },
+    "J": {
+     "cells": 1934,
+     "testable": 1770,
+     "atoms": 1,
+     "atoms_eval": 1,
+     "under": 8,
+     "over": 26,
+     "sparse": true
+    },
+    "D": {
+     "cells": 88,
+     "testable": 87,
+     "atoms": 5,
+     "atoms_eval": 5,
+     "under": 43,
+     "over": 30,
+     "sparse": true
+    },
+    "U": {
+     "cells": 13,
+     "testable": 13,
+     "atoms": 1,
+     "atoms_eval": 1,
+     "under": 4,
+     "over": 9,
+     "sparse": true
+    }
+   }
+  },
+  "hold_c": {
+   "n": 179,
+   "fields": {
+    "V": {
+     "cells": 54,
+     "testable": 54,
+     "atoms": 2,
+     "atoms_eval": 2,
+     "under": 31,
+     "over": 22,
+     "sparse": false
+    },
+    "H": {
+     "cells": 15,
+     "testable": 15,
+     "atoms": 2,
+     "atoms_eval": 2,
+     "under": 11,
+     "over": 3,
+     "sparse": false
+    },
+    "M": {
+     "cells": 48,
+     "testable": 48,
+     "atoms": 3,
+     "atoms_eval": 3,
+     "under": 29,
+     "over": 18,
+     "sparse": false
+    },
+    "S": {
+     "cells": 23,
+     "testable": 23,
+     "atoms": 3,
+     "atoms_eval": 3,
+     "under": 13,
+     "over": 10,
+     "sparse": false
+    },
+    "P": {
+     "cells": 64,
+     "testable": 64,
+     "atoms": 0,
+     "atoms_eval": 0,
+     "under": 32,
+     "over": 4,
+     "sparse": true
+    },
+    "O": {
+     "cells": 6,
+     "testable": 6,
+     "atoms": 1,
+     "atoms_eval": 1,
+     "under": 3,
+     "over": 3,
+     "sparse": true
+    },
+    "G": {
+     "cells": 5,
+     "testable": 5,
+     "atoms": 2,
+     "atoms_eval": 2,
+     "under": 4,
+     "over": 1,
+     "sparse": true
+    },
+    "Q": {
+     "cells": 1062,
+     "testable": 342,
+     "atoms": 6,
+     "atoms_eval": 6,
+     "under": 10,
+     "over": 66,
+     "sparse": true
+    },
+    "K": {
+     "cells": 128017,
+     "testable": 918,
+     "atoms": 7,
+     "atoms_eval": 7,
+     "under": 42,
+     "over": 658,
+     "sparse": true
+    },
+    "J": {
+     "cells": 5207,
+     "testable": 4866,
+     "atoms": 1,
+     "atoms_eval": 1,
+     "under": 32,
+     "over": 143,
+     "sparse": true
+    },
+    "D": {
+     "cells": 89,
+     "testable": 89,
+     "atoms": 5,
+     "atoms_eval": 5,
+     "under": 48,
+     "over": 34,
+     "sparse": true
+    },
+    "U": {
+     "cells": 13,
+     "testable": 13,
+     "atoms": 1,
+     "atoms_eval": 1,
+     "under": 6,
+     "over": 6,
+     "sparse": true
+    }
+   }
+  }
+ }
+}
